@@ -1,7 +1,7 @@
 <div class="page">
     <div class="page__hd">
         <h1 class="page__title">List</h1>
-        <p class="page__desc">列表</p>
+        <p class="page__desc">列表2</p>
     </div>
     <div class="page__bd">
         <div class="weui-cells__title">带说明的列表项</div>
