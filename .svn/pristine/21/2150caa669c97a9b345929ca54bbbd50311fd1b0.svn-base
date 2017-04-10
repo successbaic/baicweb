@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>公司表格下载</title>
+    <LINK href="../css/icms.css" type="text/css" rel="stylesheet"/> 
+  </head>  
+  <body>
+	<table border="1" width="100%">
+	<caption>公司表格下载</caption>
+	<tr>
+	<td rowspan="2" class="lc1">设立登记</td>	
+	<td class="lc2"><a href="">公司设立登记申请书</a></td>
+	</tr>
+	<tr>
+	<td class="lc2"><a href="">公司法定代表人登记表</a></td>
+	</tr>
+	<tr>
+	<td rowspan="2" class="lc1">变更登记</td>
+	<td class="lc2"><a href="">公司变更登记申请书</a></td></tr>
+	<tr>
+	<td class="lc2"><a href="">公司法定代表人登记表</a></td>
+	</tr>
+	<tr>
+	<td rowspan="2" class="lc1">注销登记</td>
+	<td class="lc2"><a href="">公司注销登记申请书</a></td></tr><tr>
+	<td class="lc2"><a href="">公司法定代表人登记表</a></td>
+	</tr>	
+	</table>	
+  </body>
+</html>

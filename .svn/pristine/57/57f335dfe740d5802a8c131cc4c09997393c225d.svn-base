@@ -1,0 +1,97 @@
+BODY {
+	FONT-FAMILY: ËÎÌו; COLOR: #000; FONT-SIZE: 12px
+}
+FORM {
+	FONT-FAMILY: ËÎÌו; COLOR: #000; FONT-SIZE: 12px
+}
+TD {
+	FONT-FAMILY: ËÎÌו; COLOR: #000; FONT-SIZE: 12px
+}
+
+A:link {
+	PADDING-BOTTOM: 1px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: #03c; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+A:visited {
+	PADDING-BOTTOM: 1px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: #03c; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+A:focus {
+	COLOR: #c00; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #c00; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #c00; TEXT-DECORATION: none
+}
+A IMG {
+	BORDER-RIGHT-WIDTH: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px
+}
+.gny_btcd {
+	COLOR: #1a4d9c; FONT-SIZE: 12px; CURSOR: hand; FONT-WEIGHT: bolder
+}
+.splitpagebox {
+	ZOOM: 1; FONT-FAMILY: arial,helvetica,sans-serif; FONT-SIZE: 12px; OVERFLOW: hidden
+}
+.splitpagebox SPAN {
+	TEXT-ALIGN: center; BACKGROUND: #fff; FLOAT: left; OVERFLOW: hidden; MARGIN-RIGHT: 2px
+}
+.splitpagebox SPAN A {
+	ZOOM: 1; DISPLAY: block; FLOAT: left; OVERFLOW: hidden
+}
+.splitpagebox SPAN.splitpagebox_pre_nolink {
+	BORDER-BOTTOM: #ddd 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #ddd 1px solid; LINE-HEIGHT: 21px; WIDTH: 53px; HEIGHT: 21px; COLOR: #999; BORDER-TOP: #ddd 1px solid; CURSOR: default; BORDER-RIGHT: #ddd 1px solid
+}
+.splitpagebox SPAN.splitpagebox_pre {
+	HEIGHT: 23px; COLOR: #3568b9
+}
+.splitpagebox SPAN.splitpagebox_pre A {
+	BORDER-BOTTOM: #9aafe5 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #9aafe5 1px solid; LINE-HEIGHT: 21px; WIDTH: 53px; HEIGHT: 21px; COLOR: #3568b9; BORDER-TOP: #9aafe5 1px solid; CURSOR: pointer; BORDER-RIGHT: #9aafe5 1px solid; TEXT-DECORATION: none
+}
+.splitpagebox SPAN.splitpagebox_pre A:visited {
+	BORDER-BOTTOM: #9aafe5 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #9aafe5 1px solid; LINE-HEIGHT: 21px; WIDTH: 53px; HEIGHT: 21px; COLOR: #3568b9; BORDER-TOP: #9aafe5 1px solid; CURSOR: pointer; BORDER-RIGHT: #9aafe5 1px solid; TEXT-DECORATION: none
+}
+.splitpagebox SPAN.splitpagebox_next A {
+	BORDER-BOTTOM: #9aafe5 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #9aafe5 1px solid; LINE-HEIGHT: 21px; WIDTH: 53px; HEIGHT: 21px; COLOR: #3568b9; BORDER-TOP: #9aafe5 1px solid; CURSOR: pointer; BORDER-RIGHT: #9aafe5 1px solid; TEXT-DECORATION: none
+}
+.splitpagebox SPAN.splitpagebox_next A:visited {
+	BORDER-BOTTOM: #9aafe5 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #9aafe5 1px solid; LINE-HEIGHT: 21px; WIDTH: 53px; HEIGHT: 21px; COLOR: #3568b9; BORDER-TOP: #9aafe5 1px solid; CURSOR: pointer; BORDER-RIGHT: #9aafe5 1px solid; TEXT-DECORATION: none
+}
+.splitpagebox SPAN.splitpagebox_pre A:hover {
+	BORDER-BOTTOM: #2e6ab1 1px solid; BORDER-LEFT: #2e6ab1 1px solid; COLOR: #363636; BORDER-TOP: #2e6ab1 1px solid; BORDER-RIGHT: #2e6ab1 1px solid
+}
+.splitpagebox SPAN.splitpagebox_pre A:active {
+	BORDER-BOTTOM: #2e6ab1 1px solid; BORDER-LEFT: #2e6ab1 1px solid; COLOR: #363636; BORDER-TOP: #2e6ab1 1px solid; BORDER-RIGHT: #2e6ab1 1px solid
+}
+.splitpagebox SPAN.splitpagebox_next A:hover {
+	BORDER-BOTTOM: #2e6ab1 1px solid; BORDER-LEFT: #2e6ab1 1px solid; COLOR: #363636; BORDER-TOP: #2e6ab1 1px solid; BORDER-RIGHT: #2e6ab1 1px solid
+}
+.splitpagebox SPAN.splitpagebox_next A:active {
+	BORDER-BOTTOM: #2e6ab1 1px solid; BORDER-LEFT: #2e6ab1 1px solid; COLOR: #363636; BORDER-TOP: #2e6ab1 1px solid; BORDER-RIGHT: #2e6ab1 1px solid
+}
+.splitpagebox SPAN.splitpagebox_num_nonce {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 21px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; BACKGROUND: #296cb3; HEIGHT: 21px; COLOR: #fff; FONT-SIZE: 85%; CURSOR: default; PADDING-TOP: 0px
+}
+.splitpagebox SPAN.splitpagebox_num {
+	HEIGHT: 23px; COLOR: #3568b9; FONT-SIZE: 85%
+}
+.splitpagebox SPAN.splitpagebox_num A {
+	BORDER-BOTTOM: #9aafe5 1px solid; BORDER-LEFT: #9aafe5 1px solid; PADDING-BOTTOM: 0px; LINE-HEIGHT: 21px; PADDING-LEFT: 6px; PADDING-RIGHT: 6px; HEIGHT: 21px; COLOR: #3568b9; BORDER-TOP: #9aafe5 1px solid; CURSOR: pointer; BORDER-RIGHT: #9aafe5 1px solid; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+.splitpagebox SPAN.splitpagebox_num A:visited {
+	BORDER-BOTTOM: #9aafe5 1px solid; BORDER-LEFT: #9aafe5 1px solid; PADDING-BOTTOM: 0px; LINE-HEIGHT: 21px; PADDING-LEFT: 6px; PADDING-RIGHT: 6px; HEIGHT: 21px; COLOR: #3568b9; BORDER-TOP: #9aafe5 1px solid; CURSOR: pointer; BORDER-RIGHT: #9aafe5 1px solid; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+.splitpagebox SPAN.splitpagebox_num A:hover {
+	BORDER-BOTTOM: #2e6ab1 1px solid; BORDER-LEFT: #2e6ab1 1px solid; COLOR: #363636; BORDER-TOP: #2e6ab1 1px solid; BORDER-RIGHT: #2e6ab1 1px solid
+}
+.splitpagebox SPAN.splitpagebox_num A:active {
+	BORDER-BOTTOM: #2e6ab1 1px solid; BORDER-LEFT: #2e6ab1 1px solid; COLOR: #363636; BORDER-TOP: #2e6ab1 1px solid; BORDER-RIGHT: #2e6ab1 1px solid
+}
+.splitpagebox SPAN.splitpagebox_num_ellipsis {
+	LINE-HEIGHT: 23px; WIDTH: 22px; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #393733; FONT-SIZE: 85%
+}
+.splitpagebox SPAN.splitpagebox_next_nolink {
+	BORDER-BOTTOM: #ddd 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #ddd 1px solid; LINE-HEIGHT: 21px; WIDTH: 53px; HEIGHT: 21px; COLOR: #999; BORDER-TOP: #ddd 1px solid; CURSOR: default; BORDER-RIGHT: #ddd 1px solid
+}
+#wrap780 {
+	MIN-WIDTH: 780px; MARGIN: 0px auto; ; WIDTH: expression(document.body.clientWidth <= 780? "780px": "auto" ); BACKGROUND: #fff; HEIGHT: 0px
+}

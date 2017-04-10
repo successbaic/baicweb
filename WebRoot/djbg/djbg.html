@@ -1,0 +1,137 @@
+<html>
+  <head>
+    <title>表格下载</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+    <LINK href="../css/icms.css" type="text/css" rel="stylesheet"/>   
+    <style type="text/css">
+<!--
+.STYLE1 {
+	font-size: medium
+}
+-->
+    </style>
+<style type="text/css">
+.sv3 dl,.sv3 dt,.sv3 dd{
+	padding:0;
+	margin:0;
+}
+.sv3{
+	width:240px;
+	border:1px solid #BFC7D9;
+}
+.sv3 dl{
+	width:240px;
+	height:auto;
+	overflow:hidden;
+	background-color: #f6f9ff;
+}
+.sv3 dt{
+	height:auto;
+	font-size:12px;
+	color:#000;
+	border-top:1px solid #fff;
+	border-bottom:1px solid #BFC7D9;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	background-color: #dbe9f4;
+}
+.sv3 dl.on dt{
+	color:#000;
+	font-weight:bold;
+	background-color: #dbe9f4;
+	font-size: 12px;
+}
+.sv3 dd{
+	padding:10px;
+	color:#333;
+	font-size:12px;
+	line-height:1.5em;
+}
+.sv3 dd a:link,
+.sv3 dd a:visited,
+.sv3 dd a:hover,
+.sv3 dd a:active{
+	color:#333;
+	display:block;
+	text-align:left;
+}
+body,td,th {
+	color: #000000;
+}
+.xin {color: #CCCCCC}
+.STYLE2 {font-size: large; font-weight: bold; }
+.STYLE3 {
+	font-size: large;
+	font-weight: bold;
+	color: #000;
+}
+</style>
+  </head>  
+  <body>
+  <table width="100%" height="100%" border="1">
+  <tr height="110px" >
+  	<td colspan="2" background="../images/wndj-logo.jpg"></td>
+  </tr>
+  <tr>
+  	<td width="20%">
+  		<table width="100%" height="60%">
+
+		    <tr>
+  			  <td colspan="2" class="lc1">
+<div id="idSlideView3" class="sv3">
+  <dl class="on">
+    <dt class="STYLE2" style="cursor:hand">内资企业</dt>
+    <dd class="xin"><a href='#' onclick="framejumpTo('gsbg.html','')">公司登记内资企业登记表格</a></dd>
+    <dd class="xin"><a>分公司登记表格</a></dd>
+    <dd class="xin"><a>非公司企业法人登记表格</a></dd> 
+  </dl>
+  <dl>
+    <dt class="STYLE2" style="cursor:hand">外资企业</dt>
+    <dd class="xin"><a>外商（含港澳台商）投资</a></dd>
+    <dd class="xin"><a>外国（地区）企业</a></dd>
+    <dd class="xin"><a>外商投资合伙企业</a></dd>
+  </dl>
+  <dl>
+    <dt class="STYLE2" style="cursor:hand">农行专业合作社</dt>
+    <dd class="xin"><a>登记申请类</a></dd>
+    <dd class="xin"><a>登记审核类</a></dd>
+    <dd class="xin"><a>登记通知类</a></dd>
+    <dd class="xin"><a>备案类</a></dd>
+  </dl>
+  <dl>
+    <dt class="STYLE2" style="cursor:hand"><strong>个体工商户</strong></dt>
+    <dd class="xin"><a >登记申请类</a></dd>
+    <dd class="xin"><a>登记审核类</a></dd>
+    <dd class="xin"><a>登记通知类</a></dd>
+    <dd class="xin"><a>其他类</a></dd>
+  </dl> 
+</div> 
+           </td>
+  			</tr>
+          <tr><td colspan="2" class="lc2" align="center">&nbsp;</td>
+          </tr>
+  		</table>  		  		
+  	</td>
+  	<td width="80%">
+  		<iframe src="" width="100%" height="100%" name="editframe" id="editframe"></iframe>
+  	</td>
+  </tr>  
+  </table>
+
+<script language="javascript">
+function SlideView(e){
+   for(var r=document.getElementById(e).getElementsByTagName('dl'),c=clearInterval,i=-1,p=r[0],j; j=r[++i];){
+       j.style.height=(i?24:379)+'px';
+       j.onmousedown=function(){clearTimeout(j);var i=this;j=setTimeout(function(){if(p!=i)_(p,379,24)(p=i,24,379)},200)};
+   }
+   function _(el,f,t){
+       c(el.$1);el.className=f>t?'':'on';
+       return el.$1=setInterval(function(){el.style.height=(f+=Math[f>t?'floor':'ceil']((t-f)*.3))+'px';if (f==t)c(el.$1)},10),_
+   }
+};
+new SlideView( "idSlideView3");
+</script>
+</body>
+</html>

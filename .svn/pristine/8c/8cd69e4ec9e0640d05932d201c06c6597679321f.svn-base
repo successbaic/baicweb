@@ -1,0 +1,474 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=gb2312">
+<meta name=ProgId content=Excel.Sheet>
+<meta name=Generator content="Microsoft Excel 11">
+<link id=Main-File rel=Main-File href="../qzspsx.htm">
+<link rel=File-List href=filelist.xml>
+<link rel=Edit-Time-Data href=editdata.mso>
+<link rel=Stylesheet href=stylesheet.css>
+<style>
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+@page
+	{margin:.75in .7in .75in .7in;
+	mso-header-margin:.3in;
+	mso-footer-margin:.3in;}
+ruby
+	{ruby-align:left;}
+rt
+	{color:windowtext;
+	font-size:9.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-char-type:none;
+	display:none;}
+-->
+</style>
+<![if !supportTabStrip]><script language="JavaScript">
+<!--
+function fnUpdateTabs()
+ {
+  if (parent.window.g_iIEVer>=4) {
+   if (parent.document.readyState=="complete"
+    && parent.frames['frTabs'].document.readyState=="complete")
+   parent.fnSetActiveSheet(1);
+  else
+   window.setTimeout("fnUpdateTabs();",150);
+ }
+}
+
+if (window.name!="frSheet")
+ window.location.replace("../qzspsx.htm");
+else
+ fnUpdateTabs();
+//-->
+</script>
+<![endif]><!--[if gte mso 9]><xml>
+ <x:WorksheetOptions>
+  <x:DefaultRowHeight>285</x:DefaultRowHeight>
+  <x:Print>
+   <x:ValidPrinterInfo/>
+   <x:PaperSizeIndex>9</x:PaperSizeIndex>
+   <x:HorizontalResolution>600</x:HorizontalResolution>
+   <x:VerticalResolution>600</x:VerticalResolution>
+  </x:Print>
+  <x:PageBreakZoom>100</x:PageBreakZoom>
+  <x:Panes>
+   <x:Pane>
+    <x:Number>3</x:Number>
+    <x:ActiveRow>1</x:ActiveRow>
+    <x:RangeSelection>$A$2:$F$2</x:RangeSelection>
+   </x:Pane>
+  </x:Panes>
+  <x:ProtectContents>False</x:ProtectContents>
+  <x:ProtectObjects>False</x:ProtectObjects>
+  <x:ProtectScenarios>False</x:ProtectScenarios>
+ </x:WorksheetOptions>
+</xml><![endif]-->
+</head>
+
+<body link=blue vlink=purple>
+
+<table x:str border=0 cellpadding=0 cellspacing=0 width=930 style='border-collapse:
+ collapse;table-layout:fixed;width:698pt'>
+ <col width=72 span=4 style='width:54pt'>
+ <col width=570 style='mso-width-source:userset;mso-width-alt:18240;width:428pt'>
+ <col width=72 style='width:54pt'>
+ <tr height=47 style='mso-height-source:userset;height:35.25pt'>
+  <td colspan=6 height=47 class=xl137 width=930 style='height:35.25pt;
+  width:698pt'>附件2</td>
+ </tr>
+ <tr height=62 style='mso-height-source:userset;height:46.5pt'>
+  <td colspan=6 height=62 class=xl136 width=930 style='height:46.5pt;
+  width:698pt'><br>
+    国务院或法规授权主管部门设置的明确规定为企业登记前置审批事项（20项）</td>
+ </tr>
+ <tr class=xl65 height=43 style='mso-height-source:userset;height:32.25pt'>
+  <td height=43 class=xl69 style='height:32.25pt'>部门</td>
+  <td class=xl70 width=72 style='border-left:none;width:54pt'>序号</td>
+  <td class=xl70 width=72 style='border-left:none;width:54pt'>项目名称</td>
+  <td class=xl70 width=72 style='border-left:none;width:54pt'>实施机关</td>
+  <td class=xl70 width=570 style='border-left:none;width:428pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>设<span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>定<span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>依<span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>据</td>
+  <td class=xl70 width=72 style='border-left:none;width:54pt'>项目<br>
+    类型</td>
+ </tr>
+ <tr class=xl82 height=110 style='mso-height-source:userset;height:82.5pt'>
+  <td height=110 class=xl72 width=72 style='height:82.5pt;border-top:none;
+  width:54pt'>财政部</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'
+  x:num>1</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'>中介机构从事会计代理记账业务审批</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'>县级以上人民政府财政部门</td>
+  <td class=xl74 width=570 style='border-top:none;border-left:none;width:428pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《中华人民共和国会计法))第三十六条：“各单位应当根据会计业务的需要，设置会计机构，或者在有关机构中设置会计人员并指定会计主管人员；不具备设置条件的，应当委托经批准设立从事会计代理记帐业务的中介机构代理记帐。”<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>财政部《代理记账管理暂行办法》(财会字[1994】24号)第三条：从事代理记账业务的机构应当具备下列条件：……；(四)机构的设立依法经过工商行政管理部门或者其他管理部门核准登记。“第四条从事代理记账业务的机构，除会计事务所外，必须按隶属关系向县级以上(含县级)人民政府财政部门申请代理记账资格，经审查符合本办法第三条规定的条件，并领取由财政部统一印制的代理记账许可证书后，方能从事代理记账业务。”第八条：<font
+  class="font13">“申请人经批准取得代理记账许可证书后，应当依法办理工商登记。”</font></td>
+  <td class=xl83 width=72 style='border-top:none;border-left:none;width:54pt'>项目</td>
+ </tr>
+ <tr class=xl82 height=69 style='mso-height-source:userset;height:51.75pt'>
+  <td height=69 class=xl72 width=72 style='height:51.75pt;border-top:none;
+  width:54pt'>财政部</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'
+  x:num>2</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'>会计师事务所及其分支机构设立审批</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'>财政部或省级人民政府财政部门</td>
+  <td class=xl74 width=570 style='border-top:none;border-left:none;width:428pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《中华人民共和国注册会计师法》第二十五条：“设立会计师事务所，由国务院财政部门或者省、自治区、直辖市人民政府财政部门批准。”第二十七条：“会计师事务所设立分支机构，须经分支机构所在地的省、自治区、直辖市人民政府财政部门批准。”<span
+  style='mso-spacerun:yes'>&nbsp; </span><font class="font8"><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></font><font
+  class="font8"><span style='mso-spacerun:yes'>&nbsp;&nbsp;</span><br>
+    </font><font class="font8"><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span></font><font class="font8">工商总局《关于加强对会计师事务所登记和监督管理的通知》(工商企宇[1993]第322号)第一条</font><font
+  class="font13">“成立会计师事务所，应报财政主管机关审查批准，并经工商行政管理机关核准登记注册。”</font></td>
+  <td class=xl83 width=72 style='border-top:none;border-left:none;width:54pt'>主体</td>
+ </tr>
+ <tr class=xl82 height=151 style='mso-height-source:userset;height:113.25pt'>
+  <td height=151 class=xl72 width=72 style='height:113.25pt;border-top:none;
+  width:54pt'>发展改革委</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'
+  x:num>3</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'>新建棉花加工企业资格认定</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'>省级发展改革部门、工商行政管理部门、棉花质量监督机构</td>
+  <td class=xl74 width=570 style='border-top:none;border-left:none;width:428pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《中华人民共和国棉花质量监督管理条例》(国务院局令第314号)第三条第一款：“棉花经营者从事棉花加工经营活动，应当按照国家有关规定取得资格认定。”<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《棉花加工资格认定和市场管理暂行办法》(经国务院批准，国家发改委、工商总局、质监总局令[2006】第49号发布)第三条：“本办法所称棉花是指籽棉和皮棉，不包括废棉、落棉、回收棉及棉短绒。本办法所称棉花加工资格认定制度是指从事棉花加工经营活动的企业，除应具备一般经营条件外，还须具备本办法规定的相应条件，经资格认定机关审查认定后授予其棉花加工资格的行政许可制度。本办法所称资格认定机关是指参与棉花加工资格认定工作的省级各有关部门和机构的统称。主要包括发展改革部门、工商行政管理部门、棉花质量监督机构。第六条个别省区由于棉花种植区域发生较大变化，需要新建棉花加工企业的，有关情况报国家发展改革部门同意后，由省级资格认定机关按规定程序进行审批。<font
+  class="font13">经批准的新建棉花加工企业，应当持资格认定机关的核准文件和《资格证书》，到工商行政管理部门办理登记，领取营业执照。<span
+  style='mso-spacerun:yes'>&nbsp; </span>”</font></td>
+  <td class=xl83 width=72 style='border-top:none;border-left:none;width:54pt'>主体</td>
+ </tr>
+ <tr class=xl82 height=233 style='mso-height-source:userset;height:174.75pt'>
+  <td height=233 class=xl72 width=72 style='height:174.75pt;border-top:none;
+  width:54pt'>工业和信息化部</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'
+  x:num>4</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'>卫星地面接收设施生产企业指定</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'>工业和信息化部</td>
+  <td class=xl74 width=570 style='border-top:none;border-left:none;width:428pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>《卫星电视广播地面接收设施管理规定》(国务院第l
+  29号令)第三条：<font class="font13">“国家对卫星地面接收设施的生产、进口、销售、安装和使用实行许可制度。</font><font
+  class="font8">生产、进口、销售、安装和使用卫星地面接收设施许可的条件，由国务院有关行政部门规定。”</font><font
+  class="font13">第四条：“卫星地面接收设施由国务院电子工业行政部门指定的企业生产，其他任何单位不得生产。”</font><font
+  class="font8"><br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《关于进一步加强卫星电视地面接收设施管理的意见))(广发外字[2002】254号)一(一)实行定点生产、“专产专营”管理制度。国务院信息产业主管部门负责确定卫星电视广播地面接收设施定点生产企业，根据广电部门需求安排产销计划，</font><font
+  class="font13">并指定生产企业实施销售专营(专卖)，</font><font class="font8">定向销售给经各省、自治区、直辖市广电主管部门批准的从事卫星电视广播地面接收设施安装业务的企业，该产品不进入社会市场流通领域。(二)实行计划生产管理制度。国务院信息产业主管部门根据国务院广电主管部门提供的我国卫星电视广播系统平台的技术要求，指导研制相关产品，并根据国务院广电主管部门提出的卫星电视广播地面接收设施年度需求计划，以销定产，落实年度生产计划和定向销售计划。(三)落实监管制度。各级信息产业主管部门会同工商行政管理部门严肃查处非法生产、销售行为。对违反相关规定随意确定定点生产、销售企业或对生产、销售缺乏监管、放任自流的，要追究当地信息产业主管部门负责人和相关人员的责任。(一)全面落实定点生产、定点销售、定向销售审批制度。工商行政管理部门对经国务院信息产业主管部门批准的卫星电视广播地面接收设施定点生产销售企业和经各省、自治区、直辖市广电主管部门批准的从事卫星电视广播地面接收设施安装业务的企业，依法做好企业登记注册工作；</font><font
+  class="font13">由定点生产销售和安装企业持许可证到工商行政管理部门办理登记注册，未取得许可证的，不得核发相关经营范围的营业执照。</font></td>
+  <td class=xl83 width=72 style='border-top:none;border-left:none;width:54pt'>项目</td>
+ </tr>
+ <tr class=xl82 height=96 style='mso-height-source:userset;height:72.0pt'>
+  <td height=96 class=xl72 width=72 style='height:72.0pt;border-top:none;
+  width:54pt'>公安部</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'
+  x:num>5</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'>弩的制造、销售、进口、运输、使用(营业性射击场开设弩射击项目)审批</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'>省级人民政府公安机关</td>
+  <td class=xl74 width=570 style='border-top:none;border-left:none;width:428pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《国务院对确需保留的行政审批项目设定行政许可的决定》(国务院令第412号)附件第32项。<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《公安部国家工商行政管理局关于加强弩管理的通知》(公治[1999】1646号)第二条(一)：<font class="font13"><span
+  style='mso-spacerun:yes'>&nbsp;
+  </span>制造、销售弩或营业性射击场开设弩射项目必须经省、自治区、直辖市公安厅、局批准，工商行政管理部门凭公安厅、局的批准文件办理登记注册。</font></td>
+  <td class=xl83 width=72 style='border-top:none;border-left:none;width:54pt'>项目</td>
+ </tr>
+ <tr class=xl82 height=101 style='mso-height-source:userset;height:75.75pt'>
+  <td height=101 class=xl72 width=72 style='height:75.75pt;border-top:none;
+  width:54pt'>公安部</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'
+  x:num>6</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'>旅馆业特种行业许可证核发</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'>级以上地方人民政府公安机关</td>
+  <td class=xl74 width=570 style='border-top:none;border-left:none;width:428pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《国务院对确需保留的行政审批项目设定行政许可的决定》(中华人民共和国国务院令第412号)附件第36项。<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《旅馆业治安管理办法》(1987年9月国务院批准，1987年11月10日公安部发布)第四条： <font class="font13"><span
+  style='mso-spacerun:yes'>&nbsp;</span>“申请开办旅馆，应经主管部门审查批准，经当地公安机关签署意见，向工商行政管理部门申请登记，领取营业执照后，方准开业。</font><font
+  class="font8">经批准开业的旅馆，如有歇业、转业、合并、迁移、改变名称等情况，应当在工商行政管理部门办理变更登记后三日内，向当地的县、市公安局、公安分局备案。”</font></td>
+  <td class=xl83 width=72 style='border-top:none;border-left:none;width:54pt'>项目</td>
+ </tr>
+ <tr class=xl82 height=93 style='mso-height-source:userset;height:69.75pt'>
+  <td height=93 class=xl72 width=72 style='height:69.75pt;border-top:none;
+  width:54pt'>公安部</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'
+  x:num>7</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'>公章刻制业特种行业许可证核发</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'>县级以上地方政府公安机关</td>
+  <td class=xl74 width=570 style='border-top:none;border-left:none;width:428pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《国务院对确需保留的行政审批项目设定行政许可的决定》(中华人民共和国国务院令第412号)附件第37项。<span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span>《印铸刻字业暂行管理规则》(政务院政治法律委员会批准l951年8月15日公安部发布)第三条：<span
+  style='mso-spacerun:yes'>&nbsp; </span>“凡经营印铸刻字业者，须先向该管市(县)人民政府公安局或分局申请登记，办理以下手续：……三、将填妥之申请登记表，连同像片、略图、名册等送公安局或分局，<font
+  class="font13">经核准发给许可证后，须另向该管工商机关申请，领得营业执照后始准营业。”</font></td>
+  <td class=xl83 width=72 style='border-top:none;border-left:none;width:54pt'>项目</td>
+ </tr>
+ <tr class=xl82 height=137 style='mso-height-source:userset;height:102.75pt'>
+  <td height=137 class=xl72 width=72 style='height:102.75pt;border-top:none;
+  width:54pt'>公安部</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'
+  x:num>8</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'>典当业特种行业许可证核发</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'>县级以上地方人民政府公安机关</td>
+  <td class=xl74 width=570 style='border-top:none;border-left:none;width:428pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《国务院对确需保留的行政审批项目设定行政许可的决定》(国务院令第412号)附件第181项。<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《国务院关于第六批取消和调整行政审批项目的决定》(国发[2012]52号)附件2《国务院决定调整的行政审批项目目录》(一)下放管理层级的行政审批项目第28项。<span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span><br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;
+  </span>《典当管理办法》(商务部、公安部令2005年第8号公布，自2005年4月1日起施行)第十六条：申请人领取《典当经营许可证》后：应当在10日内向所在地县级人民政府公安机关申请典当行《特种行业许可证》，……。第十七条：所在地县级人民政府公安机关受理后应当在10日内将申请材料及初步审核结果报设区的市(地)级人民政府公安机关审核批准，设区的市(地)级人民政府公安机关应当在10日内审核批准完毕。经批准的，颁发《特种行业许可证))。设区的市(地)级人民政府公安机关直接受理的申请，应当在20日内审核批准完毕。经批准的，颁发《特种行业许可证》。…<font
+  class="font13">…申请人领取((特种行业许可证》后，应当在10日内到工商行政管理机关申请登记注册，领取营业执照后，方可营业。</font></td>
+  <td class=xl83 width=72 style='border-top:none;border-left:none;width:54pt'>项目</td>
+ </tr>
+ <tr class=xl82 height=137 style='mso-height-source:userset;height:102.75pt'>
+  <td height=137 class=xl72 width=72 style='height:102.75pt;border-top:none;
+  width:54pt'>广电总局</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'
+  x:num>9</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'>卫星电视广播地面接收设施安装许可审批</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'>省级广电主管部门</td>
+  <td class=xl74 width=570 style='border-top:none;border-left:none;width:428pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《卫星电视广播地面接收设施管理规定》(国务院129号令)第三条：“国家对卫星地面接收设施的生产、进口、销售、安装和使用实行许可制度。生产、进口、销售、安装和使用卫星地面接收设施许可的条件，由国务院有关行政部门规定。”<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《关于进一步加强卫星电视广播地面接收设施管理的意见》(广外字[2002】第254号，经国务院批准)二、加强卫星电视广播地面接收设施产销经营活动的监管。国务院工商行政管理部门负责对卫星电视广播地面接收设施生产、销售企业的登记管理，加大监管力度。(一)全面落实定点生产、定点销售、定向销售审批制度。工商行政管理部门对经国务院信息产业主管部门批准的卫星电视广播地面接收设施定点生产销售企业和经各省、自治区、直辖市广电主管部门批准的从事卫星电视广播地面接收设施安装业务的企业，依法做好企业登记注册工作；<font
+  class="font13">由定点生产销售和安装企业持许可证到工商行政管理部门办理登记注册，未取得许可证的，不得核发相关经营范围的营业执照。</font></td>
+  <td class=xl83 width=72 style='border-top:none;border-left:none;width:54pt'>项目</td>
+ </tr>
+ <tr class=xl82 height=55 style='mso-height-source:userset;height:41.25pt'>
+  <td height=55 class=xl85 width=72 style='height:41.25pt;border-top:none;
+  width:54pt'>国资委</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'
+  x:num>10</td>
+  <td class=xl86 width=72 style='border-top:none;border-left:none;width:54pt'>国有企业设立、合并、分立审批</td>
+  <td class=xl86 width=72 style='border-top:none;border-left:none;width:54pt'>政府或者政府主管部门</td>
+  <td class=xl87 width=570 style='border-top:none;border-left:none;width:428pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp; </span>《中华人民共和国全民所有制工业企业法))第十六条：<font
+  class="font13">“设立企业，必须依照法律和国务院规定，报请政府或者政府主管部门审核批准。经工商行政管理部门核准登记、发给营业执照，企业取得法人资格。”</font><font
+  class="font8">第十八条：“企业合并或者分立，依照法律、行政法规规定，由政府或者政府主管部门批准。”
+  第二十一条：“企业合并、分立、终止，以及经营范围等登记事项的变更，须经工商行政管理部门核准登记。”<span
+  style='mso-spacerun:yes'>&nbsp;</span></font></td>
+  <td class=xl88 width=72 style='border-top:none;border-left:none;width:54pt'>主体</td>
+ </tr>
+ <tr class=xl82 height=175 style='mso-height-source:userset;height:131.25pt'>
+  <td height=175 class=xl72 width=72 style='height:131.25pt;border-top:none;
+  width:54pt'>交通运输部</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'
+  x:num>11</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'>经营港口理货业务许可</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'>交通运输部</td>
+  <td class=xl74 width=570 style='border-top:none;border-left:none;width:428pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《中华人民共和国港口法》第二十五条：“经营港口理货业务，应当按照规定取得许可。实施港口理货业务经营许可，应当遵循公开、公正、公平的原则。具体办法由国务院交通主管部门规定……”<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《港口经营管理规定》(交通部令2004年第4号)第十一条：“申请从事港口经营(申请从事港口理货除外)，申请人应当向港口行政管理部门提出书面申请。港口行政管理部门应当自受理申请之日起三十个工作目内作出许可或者不许可的决定。符合资质条件的，由港口行政管理部门发给《港口经营许可证》。《港口经营许可证》应当明确许可经营的港口业务种类。”第十二条：“申请从事港口理货，应当向交通部提出书面申请，……交通部应当在受理申请人的申请之日起二十个工作日内作出许可或者不许可的决定。予以许可的，核发《港口经营许可证》。”<font
+  class="font13">第十四条：“申请人凭港口行政管理部门或者交通部核发的港口经营许可证》到工商管理部门办理工商登记，取得营业执照后方可从事港口业务。”</font></td>
+  <td class=xl83 width=72 style='border-top:none;border-left:none;width:54pt'>项目</td>
+ </tr>
+ <tr class=xl82 height=96 style='mso-height-source:userset;height:72.0pt'>
+  <td height=96 class=xl72 width=72 style='height:72.0pt;border-top:none;
+  width:54pt'>交通运输部</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'
+  x:num>12</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'>出租汽车经营资格证核发</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'>县级以上地方人民政府交通行政主管部门</td>
+  <td class=xl74 width=570 style='border-top:none;border-left:none;width:428pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《国务院对确需保留的行政审批项目设定行政许可的决定》(国务院令第412号)附件第112项。<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《城市出租汽车管理办法》(建设部、公安部令第63号公布，自1998年2月1日起施行)第十一条：“申请从事出租汽车经营的企业和个体工商户(以下简称经营者)，应当向客运管理机构提交下列文件：……客运管理机构应当在收到上述申请文件之日起的三十日内，根据出租汽车的发展计划及申请者的条件作出审核决定。核准的，发给许可凭证；不核准的，书面通知申请人。”<font
+  class="font13">第十二条：“经核准允许的经营者，应当持客运管理机构核发的许可凭证，向有关部门办理营业执照、税务登记，车辆牌照等手续。已按前款规定办妥手续的，由客运管理机构发给经营资格证书，并发给车辆营运证和驾驶员客运资格证件后方可营业。</font><font
+  class="font8">”</font></td>
+  <td class=xl83 width=72 style='border-top:none;border-left:none;width:54pt'>项目</td>
+ </tr>
+ <tr class=xl82 height=96 style='mso-height-source:userset;height:72.0pt'>
+  <td height=96 class=xl72 width=72 style='height:72.0pt;border-top:none;
+  width:54pt'>交通运输部</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'
+  x:num>13</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'>出租汽车经营资格证核发</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'>县级以上地方人民政府交通行政主管部门</td>
+  <td class=xl74 width=570 style='border-top:none;border-left:none;width:428pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《国务院对确需保留的行政审批项目设定行政许可的决定》(国务院令第412号)附件第112项。<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《城市出租汽车管理办法》(建设部、公安部令第63号公布，自1998年2月1日起施行)第十一条：“申请从事出租汽车经营的企业和个体工商户(以下简称经营者)，应当向客运管理机构提交下列文件：……客运管理机构应当在收到上述申请文件之日起的三十日内，根据出租汽车的发展计划及申请者的条件作出审核决定。核准的，发给许可凭证；不核准的，书面通知申请人。”<font
+  class="font13">第十二条：“经核准允许的经营者，应当持客运管理机构核发的许可凭证，向有关部门办理营业执照、税务登记，车辆牌照等手续。已按前款规定办妥手续的，由客运管理机构发给经营资格证书，并发给车辆营运证和驾驶员客运资格证件后方可营业。</font><font
+  class="font8">”</font></td>
+  <td class=xl83 width=72 style='border-top:none;border-left:none;width:54pt'>项目</td>
+ </tr>
+ <tr class=xl82 height=69 style='mso-height-source:userset;height:51.75pt'>
+  <td height=69 class=xl72 width=72 style='height:51.75pt;border-top:none;
+  width:54pt'>民政部</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'
+  x:num>14</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'>假肢和矫形器(辅助器具)生产装配企业资格认定</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'>省级人民政府民政部门</td>
+  <td class=xl74 width=570 style='border-top:none;border-left:none;width:428pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《国务院对确需保留的行政审批项目设定行政许可的决定》(国务院令第412号)附件第67项。<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>民政部、国家工商行政管理局《关于对假肢和矫形器生产装配企业实行资格审查和登记管理有关问题的通知》：“一、从事假肢和矫形器生产装配的企业，在登记注册前，先由当地(省、自治区、直辖市)民政厅(局)按照假肢、矫形器生产装配的特殊要求进行审查，<font
+  class="font13">经审查合格后，到工商行政管理部门办理登记注册。”</font></td>
+  <td class=xl83 width=72 style='border-top:none;border-left:none;width:54pt'>主体</td>
+ </tr>
+ <tr class=xl82 height=124 style='mso-height-source:userset;height:93.0pt'>
+  <td height=124 class=xl72 width=72 style='height:93.0pt;border-top:none;
+  width:54pt'>人力资源和社会保障部</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'
+  x:num>15</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'>设立人才中介服务机构及其业务范围审批</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'>县级以上人民政府人力资源社会保障部门</td>
+  <td class=xl74 width=570 style='border-top:none;border-left:none;width:428pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《国务院对确需保留的行政审批项目设定行政许可的决定》(国务院令第412号)附件第86项。<span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>．<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《人才市场管理规定》(2001年人事部、国家工商行政管理总局令第1号公布，2005年修正)第八条：设立人才中介服务机构应当依据管理权限由县级以上政府人事行政部门(以下简称审批机关)审批。国务院各部委、直属机构及其直属在京事业单位和在京中央直管企业、全国性社团申请设立人才中介服务机构，由人事部审批。中央在地方所属单位申请设立人才中介服务机构，由所在地的省级政府人事行政部门审批。人才中介服务机构设立分支机构的，应当在征得原审批机关的书面同意后，由分支机构所在地政府人事行政部门审批。第十二条：经批准获得许可证的人才中介服务机构，应当按照有关规定，属事业单位的到机构编制管理部门办理登记手续，<font
+  class="font13">属企业的到工商行政管理部门办理登记注册手续。其中到工商行政管理部门办理登记注册的，其机构名称应当在申领许可证前，由工商行政管理部门预先核准。</font></td>
+  <td class=xl83 width=72 style='border-top:none;border-left:none;width:54pt'>主体</td>
+ </tr>
+ <tr class=xl82 height=83 style='mso-height-source:userset;height:62.25pt'>
+  <td height=83 class=xl72 width=72 style='height:62.25pt;border-top:none;
+  width:54pt'>人力资源和社会保障部</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'
+  x:num>16</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'>中外合作职业技能培训机构设立审批</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'>省级人民政府劳动保障行政部门</td>
+  <td class=xl74 width=570 style='border-top:none;border-left:none;width:428pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《中外合作办学条例》(国务院令第372号)第十二条：“……申请设立实施职业技能培训的中外合作办学机构，由拟设立机构所在地的省、自治区、直辖市人民政府劳动行政部门审批。”<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《中外合作职业技能培训办学管理办法》(劳动和社会保障部令第27号公布，白2006年10月1日起施行)第十一条：“设立中外合作职业技能培训机构由拟设立机构所在地的省、自治区、直辖市人民政府劳动保障行政部门审批。”<font
+  class="font13">第二十三条：<span style='mso-spacerun:yes'>&nbsp;
+  </span>“中外合作职业技能培训机构取得中外合作办学许可证后，应当依照有关法律、行政法规规定进行登记。登记后方可开展培训。</font><font
+  class="font8">”</font></td>
+  <td class=xl83 width=72 style='border-top:none;border-left:none;width:54pt'>主体</td>
+ </tr>
+ <tr class=xl82 height=151 style='mso-height-source:userset;height:113.25pt'>
+  <td height=151 class=xl72 width=72 style='height:113.25pt;border-top:none;
+  width:54pt'>商务部</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'
+  x:num>17</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'>设立典当行及分支机构审批</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'>省级人民政府商务行政部门</td>
+  <td class=xl74 width=570 style='border-top:none;border-left:none;width:428pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《国务院对确需保留的行政审批项目设定行政许可的决定》(国务院令第412号)附件第181项。<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《国务院关于第六批取消和调整行政审批项目的决定》(国发[2012]52号)附件2《国务院决定调整的行政审批项目目录》(一)下放管理层级的行政审批项目第28项。<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《典当管理办法》(商务部、公安部令2005年第8号公布，自2005年4月1日起施行)第十一条：设立典当行，申请人应当向拟设典当行所在地设区的市(地)级商务主管部门提交下列材料：……第十四条：典当行申请设立分支机构，应当向拟设分支机构所在地设区的市(地)级商务主管部门提交下列材料：……第十五条：收到设立典当行或者典当行申请设立分支机构的申请后，设区的市(地)’级商务主管部门应当报省级商务主管部门审核，省级商务主管部门将审核意见和申请材料报送商务部，由商务部批准并颁发《典当经营许可证))。第十六条：申请人领取《典当经营许可证》后，应当在10日内向所在地县级人民政府公安机关申请典当行《特种行业许可证》，……。第十七条：……<font
+  class="font13">申请人领取《特种行业许可证》后，应当在10日内到工商行政管理机关申请登记注册，领取营业执照后，方可营业。</font></td>
+  <td class=xl83 width=72 style='border-top:none;border-left:none;width:54pt'>主体</td>
+ </tr>
+ <tr class=xl82 height=151 style='mso-height-source:userset;height:113.25pt'>
+  <td height=151 class=xl72 width=72 style='height:113.25pt;border-top:none;
+  width:54pt'>商务部</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'
+  x:num>18</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'>设立旧机动车鉴定评估机构审批</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'>设区的市级人民政府商务行政主管部门</td>
+  <td class=xl74 width=570 style='border-top:none;border-left:none;width:428pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《国务院对确需保留的行政审批项目设定行政许可的决定》(国务院令第412号)附件第l82项。<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《国务院关于第四批取消和调整行政审批项目的决定》(国发[2007]33号)附件2《国务院决定调整的行政审批项目目录》下放管理层级第8项。<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>“国务院关于第六批取消和调整行政审批项目的决定》(国发[2012]52号)附件2《国务院决定调整的行政审批项目目录》(一)下放管理层级的行政审批项目第29项。<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《二手车流通管理办法》(商务部、公安部、工商总局、税务总局2005年第2号令)第十条：<span
+  style='mso-spacerun:yes'>&nbsp; </span>设立二手车鉴定评估机构，应当按下列程序办理：<span
+  style='mso-spacerun:yes'>&nbsp;
+  </span>(一)申请人向拟设立二手车鉴定评估机构所在地省级商务主管部门提出书面申请，并提交符合本办法第九条规定的相关材料；<span
+  style='mso-spacerun:yes'>&nbsp;
+  </span>(二)省级商务主管部门自收到全部申请材料之日起20个工作日内作出是否予以核准的决定，对予以核准的，颁发《二手车鉴定评估机构核准证书》；不予核准的，应当说明理由；<span
+  style='mso-spacerun:yes'>&nbsp; </span><font class="font13">(三)申请人持《二手车鉴定评估机构核准证书》到工商行政管理部门办理登记手续。</font></td>
+  <td class=xl83 width=72 style='border-top:none;border-left:none;width:54pt'>主体</td>
+ </tr>
+ <tr class=xl82 height=233 style='mso-height-source:userset;height:174.75pt'>
+  <td height=233 class=xl72 width=72 style='height:174.75pt;border-top:none;
+  width:54pt'>银监会</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'
+  x:num>19</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'><span
+  style='mso-spacerun:yes'>&nbsp; </span>融资性担保机构<span
+  style='mso-spacerun:yes'>&nbsp; </span>的设立与变更审批</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'>省、自治区、直辖市人民政府确定的部门</td>
+  <td class=xl74 width=570 style='border-top:none;border-left:none;width:428pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《国务院对确需保留的行政审批项目设定行政许可的决定》(国务院令第412号)附件第12项。<span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>’<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《国务院关于修改(国务院对确需保留的行政审批项目设定行政许可的决定)的决定)、(国务院令第548号)。<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《融资性担保公司管理暂行办法》(经国务院批准。中国银行业监督管理委员会、国家发展和改革委员会、工业和信息化部、财政部、商务部、中国人民银行、国家工商行政管理总局令2010年第3号。)第二条：本办法所称融资性担保公司是指依法设立，经营融资性担保业务的有限责任公司和股份有限公司。本办法所称监管部门是指省、自治区、直辖市人民政府确定的负责监督管理本辖区融资性担保公司的部门。第八条<font
+  class="font13">“设立融资性担保公司及其分支机构，应当经监管部门审查批准。经批准设立的融资性担保公司及其分支机构，由监管部门颁发经营许可证，并凭该许可证向工商行政管理部门申请注册登记。”</font><font
+  class="font8">第十二条：<span style='mso-spacerun:yes'>&nbsp;
+  </span>“融资性担保公司有下列变更事项之一的，应当经监管部门审查批准：<span style='mso-spacerun:yes'>&nbsp;
+  </span>(一)变更名称。<span style='mso-spacerun:yes'>&nbsp; </span>(二)变更组织形式。<span
+  style='mso-spacerun:yes'>&nbsp; </span>(三)变更注册资本。<span
+  style='mso-spacerun:yes'>&nbsp; </span>(四)变更公司住所。<span
+  style='mso-spacerun:yes'>&nbsp; </span>(五)调整业务范围。<span
+  style='mso-spacerun:yes'>&nbsp; </span>(六)变更董事、监事和高级管理人员。<span
+  style='mso-spacerun:yes'>&nbsp; </span>(七)变更持有5％以上股权的股东。<span
+  style='mso-spacerun:yes'>&nbsp; </span>(八)分立或者合并。<span
+  style='mso-spacerun:yes'>&nbsp; </span>(九)修改章程。<span
+  style='mso-spacerun:yes'>&nbsp; </span>(十)监管部门规定的其他变更事项。</font><font
+  class="font13">融资性担保公司变更事项涉及公司登记事项的，经监管部门审查批准后，按规定向工商行政管理部门申请变更登记。”</font><font
+  class="font8">第十三条：<span style='mso-spacerun:yes'>&nbsp;
+  </span>“融资性担保公司跨省、自治区、直辖市设立分支机构的，应当征得该融资性担保公司所在地监管部门同意，并经拟设立分支机构所在地监管部门审查批准。”第十四条：</font><font
+  class="font13">“融资性担保公司因分立、合并或出现公司章程规定的解散事由需要解散的，应当经监管部门审查批准，并凭批准文件及时向工商行政管理部门申请注销登记。”</font></td>
+  <td class=xl83 width=72 style='border-top:none;border-left:none;width:54pt'>主体</td>
+ </tr>
+ <tr class=xl82 height=83 style='mso-height-source:userset;height:62.25pt'>
+  <td height=83 class=xl72 width=72 style='height:62.25pt;border-top:none;
+  width:54pt'>邮政局</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'
+  x:num>20</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'>开办集邮票品集中交易市场许可</td>
+  <td class=xl73 width=72 style='border-top:none;border-left:none;width:54pt'>省、自治区、直辖市邮政行业主管部门</td>
+  <td class=xl74 width=570 style='border-top:none;border-left:none;width:428pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《国务院对确需保留的行政审批项目设定行政许可的决定》(国务院令第412号)附件第456项。<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《集邮市场管理办法》(国家邮政局、国家工商行政管理局1号令2000年5月24日发布)第五条：“申请开办集邮票品集中交易市场的单位，必须经所在地省邮政行业管理部门审查批准，<font
+  class="font13">办理《集邮票品集中交易市场开办许可证))，并持此证到当地工商行政管理部门申请办理登记后方准开业。</font><font
+  class="font8">第八条：集邮票品集中交易市场变更有关审批事项、迁移或者停办的，应当在规定时间内到原审批登记机关办理变更或者注销手续。”</font></td>
+  <td class=xl83 width=72 style='border-top:none;border-left:none;width:54pt'>项目</td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=72 style='width:54pt'></td>
+  <td width=72 style='width:54pt'></td>
+  <td width=72 style='width:54pt'></td>
+  <td width=72 style='width:54pt'></td>
+  <td width=570 style='width:428pt'></td>
+  <td width=72 style='width:54pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</body>
+
+</html>

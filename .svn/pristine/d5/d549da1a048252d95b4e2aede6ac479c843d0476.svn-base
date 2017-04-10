@@ -1,0 +1,31 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+<title>无标题文档</title>
+<LINK href="../css/icms.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<img src="mchztzs.bmp" border="1"/><br/>
+<HR>
+<br/>
+<table  border="1" width="400px" cellspacing='0' cellpadding='0' align="left">
+  <caption>名称信息填写如下：</caption>
+		<tr>
+		  <td class="lc1" align="center" width="120px">
+		    预先核准通知书文号:
+		  </td>
+		  <td class="lc2">
+		    &nbsp;第&nbsp;<input type="text" value="01xxx6"/>&nbsp;号
+		  </td>
+		</tr>
+		<tr>
+		  <td class="lc1">
+		    企业名称:
+		  </td>
+		  <td class="lc2">
+		    <input type="text" value="济南XXXXX有限公司"/>
+		  </td>
+		</tr>
+</table>
+</body>
+</html>

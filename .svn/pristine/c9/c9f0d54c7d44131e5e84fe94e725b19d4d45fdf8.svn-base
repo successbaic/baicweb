@@ -1,0 +1,2529 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=gb2312">
+<meta name=ProgId content=Excel.Sheet>
+<meta name=Generator content="Microsoft Excel 11">
+<link id=Main-File rel=Main-File href="../qzspsx.htm">
+<link rel=File-List href=filelist.xml>
+<link rel=Edit-Time-Data href=editdata.mso>
+<link rel=Stylesheet href=stylesheet.css>
+<style>
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+@page
+	{margin:.55in .75in .7in .75in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-page-orientation:landscape;}
+ruby
+	{ruby-align:left;}
+rt
+	{color:windowtext;
+	font-size:9.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-char-type:none;
+	display:none;}
+-->
+</style>
+<![if !supportTabStrip]><script language="JavaScript">
+<!--
+function fnUpdateTabs()
+ {
+  if (parent.window.g_iIEVer>=4) {
+   if (parent.document.readyState=="complete"
+    && parent.frames['frTabs'].document.readyState=="complete")
+   parent.fnSetActiveSheet(0);
+  else
+   window.setTimeout("fnUpdateTabs();",150);
+ }
+}
+
+if (window.name!="frSheet")
+ window.location.replace("../qzspsx.htm");
+else
+ fnUpdateTabs();
+//-->
+</script>
+<![endif]><!--[if gte mso 9]><xml>
+ <x:WorksheetOptions>
+  <x:DefaultRowHeight>270</x:DefaultRowHeight>
+  <x:Print>
+   <x:ValidPrinterInfo/>
+   <x:PaperSizeIndex>9</x:PaperSizeIndex>
+   <x:HorizontalResolution>600</x:HorizontalResolution>
+   <x:VerticalResolution>600</x:VerticalResolution>
+  </x:Print>
+  <x:PageBreakZoom>60</x:PageBreakZoom>
+  <x:Selected/>
+  <x:TopRowVisible>99</x:TopRowVisible>
+  <x:Panes>
+   <x:Pane>
+    <x:Number>3</x:Number>
+    <x:ActiveRow>60</x:ActiveRow>
+   </x:Pane>
+  </x:Panes>
+  <x:ProtectContents>False</x:ProtectContents>
+  <x:ProtectObjects>False</x:ProtectObjects>
+  <x:ProtectScenarios>False</x:ProtectScenarios>
+ </x:WorksheetOptions>
+</xml><![endif]-->
+</head>
+
+<body link=blue vlink=purple class=xl65>
+
+<table x:str border=0 cellpadding=0 cellspacing=0 width=909 style='border-collapse:
+ collapse;table-layout:fixed;width:683pt'>
+ <col class=xl66 width=58 style='mso-width-source:userset;mso-width-alt:1856;
+ width:44pt'>
+ <col class=xl66 width=52 style='mso-width-source:userset;mso-width-alt:1664;
+ width:39pt'>
+ <col class=xl65 width=95 style='mso-width-source:userset;mso-width-alt:3040;
+ width:71pt'>
+ <col class=xl65 width=90 style='mso-width-source:userset;mso-width-alt:2880;
+ width:68pt'>
+ <col class=xl67 width=553 style='mso-width-source:userset;mso-width-alt:17696;
+ width:415pt'>
+ <col class=xl66 width=61 style='mso-width-source:userset;mso-width-alt:1952;
+ width:46pt'>
+ <tr height=51 style='mso-height-source:userset;height:38.25pt'>
+  <td colspan=6 height=51 class=xl137 width=909 style='height:38.25pt;
+  width:683pt'>附件1</td>
+ </tr>
+ <tr class=xl68 height=74 style='mso-height-source:userset;height:55.5pt'>
+  <td colspan=6 height=74 class=xl136 width=909 style='height:55.5pt;
+  width:683pt'><br>
+    法律、行政法规、国务院决定明确规定为企业登记前置审批事项（123项）</td>
+ </tr>
+ <tr height=43 style='mso-height-source:userset;height:32.25pt'>
+  <td height=43 class=xl69 style='height:32.25pt'>部门</td>
+  <td class=xl70 width=52 style='border-left:none;width:39pt'>序号</td>
+  <td class=xl70 width=95 style='border-left:none;width:71pt'>项目名称</td>
+  <td class=xl70 width=90 style='border-left:none;width:68pt'>实施机关</td>
+  <td class=xl70 width=553 style='border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>设<span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>定<span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>依<span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>据</td>
+  <td class=xl70 width=61 style='border-left:none;width:46pt'>项目<br>
+    类型</td>
+ </tr>
+ <tr class=xl71 height=105 style='height:78.75pt'>
+  <td height=105 class=xl72 width=58 style='height:78.75pt;border-top:none;
+  width:44pt'>质<br>
+    检<br>
+    总<br>
+    局</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>1</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>制造、修理计量器具许可证核发</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>县级以上人民政府计量行政部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《中华人民共和国计量法》第十二条：“制造、修理计量器具的企业、事业单位，必须具备与所制造、修理的计量器具相适应的设施、人员和检定仪器设备，经县级以上人民政府计量行政部门考核合格，取得《制造计量器具许可证》或者《修理计量器具许可证》。<font
+  class="font13">制造、修理计量器具的企业未取得《制造计量器具许可证》或者《修理计量器具许可证》的，工商行政管理部门不予办理营业执照。</font><font
+  class="font8">”第十八条：“个体工商户可以制造、修理简易的计量器具。制造、修理计量器具的个体工商户，必须经县级人民政府计量行政部门考核合格，</font><font
+  class="font13">发给《制造计量器具许可证》或者《修理计量器具许可证》后，方可向工商行政管理部门申请营业执照</font><font
+  class="font8">。”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <tr height=60 style='height:45.0pt'>
+  <td height=60 class=xl72 width=58 style='height:45.0pt;border-top:none;
+  width:44pt'>质<br>
+    检<br>
+    总<br>
+    局</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>2</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>口岸卫生许可证核发</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>出入境检验检疫机构</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《中华人民共和国国境卫生检疫法实施细则》(1989年2月10日国务院批准，2010年4月24日修订)第一百零七条：“对饮用水、食品及从业人员的卫生要求是：……(二)国境口岸内的涉外宾馆，以及向入境、出境的交通工具提供饮食服务的部门，营业前必须向卫生检疫机关申请卫生许可证。<font
+  class="font13">经营单位取得卫生许可证后，方可向工商行政管理部门申请登记，办理营业执照。”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <tr height=90 style='height:67.5pt'>
+  <td height=90 class=xl72 width=58 style='height:67.5pt;border-top:none;
+  width:44pt'>质<br>
+    检<br>
+    总<br>
+    局</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>3</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>设立从事进出口商品检验鉴定业务的检验机构审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>质检总局</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《中华人民共和国进出口商品检验法》第八条：“经国家商检部门许可的检验机构，可以接受对外贸易关系人或者外国检验机构的委托，办理进出口商品检验鉴定业务。”<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《中华人民共和国进出口商品检验法实施条例》(国务院令第447号)第三十九条：“在中华人民共和国境内<font class="font13">设立从事进出口商品检验鉴定业务的检验机构，</font><font
+  class="font8">应当符合有关法律、行政法规、规章规定的注册资本、技术能力、人员资格等条件，</font><font class="font13">经国家质检总局和有关主管部门审核批准，获得许可，并依法办理工商登记后，方可接受委托办理进出口商品检验鉴定业务。”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=60 style='height:45.0pt'>
+  <td height=60 class=xl72 width=58 style='height:45.0pt;border-top:none;
+  width:44pt'>质<br>
+    检<br>
+    总<br>
+    局</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>4</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>设立认证机构审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>国家认监委</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《中华人民共和国认证认可条例》(国务院令第390号)第九条：“<font class="font13">设立认证机构</font><font
+  class="font8">，应当经国务院认证认可监督管理部门批准，并依法取得法人资格后，方可从事批准范围内的认证活动。未经批准，任何单位和个人不得从事认证活动。”第十二条：“设立认证机构的申请和批准程序：……(三)</font><font
+  class="font13">申请人凭国务院认证认可监督管理部门出具的批准文件，依法办理登记手续。”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=247 style='mso-height-source:userset;height:185.25pt'>
+  <td height=247 class=xl72 width=58 style='height:185.25pt;border-top:none;
+  width:44pt'>质<br>
+    检<br>
+    总<br>
+    局</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>5</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>食品（含乳制品)生产许可证核发</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>省级人民政府质量技术监督部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《中华人民共和国食品安全法》第二十九条：“国家对食品生产经营实行许可制度。从事食品生产、食品流通、餐饮服务，应当依法取得食品生产许可、食品流通许可、餐饮服务许可。取得食品生产许可的食品生产者在其生产场所销售其生产的食品，不需要取得食品流通的许可；取得餐饮服务许可的餐饮服务提供者在其餐饮服务场所出售其制作加工的食品，不需要取得食品生产和流通的许可；农民个人销售其自产的食用农产品，不需要取得食品流通的许可……”第三十一条“县级以上质量监督、工商行政管理、食品药品监督管理部门应当依照《中华人民共和国行政许可法》的规定审核申请人提交的本法第二十七条第一项至第四项规定要求的相关资料，必要时对申请人的生产经营场所进行现场核查；对符合规定条件的，决定准予许可；”
+  <br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《中华人民共和国食品安全法实施条例》(国务院令第557号)第二十条：<font class="font13">设立食品生产企业，应当预先核准企业名称，依照食品安全法的规定取得食品生产许可后，办理工商登记。</font><font
+  class="font8">县级以上质量监督管理部门依照有关法律、行政法规规定审核相关资料、核查生产场所、检验相关产品；对相关资料、场所符合规定要求以及相关产品符合食品安全标准或者要求的，应当作出准予许可的决定。其他食品生产经营者应当在依法取得相应的食品生产许可、食品流通许可、餐饮服务许可后，办理工商登记。法律、法规对食品生产加工小作坊和食品摊贩另有规定的，依照其规定。<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>《乳品质量安全监督管理条例》(国务院令第536号)第二十八条：</font><font
+  class="font13">从事乳制品生产活动，应当具备下列条件，取得所在地质量监督部门颁发的食品生产许可证</font><font
+  class="font8">：……。质量监督部门对乳制品生产企业颁发食品生产许可证，应当征求所在地工业行业管理部门的意见。未取得食品生产许可证的任何单位和个人，不得从事乳制品生产。</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=60 style='height:45.0pt'>
+  <td height=60 class=xl72 width=58 style='height:45.0pt;border-top:none;
+  width:44pt'>证<br>
+    监<br>
+    会</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>6</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>证券公司设立审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>证监会</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《证券法》第一百二十二条：“设立证券公司，必须经国务院证券监督管理机构审查批准。未经国务院证券监督管理机构批准，任何单位和个人不得经营证券业务。”<font
+  class="font13">第一百二十八条：“……证券公司设立申请获得批准的，申请入应当在规定的期限内向公司登记机关申请设立登记，领取营业执照。”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=120 style='height:90.0pt'>
+  <td height=120 class=xl72 width=58 style='height:90.0pt;border-top:none;
+  width:44pt'>证<br>
+    监<br>
+    会</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>7</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>证券公司设立、收购或者撤销分支机构审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>证监会派出机构</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《中华人民共和国证券法》第一百二十九条：“证券公司设立、收购或者撤销分支机构，变更业务范围或者注册资本，变更持有百分之五以上股权的股东、实际控制人，变更公司章程中的重要条款，合并、分立、变更公司形式、停业、解散、破产，必须经国务院证券监督管理机构批准。证券公司在境外设立、收购或者参股证券经营机构，必须经国务院证券监督管理机构批准。”<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《国务院关于第六批决定取消和调整行政审批项目的决定》(国发[2012]52号)附件2《国务院决定调整的行政审批项目目录》(一)下放管理层级的行政审批项目第81项。<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>注：《国务院关于第六批取消和调整行政审批项目的决定》将“证券公司设立、收购或者撤销分支结构审批”下放“证监会派出机构”。</td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=220 style='mso-height-source:userset;height:165.0pt'>
+  <td height=220 class=xl72 width=58 style='height:165.0pt;border-top:none;
+  width:44pt'>证<br>
+    监<br>
+    会</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>8</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>期货公司合并、分立、停业、解散或者破产；变更业务范围；变更注册资本且调整股权结构；新增持有5%以上股权的股东或者控股股东发生变化；变更法定代表人、住所或者营业场所、设立或者终止境内分支机构、变更境内分支机构的经营范围；</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>证监会或者证监会派出机构</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《期货交易管理条例》(国务院令第489号，2012年10月24日《国务院关于修改〈期货交易管理条例〉的决定》修订)第十五条：“期货公司是依照《中华人民共和国公司法》和本条例规定设立的经营期货业务的金融机构。设立期货公司，应当经国务院期货监督管理机构批准，并在公司登记机关登记注册。”第十九条：“期货公司办理下列事项，应当经国务院期货监督管理机构批准：（一）合并、分立、停业、解散或者破产；（二）变更业务范围；（三）变更注册资本且调整股权结构；（四）新增持有5%以上股权的股东或者控股股东发生变化；（五）设立、收购、参股或者终止境外期货类经营机构；（六）国务院期货监督管理机构规定的其他事项。”　第二十条：“期货公司办理下列事项，应当经国务院期货监督管理机构派出机构批准：（一）变更法定代表人；（二）变更住所或者营业场所；（三）设立或者终止境内分支机构；（四）变更境内分支机构的经营范围；（五）国务院期货监督管理机构规定的其他事项。”<span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span><br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《国务院关于第六批决定取消和调整行政审批项目的决定》(国发[2012]52号)附件2《国务院决定调整的行政审批项目目录》(一)下放管理层级的行政审批项目第89项。<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;
+  </span>注：《国务院关于第六批取消和调整行政审批项目的决定》将“期货公司变更持有5％以上股权部分情形审批：涉及新增持有5％以上股权的股东但控股股东、第一大股东未发生变化的审批”下放“证监会派出机构”</td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=42 style='mso-height-source:userset;height:31.5pt'>
+  <td height=42 class=xl72 width=58 style='height:31.5pt;border-top:none;
+  width:44pt'>证<br>
+    监<br>
+    会</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>9</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>期货公司设立</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>证监会</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'>《期货交易管理条例》(国务院令第489号)第十五条：“期货公司是依照《中华人民共和国公司法》和本条例规定设立的经营期货业务的金融机构。<font
+  class="font13">设立期货公司，应当经国务院期货监督管理机构批准，并在公司登记机关登记注册。</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=247 style='mso-height-source:userset;height:185.25pt'>
+  <td height=247 class=xl72 width=58 style='height:185.25pt;border-top:none;
+  width:44pt'>银<br>
+    监<br>
+    会</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>10</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>银行业金融机构及其分支机构设立、变更(不含营业场所)、终止以及业务范围审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'
+  x:str="银监会(“农村商业银行设立(开业)审批”、“农村合作银行设立(开业)审批”、“农村信用社开办银行卡业务审批”实施机关为银监会派出机构) ">银监会(“农村商业银行设立(开业)审批”、“农村合作银行设立(开业)审批”、“农村信用社开办银行卡业务审批”实施机关为银监会派出机构)<span
+  style='mso-spacerun:yes'>&nbsp;</span></td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《中华人民共和国银行业监督管理法》第二条：“……本法所称银行业金融机构，是指在中华人民共和国境内设立的商业银行、城市信用合作社、农村信用合作社等吸收公众存款的金融机构以及政策性银行”。第十六条：“国务院银行业监督管理机构依照法律、行政法规规定的条件和程序，审查批准银行业金融机构的设立、变更、终止以及业务范围。”第二十二条：“国务院银行业监督管理机构应当在规定的期限，对下列申请事项作出批准或者不批准的书面决定；决定不批准的，应当说明理由……”<span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span><br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《中华人民共和国商业银行法》第十一条：“设立商业银行，应当经国务院银行业监督管理机构审查批准。”<font class="font13">第十六条：“经批准设立的商业银行，由国务院银行业监督管理机构颁发经营许可证，并凭该许可证向工商行政管理部门办理登记，领取营业执照。”</font><font
+  class="font8">第十九条：“商业银行根据业务需要可以在中华人民共和国境内外设立分支机构。设立分支机构必须经国务院银行业监督管理机构审查批准。”</font><font
+  class="font13">第二十一条：“经批准设立的商业银行分支机构，由国务院银行业监督管理机构颁发经营许可证，并凭该许可证向工商行政管理部门办理登记，领取营业执照。”</font><font
+  class="font8">第六十九条：“商业银行因分立、合并或者出现公司章程规定的解散事由需要解散的，应当向国务院银行业监督管理机构提出申请，并附解散的理由和支付存款的本金和利息等债务清偿计划。经国务院银行业监督管理机构批准后解散。”
+  <br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span>（注：《国务院关于第四批取消和调整行政审批项目的决定》将“农村商业银行设立(开业)审批”、“农村合作银行设立(开业)审批”、“农村信用社开办银行卡业务审批”下放“银监会派出机构”。《国务院关于第六批取消和调整行政审批项目的决定》将“中资银行业金融机构分支机构变更营运资金审批”、“中资银行业金融机构分支机构变更营业场所审批”取消。）</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=192 style='mso-height-source:userset;height:144.0pt'>
+  <td height=192 class=xl72 width=58 style='height:144.0pt;border-top:none;
+  width:44pt'>银<br>
+    监<br>
+    会</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>11</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'><span
+  style='mso-spacerun:yes'>&nbsp; </span>非银行金融机构(分支机构)设<span
+  style='mso-spacerun:yes'>&nbsp; </span>立、变更(不含营<span
+  style='mso-spacerun:yes'>&nbsp; </span>业场所)、终止以及业务范围审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>银监会</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《中华人民共和国银行业监督管理法》第二条：“……对在中华人民共和国境内设立的金融资产管理公司、信托投资公司、财务公司、金融租赁公司以及经国务院银行业监督管理机构批准设立的其他金融机构的监督管理，适用本法对银行业金融机构监督管理的规定。”第十六条：“国务院银行业监督管理机构依照法律、行政法规规定的条件和程序，审查批准银行业金融机构的设立、变更、终止以及业务范围。”第二十二条：“国务院银行业监督管理机构应当在规定的期限，对下列申请事项作出批准或者不批准的书面决定；决定不批准的，应当说明理由……”<span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp; </span><br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《金融资产管理公司条例》(国务院令第297号)<font class="font13">第六条：“金融资产管理公司由中国人民银行颁发《金融机构法人许可证》，并向工商行政管理部门依法办理登记。”第七条：“金融资产管理公司设立分支机构，须经财政部同意，并报中国人民银行批准，由中国人民银行颁发《金融机构营业许可证》，并向工商行政管理部门依法办理登记。”<span
+  style='mso-spacerun:yes'>&nbsp;&nbsp; </span></font><font class="font8"><br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《国务院关于第六批决定取消和调整行政审批项目的决定》(国发[2012]52号)附件l《国务院决定取消的行政审批项目目录》第100项。<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>注：《国务院关于第六批取消和调整行政审批项目的决定》将“非银行金融机构分支机构变更营运资金审批”、“非银行金融机构分支机构变更营业场所的审批”取消。</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=206 style='mso-height-source:userset;height:154.5pt'>
+  <td height=206 class=xl72 width=58 style='height:154.5pt;border-top:none;
+  width:44pt'>银<br>
+    监<br>
+    会</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>12</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>外资银行营业性机构及其分支机构设立、变更(不含营业场所)及终止审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>银监会</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《中华人民共和国银行业监督管理法》第十六条：“国务院银行业监督管理机构依照法律、行政法规规定的条件和程序，审查批准银行业金融机构的设立、变更、终止以及业务范围。”第二十二条：“国务院银行业监督管理机构应当自收到申请文件之日起六个月内，对银行业金融机构的设立申请事项，作出批准或者不批准的书面决定。”<span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span>《中华人民共和国外资银行管理条例》(国务院令第478号)第七条：“设立外资银行及其分支机构，应当经银行业监督管理机构审查批准。” <font
+  class="font13"><span
+  style='mso-spacerun:yes'>&nbsp;</span>第十九条：“经批准设立的外资银行营业性机构，应当凭金融许可证向工商行政管理机关办理登记，领取营业执照。”第二十七条：“外资银行有下列情形之一的，应当经国务院银行业监督管理机构批准，并按照规定提交申请资料，依法向工商行政管理机关办理有关登记：(一)变更注册资本或者营运资金；(二)变更机构名称、营业场所或者办公场所；(三)调整业务范围；(四)变更股东或者调整股东持股比例；(五)修改章程；(六t国务院银行业监督管理机构规定的其他情形。”</font><font
+  class="font8">第五十八条：“外资银行营业性机构自行终止业务活动的，应当在终止业务活动30日前以书面形式向国务院银行业监督管理机构提出申请，经审查批准予以结算解散或者关闭并进行清算。”第六十一条：“外资银行营业性机构清算终结，应当在法定期限内向原登记机关办理注销登记。”<span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span>《国务院关于第六批决定取消和调整行政审批项目的决定》(国发[2012]52号)附件l“国务院决定取消的行政审批项目目录》第102项。</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=156 style='mso-height-source:userset;height:117.0pt'>
+  <td height=156 class=xl72 width=58 style='height:117.0pt;border-top:none;
+  width:44pt'>银<br>
+    监<br>
+    会</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>13</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>外国银行代表处设立、变更、终止审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>银监会</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《中华人民共和国外资银行管理条例》(国务院令第478号<font class="font13">)第七条：<span
+  style='mso-spacerun:yes'>&nbsp; </span>“设立外资银行及其分支机构，应当经银行业监督管理机构审查批准。”<span
+  style='mso-spacerun:yes'>&nbsp;
+  </span>第二十二条：经批准设立的外国银行代表处，应当凭批准文件向工商行政管理机关办理登记，领取工商登记证。第二十七条：“外资银行有下列情形之一的，应当经国务院银行业监督管理机构批准，并按照规定提交申请资料，依法向工商行政管理机关办理有关登记：<span
+  style='mso-spacerun:yes'>&nbsp;
+  </span>(一)变更注船资本或者营运资金；(二)变更机构名称、营业场所或者办公场所；<span
+  style='mso-spacerun:yes'>&nbsp; </span>(三)调整业务范围；<span
+  style='mso-spacerun:yes'>&nbsp;
+  </span>(四)变更股东或者调整股东持股比例；(五)修改章程；(六)国务院银行业监督管理机构规定的其他情形。”</font><font
+  class="font8">第六十二条：<span style='mso-spacerun:yes'>&nbsp;
+  </span>“外国银行代表处自行终止活动的，应当经国务院银行业监督管理机构批准予以关闭，并在法定期限内向原登记机关办理注销登记。”《外国企业常驻代表机构登记管理条例》(国务院令第584号)</font><font
+  class="font13">第二十三条：法律、行政法规或者国务院规定设立代表机构须经批准的，外国企业应当自批准之日起90日内向登记机关申请设立登记，并提交有关批准文件。</font><font
+  class="font8">第二十六条：代表机构登记事项发生变更，外国企业应当向登记机关申请变更登记。第二十七条：变更登记事项依照法律、行政法规或者国务院规定在登记前须经批准的，应当自批准之日起30日内申请变更登记。第三十三条：……法律、行政法规或者国务院规定代表机构终止活动须经批准的，还应当提交。<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>(注：原名称为“外资金融机构驻华代表处设立(含外国银行关闭分行并在同城设立代表处)审批”。调整理由：境外非银行金融机构代表机构设立、变更、终止审批项目，第五批取消)</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=150 style='height:112.5pt'>
+  <td height=150 class=xl72 width=58 style='height:112.5pt;border-top:none;
+  width:44pt'>烟<br>
+    草<br>
+    局</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>14</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>烟草制品生产企业开办、分立、合并、撤销审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>国家烟草专卖局</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《中华人民共和国烟草专卖法》第十二条：“开办烟草制品生产企业，必须经国务院烟草专卖行政主管部门批准，取得烟草专卖生产企业许可证，并经工商行政管理部门核准登记；其分立、合并、撤销，必须经国务院烟草专卖行政主管部门批准，并向工商行政管理部门办理变更、注销登记手续。未取得烟草专卖生产企业许可证的，工商行政管理部门不得核准，未取得烟草专卖生产企业许可证的，工商行政管理部门不得核准登记。”<span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span><font class="font8"><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>《中华人民共和国烟草专卖法实施条例》(国务院令第223号)第六条：“从事烟草专卖品的生产、批发、零售业务，以及经营烟草专卖品进出口业务和经营外国烟草制品购销业务的，必须依照《烟草专卖法》和本条例的规定，申请领取烟草专卖许可证。”第二十一条：“设立烟草制品生产企业，应当由省级烟草专卖行政主管部门报经国务院烟草专卖行政主管部门批准，</font><font
+  class="font13">取得烟草专卖生产企业许可证，并经工商行政管理部门核准登记。”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=120 style='height:90.0pt'>
+  <td height=120 class=xl72 width=58 style='height:90.0pt;border-top:none;
+  width:44pt'>烟<br>
+    草<br>
+    局</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>15</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>烟草专卖批发企业许可证核发</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>国家烟草专卖局或省级人民政府烟草专卖行政主管部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《中华人民共和国烟草专卖法》第十五条：经营烟草制品批发业务的企业，必须经国务院烟草专卖行政主管或者省级烟草专卖行政主管部门批准，<font
+  class="font13">取得烟草专卖批发企业许可证，并经工商行政管理部门核准登记。<span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></font><font class="font8"><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《中华人民共和国烟草专卖法实施条例》(国务院令第223号)第十三条：“申请领取烟草专卖批发企业许可证，进行跨省、自治区、直辖市经营的，应当向省级烟草专卖行政主管部门提出申请，由省级烟草专卖行政主管部门审查签署意见，报国务院烟草专卖行政主管部门审批发证。申请领取烟草专卖批发企业许可证，在省、自治区、直辖市范围内经营的，应当向企业所在地烟草专卖行政主管部门提出申请，由企业所在地烟草专卖行政主管部门审查签署意见，报省级烟草专卖行政主管部门审批发证。”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <tr height=90 style='height:67.5pt'>
+  <td height=90 class=xl72 width=58 style='height:67.5pt;border-top:none;
+  width:44pt'>新<br>
+    闻<br>
+    出<br>
+    版<br>
+    总<br>
+    署</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>16</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>设立出版单位审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>新闻出版总署</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>《出版管理条例》(国务院令第594号)第十二条：“<font
+  class="font13">设立出版单位</font><font class="font8">，由其主办单位向所在地省、自治区、直辖市人民政府出版行政主管部门提出申请；省、自治区、直辖市人民政府出版行政主管部门审核同意后，报国务院出版行政主管部门审批。设立的出版单位为事业单位的，还应当办理机构编制审批手续。”第十五条：“设立出版单位的主办单位应当自收到批准决定之日起60日内，向所在地省、自治区、直辖市人民政府出版行政主管部门登记，领取出版许可证……</font><font
+  class="font13">属于企业法人的，持出版许可证向工商行政管理部门登记，依法领取营业执照。</font><font class="font8">”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=219 style='mso-height-source:userset;height:164.25pt'>
+  <td height=219 class=xl72 width=58 style='height:164.25pt;border-top:none;
+  width:44pt'>新<br>
+    闻<br>
+    出<br>
+    版<br>
+    总<br>
+    署</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>17</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>出版单位变更名称、主办单位或者其主管机关、业务范围、资本结构、其他事项，合并或者分立，设立分支机构及出版单位终止出版活动审批(注销登记、备案)审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>新闻出版总署</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>《出版管理条例》(国务院令第594号)第十七条：“<font
+  class="font13">出版单位变更名称、主办单位或者其主管机关、业务范围、资本结构，合并或者分立，设立分支机构，</font><font
+  class="font8">出版新的报纸、期刊，或者报纸、期刊变更名称的，</font><font class="font13">应当</font><font
+  class="font8">依照本条例第十二条、第十三条的规定</font><font class="font13">办理审批手续</font><font
+  class="font8">。出版单位属于事业单位法人的，还应当持批准文件到事业单位登记管理机关办理相应的登记手续；</font><font
+  class="font13">属于企业法人的，还应当持批准文件到工商行政管理部门办理相应的登记手续</font><font class="font8">。</font><font
+  class="font13">出版单位除前款所列变更事项外的其他事项的变更</font><font class="font8">，应当经主办单位及其主管机关审查同意，向所在地省、自治区、直辖市人民政府出版行政主管部门申请变更登记，并报国务院出版行政主管部门备案。出版单位属于事业单位法人的，还应当持批准文件到事业单位登记管理机关办理变更登记；</font><font
+  class="font13">属于企业法人的，还应当持批准文件到工商行政管理部门办理变更登记。</font><font class="font8">”第十八条：“</font><font
+  class="font13">出版单位终止出版活动的</font><font class="font8">，由主办单位提出申请并经主管机关同意后，由主办单位向所在地省、自治区、直辖市人民政府出版行政主管部门办理注销登记，并报国务院出版行政主管部门备案。出版单位属于事业单位法人的，还应当持批准文件到事业单位登记管理机关办理注销登记；</font><font
+  class="font13">属于企业法人的，还应当持批准文件到工商行政管理部门办理注销登记</font><font class="font8">。”<span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span>《国务院对确需保留的行政审批项目设定行政许可的决定》(国务院令第412号)附件第332项。<span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=83 style='mso-height-source:userset;height:62.25pt'>
+  <td height=83 class=xl72 width=58 style='height:62.25pt;border-top:none;
+  width:44pt'>新<br>
+    闻<br>
+    出<br>
+    版<br>
+    总<br>
+    署</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>18</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>出版新的报纸、期刊、连续型电子出版物，或者报纸、期刊、连续型电子出版物变更名称审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>新闻出版总署</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>《出版管理条例》(国务院令第594号)第十七条：“<font
+  class="font13">出版单位</font><font class="font8">变更名称、主办单位或者其主管机关、业务范围、资本结构，合并或者分立，设立分支机构，</font><font
+  class="font13">出版新的报纸、期刊，或者报纸、期刊变更名称的</font><font class="font8">，</font><font
+  class="font13">应当</font><font class="font8">依照本条例第十二条、第十三条的规定</font><font
+  class="font13">办理审批手续</font><font class="font8">。出版单位属于事业单位法人的，还应当持批准文件到事业单位登记管理机关办理相应的登记手续；</font><font
+  class="font13">属于企业法人的，还应当持批准文件到工商行政管理部门办理相应的登记手续</font><font class="font8">……”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <tr height=88 style='mso-height-source:userset;height:66.0pt'>
+  <td height=88 class=xl72 width=58 style='height:66.0pt;border-top:none;
+  width:44pt'>新<br>
+    闻<br>
+    出<br>
+    版<br>
+    总<br>
+    署</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>19</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>设立出版物进口经营单位审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>新闻出版总署</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>《出版管理条例》(国务院令第594号)第四十三条：“<font
+  class="font13">设立出版物进口经营单位</font><font class="font8">，应当向国务院出版行政主管部门提出申请，经审查批准，取得国务院出版行政主管部门核发的出版物进口经营许可证后，</font><font
+  class="font13">持证到工商行政管理部门依法领取营业执照</font><font class="font8">。设立出版物进口经营单位，还应当依照对外贸易法律、行政法规的规定办理相应手续。”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=110 style='mso-height-source:userset;height:82.5pt'>
+  <td height=110 class=xl72 width=58 style='height:82.5pt;border-top:none;
+  width:44pt'>新<br>
+    闻<br>
+    出<br>
+    版<br>
+    总<br>
+    署</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>20</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>出版物进口经营单位变更名称、业务范围、资本结构、主办单位或者其主管机关，合并或者分立，设立分支机构审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>新闻出版总署</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>《出版管理条例》(国务院令第594号)第四十四条：“<font
+  class="font13">出版物进口经营单位变更名称、业务范围、资本结构、主办单位或者其主管机关，合并或者分立，设立分支机构，应当</font><font
+  class="font8">依照本条例第四十二条、第四十三条的规定</font><font class="font13">办理审批手续，并持批准文件到工商行政管理部门办理相应的登记手续。”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=105 style='height:78.75pt'>
+  <td height=105 class=xl72 width=58 style='height:78.75pt;border-top:none;
+  width:44pt'>新<br>
+    闻<br>
+    出<br>
+    版<br>
+    总<br>
+    署</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>21</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>音像复制单位、电子出版物复制单位设立审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>新闻出版总署</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《音像制品管理条例》(国务院令第595号)第二十一条：“<font class="font13">申请设立音像复制单位</font><font
+  class="font8">，由所在地省、自治区、直辖市人民政府出版行政主管部门审核同意后，报国务院出版行政主管部门审批。国务院出版行政部门应当自收到申请书之日起60日内作出批准或者不批准的决定，并通知申请人。批准的，发给《音像制品复制许可证》，由</font><font
+  class="font13">申请人持《音像制品复制许可证》到工商行政管理部门登记，依法领取营业执照。</font><font class="font8">”第四十九条：“除本条例第三十五条外，电子出版物的出版、制作、复制、进口、批发、零售等活动适用本条例。”
+  <br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《国务院对确需保留的行政审批项目设定行政许可的决定》(国务院令第412号)附件第316项。</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=105 style='height:78.75pt'>
+  <td height=105 class=xl72 width=58 style='height:78.75pt;border-top:none;
+  width:44pt'>新<br>
+    闻<br>
+    出<br>
+    版<br>
+    总<br>
+    署</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>22</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>音像复制单位、电子出版物复制单位变更业务范围，或兼并、合并、分立审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>新闻出版总署</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《音像制品管理条例》(国务院令第595号)第二十二条：“<font class="font13">音像复制单位变更业务范围，或者兼并其他音像复制单位，或者因合并、分立而设立新的音像复制单位的</font><font
+  class="font8">，</font><font class="font13">应当</font><font class="font8">依照本条例第二十一条的规定</font><font
+  class="font13">办理审批手续，并到工商行政管理部门办理相应的登记手续。</font><font class="font8">音像复制单位变更名称、地址、法定代表人或者主要负责人，或者终止复制经营活动的，应当到原登记的工商行政管理部门办理变更登记或者注销登记，并向国务院出版行政主管部门备案。”第四十九条：“除本条例第三十五条外，</font><font
+  class="font13">电子出版物的出版、制作、复制、进口、批发、零售等活动适用本条例。</font><font class="font8">”<span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span><br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《国务院对确需保留的行政审批项目设定行政许可的决定》(国务院令第412号)附件第324项。</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=83 style='mso-height-source:userset;height:62.25pt'>
+  <td height=83 class=xl72 width=58 style='height:62.25pt;border-top:none;
+  width:44pt'>新<br>
+    闻<br>
+    出<br>
+    版<br>
+    总<br>
+    署</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>23</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>出版物总发行单位设立审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>新闻出版总署</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>《出版管理条例》(国务院令第594号)第三十五条：“<font
+  class="font13">从事出版物总发行业务的单位</font><font class="font8">，经所在地省、自治区、直辖市人民政府出版行政主管部门审核后，报国务院出版行政主管部门批准……</font><font
+  class="font13">从事出版物发行业务的单位和个体工商户经出版行政主管部门批准、取得《出版物经营许可证》，并向工商行政管理部门依法领取营业执照后，方可从事出版物发行业务。</font><font
+  class="font8">”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=96 style='mso-height-source:userset;height:72.0pt'>
+  <td height=96 class=xl72 width=58 style='height:72.0pt;border-top:none;
+  width:44pt'>新<br>
+    闻<br>
+    出<br>
+    版<br>
+    总<br>
+    署</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>24</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>从事出版物发行业务的单位和个体工商户变更《出版物经营许可证》登记事项，或者兼并、合并、分立审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>县级以上人民政府出版行政主管部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《国务院对确需保留的行政审批项目设定行政许可的决定》(国务院令第412号)附件第323项。<span
+  style='mso-spacerun:yes'>&nbsp; </span><br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《出版管理条例》(国务院令第594号)第三十七条：“从事出版物发行业务的单位和个体工商户<font class="font13">变更《出版物经营许可证》登记事项，或者兼并、合并、分立的</font><font
+  class="font8">，应当依照本条例第三十五条的规定办理审批手续，</font><font class="font13">并持批准文件到工商行政管理部门办理相应的登记手续</font><font
+  class="font8">……”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <tr height=83 style='mso-height-source:userset;height:62.25pt'>
+  <td height=83 class=xl72 width=58 style='height:62.25pt;border-top:none;
+  width:44pt'>新<br>
+    闻<br>
+    出<br>
+    版<br>
+    总<br>
+    署</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>25</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>从事出版物批发业务许可</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>省级人民政府出版行政部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《出版管理条例》(国务院令第594号)第三十五条“……<font class="font13">从事出版物批发业务的单</font><font
+  class="font8">位，</font><font class="font13">须经</font><font class="font8">省、自治区、直辖市人民政府出版行政主管部门</font><font
+  class="font13">审核许可</font><font class="font8">。</font><font class="font13">从事出版物发行业务</font><font
+  class="font8">的单位和个体工商户经出版行政主管部门批准、</font><font class="font13">取得《出版物经营许可证》，并向工商行政管理部门依法领取营业执照后，方可从事出版物发行业务。</font><font
+  class="font8">”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <tr height=83 style='mso-height-source:userset;height:62.25pt'>
+  <td height=83 class=xl72 width=58 style='height:62.25pt;border-top:none;
+  width:44pt'>新<br>
+    闻<br>
+    出<br>
+    版<br>
+    总<br>
+    署</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>26</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>从事出版物零售业务许可</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>县级人民政府出版行政部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《出版管理条例》(国务院令第594号)第三十五条：“……<font class="font13">从事出版物零售</font><font
+  class="font8">业务的单位和个体工商户，</font><font class="font13">须经</font><font
+  class="font8">县级人民政府出版行政主管部门</font><font class="font13">审核许可</font><font
+  class="font8">。</font><font class="font13">从事出版物发行业务</font><font class="font8">的单位和个体工商户经出版行政主管部门批准、</font><font
+  class="font13">取得《出版物经营许可证》，并向工商行政管理部门依法领取营业执照后，方可从事出版物发行业务。</font><font
+  class="font8">”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <tr height=178 style='mso-height-source:userset;height:133.5pt'>
+  <td height=178 class=xl72 width=58 style='height:133.5pt;border-top:none;
+  width:44pt'>新<br>
+    闻<br>
+    出<br>
+    版<br>
+    总<br>
+    署</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>27</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>设立从事出版物、包装装潢印刷品和其他印刷品印刷经营活动的企业审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>省级人民政府出版行政主管部门或设区的市级人民政府出版行政部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《印刷业管理条例》(国务院令第315号)第九条：“设立从事出版物、包装装潢印刷品和其他印刷品印刷经营活动的企业，应当向所在地省、自治区、直辖市人民政府出版行政部门提出申请；其中，设立专门从事名片印刷的企业，应当向所在地县级人民政府出版行政部门提出申请。申请人经审核批准的，取得印刷经营许可证；并按照国家有关规定持印刷经营许可证向公安部门提出申请，<font
+  class="font13">经核准，取得特种行业许可证后，持印刷经营许可证、特种行业许可证向工商行政管理部门申请登记注册，取得营业执照。”</font><font
+  class="font8"> <br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《国务院关于第六批取消和调整行政审批项目的决定》(国发[2012]52号)附件l《国务院决定取消的行政审批项目目录》第84项。 <br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《国务院关于第六批取消和调整行政审批项目的决定》(国发[2012]52号)附件2《国务院决定调整的行政审批项目目录》(一)下放管理层级的行政审批项目第69、70、71、72、73项。(设立从事包装装潢印刷品和其他印刷品印刷经营活动的企业审批；印刷业经营者兼营包装装潢和其他印刷品印刷经营活动审批；从事包装装潢印刷品和其他印刷品印刷经营活动的企业变更印刷经营活动审批(不含出版物印刷)第六批下放至设区的市级人民政府出版行政主管部门</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=178 style='mso-height-source:userset;height:133.5pt'>
+  <td height=178 class=xl72 width=58 style='height:133.5pt;border-top:none;
+  width:44pt'>新<br>
+    闻<br>
+    出<br>
+    版<br>
+    总<br>
+    署</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>28</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>印刷业经营者兼营、变更印刷经营活动或兼并、合并、分立审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>省级人民政府出版行政主管部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>《印刷业管理条例》(国务院令第315号)第九条：“<font
+  class="font13">设立从事出版物、包装装潢印刷品和其他印刷品印刷经营活动的企业，</font><font class="font8">应当向所在地省、自治区、直辖市人民政府出版行政部门提出申请……经核准，取得特种行业许可证后，</font><font
+  class="font13">持印刷经营许可证、特种行业许可证向工商行政管理部门申请登记注册，取得营业执照。</font><font
+  class="font8">”第十一条：“</font><font class="font13">印刷业经营者申请兼营或者变更从事出版物、包装装潢印刷品或者其他印刷品印刷经营活动，或者兼并其他印刷业经营者，或者因合并、分立而设立新的印刷业经营者，应当依照本条例第九条的规定办理手续</font><font
+  class="font8">。印刷业经营者变更名称、法定代表人或者负责人、住所或者经营场所等主要登记事项，或者终止印刷经营活动，应当向原办理登记的工商行政管理部门办理变更登记、注销登记，并报原批准设立的出版行政部门备案。”
+  <br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《国务院关于第六批取消和调整行政审批项目的决定》(国发[2012]52号)附件2《国务院决定调整的行政审批项目目录》(一)下放管理层级的行政审批项目第第72、73项。<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>（印刷业经营者兼并其他印刷业经营者(不含出版物印刷企业)审批；印刷业经营者因合并、分立而设立新的印刷业经营者(不含出版物印刷企业)审批第六批下放至设区的市级人民政府出版行政主管部门）</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=83 style='mso-height-source:userset;height:62.25pt'>
+  <td height=83 class=xl72 width=58 style='height:62.25pt;border-top:none;
+  width:44pt'>新<br>
+    闻<br>
+    出<br>
+    版<br>
+    总<br>
+    署</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>29</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>音像制作单位、电子出版物制作单位设立审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>省级人民政府出版行政主管部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《音像制品管理条例》(国务院令第595号)第十七条：“音像出版单位以外的单位申请设立独立<font class="font13">从事音像制品的制作业务</font><font
+  class="font8">的单位(以下简称音像制作单位)，由所在地省、自治区、直辖市人民政府出版行政主管部门审批……批准的，发给《音像制品制作许可证》，由申请人持《音像制品制作许可证》到工商行政管理部门登记</font><font
+  class="font13">，依法领取营业执照</font><font class="font8">；不批准的，应当说明理由。广播、电视节目制作经营单位的设立，依照有关法律、行政法规的规定办理。”第四十九条：“除本条例第三十五条外，</font><font
+  class="font13">电子出版物的出版、制作、复制、进口、批发、零售等活动适用本条例。</font><font class="font8">”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=83 style='mso-height-source:userset;height:62.25pt'>
+  <td height=83 class=xl72 width=58 style='height:62.25pt;border-top:none;
+  width:44pt'>新<br>
+    闻<br>
+    出<br>
+    版<br>
+    总<br>
+    署</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>30</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>音像制作单位、电子出版物制作单位变更名称、业务范围，或者兼并、合并、分立审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>省级人民政府出版行政主管部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《音像制品管理条例》(国务院令第595号)第十八条：“<font class="font13">音像制作单位变更名称、业务范围，或者兼并其他音像制作单位，或者因合并、分立而设立新的音像制作单位的，应当</font><font
+  class="font8">依照本条例第十七条的规定</font><font class="font13">办理审批手续，并到原登记的工商行政管理部门办理相应的登记手续…</font><font
+  class="font8">…”第四十九条：“除本条例第三十五条外，电子出版物的出版、制作、复制、进口、批发、零售等活动适用本条例。”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=192 style='mso-height-source:userset;height:144.0pt'>
+  <td height=192 class=xl72 width=58 style='height:144.0pt;border-top:none;
+  width:44pt'>新<br>
+    闻<br>
+    出<br>
+    版<br>
+    总<br>
+    署</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>31</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>境外新闻出版机构在境内设立办事机构审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>新闻出版总署<span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span>国务院新闻办</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《国务院对确需保留的行政审批项目设定行政许可的决定》(国务院令第412号)附件第331项。<span
+  style='mso-spacerun:yes'>&nbsp;&nbsp; </span><br>
+   
+  《国务院关于发布&lt;中华人民共和国国务院关于管理外国企业常驻代表机构的暂行规定&gt;的通知》(国发【1980]272号)第四条：“外国企业设立常驻代表机构的申请，分别由下列机关批准：一、贸易商、制造厂商、货运代理商，报请中华人民共和国对外贸易部批准；二、金融、保险业，报请中国人民银行批准；海运业、海运代理商，报请中华人民共和国交通部批准；四、航空运输业，报请中国民用航空总局批准；五、其他行业，按照业务性质，报请中华人民共和国政府的主管委、部、局批准。第五条：<font
+  class="font13">外国企业设立常驻代表机构的申请获批准后，应当在批准之日起30天内，持批准证件向中华人民共和国工商行政管理总局办理登记手续。</font><font
+  class="font8"><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span><br>
+   
+  《外国企业常驻代表机构登记管理条例》(国务院令第584号)第第二十三条：“法律、行政法规或者国务院规定设立代表机构须经批准的，外国企业应当自批准之日起90日内向登记机关申请设立登记，并提交有关批准文件。”第二十六条：“代表机构登记事项发生变更，外国企业应当向登记机关申请变更登记。”第二十七条：“变更登记事项依照法律、行政法规或者国务院规定在登记前须经批准的，应当自批准之日起30曰内申请变更登记。”第三十三条：“……法律、行政法规或者国务院规定代表机构终止活动须经批准的，还应当提交。”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=150 style='height:112.5pt'>
+  <td height=150 class=xl72 width=58 style='height:112.5pt;border-top:none;
+  width:44pt'>文<br>
+    化<br>
+    部</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>32</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>中外合资经营、中外合作经营的演出经纪机构、演出场所经营单位设立审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>文化部</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《营业性演出管理条例》(国务院令第528号)第七条：“<font class="font13">申请人取得营业性演出许可证后，应当持许可证依法到工商行政管理部门办理注册登记，领取营业执照。</font><font
+  class="font8">”第八条：“</font><font class="font13">设立演出场所经营单位，应当依法到工商行政管理部门办理注册登记，领取营业执照。</font><font
+  class="font8">”第十一条：“设立中外合资经营、中外合作经营的演出经纪机构、演出场所经营单位，应当通过省、自治区、直辖市人民政府文化主管部门向国务院文化主管部门提出申请；省、自治区、直辖市人民政府文化主管部门应当自收到申请之日起20日内出具审查意见报国务院文化主管部门审批。国务院文化主管部门应当自收到省、自治区、直辖市人民政府文化主管部门的审查意见之日起20日内作出决定。批准的，颁发营业性演出许可证；不批准的，应当书面通知申请人并说明理由。申请人应当在取得营业性演出许可证后，依照有关外商投资的法律、法规的规定办理审批手续。”（注：《国务院关于第五批取消和调整行政审批项目的决定》取消港、澳演出经纪机构在内地设立分支机构审批）。</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=117 style='mso-height-source:userset;height:87.75pt'>
+  <td height=117 class=xl72 width=58 style='height:87.75pt;border-top:none;
+  width:44pt'>文<br>
+    化<br>
+    部</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>33</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>港、澳投资者在内地投资设立合资、合作、独资经营的演出经纪机构、演出场所经营单位审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>文化部</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《营业性演出管理条例》(国务院令第528号)第七条：“<font class="font13">申请人取得营业性演出许可证后，应当持许可证依法到工商行政管理部门办理注册登记，领取营业执照。”第八条：“设立演出场所经营单位，应当依法到工商行政管理部门办理注册登记，领取营业执照。</font><font
+  class="font8">”第十二条：“香港特别行政区、澳门特别行政区的投资者可以在内地投资设立合资、合作、独资经营的演出经纪机构、演出场所经营单位；香港特别行政区、澳门特别行政区的演出经纪机构可以在内地设立分支机构……。”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=83 style='mso-height-source:userset;height:62.25pt'>
+  <td height=83 class=xl72 width=58 style='height:62.25pt;border-top:none;
+  width:44pt'>文<br>
+    化<br>
+    部</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>34</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>台湾地区投资者在内地投资设立合资、合作经营的演出经纪机构、演出场所经营单位的审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>文化部</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《营业性演出管理条例》(国务院令第528号)第七条：“<font class="font13">申请人取得营业性演出许可证后，应当持许可证依法到工商行政管理部门办理注册登记，领取营业执照。</font><font
+  class="font8">”第八条：“</font><font class="font13">设立演出场所经营单位，应当依法到工商行政管理部门办理注册登记，领取营业执照。</font><font
+  class="font8">”第十二条：“……台湾地区的投资者可以在内地投资设立合资、合作经营的演出经纪机构、演出场所经营单位，但内地合营者的投资比例应当不低于51％，内地合作者应当拥有经营主导权；不得设立合资、合作、独资经营的文艺表演团体和独资经营的演出经纪机构、演出场所经营单位……。”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=96 style='mso-height-source:userset;height:72.0pt'>
+  <td height=96 class=xl72 width=58 style='height:72.0pt;border-top:none;
+  width:44pt'>文<br>
+    化<br>
+    部</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>35</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>文艺表演团体和演出经纪机构的设立许可</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>县级人民政府文化主管部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《营业性演出管理条例》(国务院令第528号)第七条：“设立文艺表演团体，应当向县级人民政府文化主管部门提出申请；设立演出经纪机构，应当向省、自治区、直辖市人民政府文化主管部门提出申请。文化主管部门应当自受理申请之日起20日内作出决定。批准的，颁发营业性演出许可证；不批准的，应当书面通知申请人并说明理由。<font
+  class="font13">申请人取得营业性演出许可证后，应当持许可证依法到工商行政管理部门办理注册登记，领取营业执照。”</font><font
+  class="font8">第九条：“文艺表演团体和演出经纪机构变更名称、住所、法定代表人或者主要负责人、营业性演出经营项目，</font><font
+  class="font13">应当向原发证机关申请换发营业性演出许可证，并依法到工商行政管理部门办理变更登记。”<span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;</span></font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=105 style='mso-height-source:userset;height:78.75pt'>
+  <td height=105 class=xl72 width=58 style='height:78.75pt;border-top:none;
+  width:44pt'>文<br>
+    化<br>
+    部</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>36</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>设立娱乐场所许可</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>县级人民政府文化主管部门、公安机关和卫生、环保行政部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《娱乐场所管理条例》(国务院令第458号)第九条：“设立娱乐场所，应当向所在地县级人民政府文化主管部门提出申请。”第十一条：“<font
+  class="font13">申请人取得娱乐经营许可证和有关消防、卫生、环境保护的批准文件后，方可到工商行政管理部门依法办理登记手续，领取营业执照。”</font></td>
+  <td class=xl73 width=61 style='border-top:none;border-left:none;width:46pt'>项目<br>
+    （场所）</td>
+ </tr>
+ <tr height=120 style='height:90.0pt'>
+  <td height=120 class=xl72 width=58 style='height:90.0pt;border-top:none;
+  width:44pt'>文<br>
+    化<br>
+    部</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>37</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>设立互联网上网服务营业场所经营单位审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>县级以上地方人民政府文化行政部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《互联网上网服务营业场所管理条例》(国务院令第363号)第四条：“县级以上人民政府文化行政部门负责互联网上网服务营业场所经营单位的设立审批，并负责对依法设立的互联网上网服务营业场所经营单位经营活动的监督管理；公安机关负责对互联网上网服务营业场所经营单位的信息网络安全、治安和消防安全的监督管理……”第十条：“设立互联网上网服务营业场所经营单位，应当向县级以上地方人民政府文化行政部门提出申请。”第十一条：“……申请人完成筹建后，持同意筹建的批准文件到同级公安机关申请信息网络安全和消防安全审核。公安机关应当自收到申请之日起20个工作日作出决定；经实地检查并审核合格的，发给批准文件……<font
+  class="font13">申请人持《网络文化经营许可证》到工商行政管理部门申请登记注册，依法领取营业执照后，方可开业。”</font></td>
+  <td class=xl73 width=61 style='border-top:none;border-left:none;width:46pt'>项目<br>
+    （场所）</td>
+ </tr>
+ <tr height=42 style='mso-height-source:userset;height:31.5pt'>
+  <td height=42 class=xl72 width=58 style='height:31.5pt;border-top:none;
+  width:44pt'>卫<br>
+    生<br>
+    部</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>38</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>营利性医疗机构设置审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>县级以上地方人民政府卫生行政部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《医疗机构管理条例》(国务院令第149号)第九条：“单位或者个人设置医疗机构，必须经县级以上地方人民政府卫生行政部门审查批准，<font
+  class="font13">并取得设置医疗机构批准书，方可向有关部门办理其他手续。</font><font class="font8">”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=165 style='mso-height-source:userset;height:123.75pt'>
+  <td height=165 class=xl72 width=58 style='height:123.75pt;border-top:none;
+  width:44pt'>卫<br>
+    生<br>
+    部</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>39</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'
+  x:str="公共场所卫生许可(不含公园、体育场馆、公共交通工具)卫生许可) ">公共场所卫生许可(不含公园、体育场馆、公共交通工具)卫生许可)<span
+  style='mso-spacerun:yes'>&nbsp;</span></td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>县级以上地方人民政府卫生行政部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《公共场所卫生管理条例》(1987年4月1日国务院发布)第二条：“本条例适用于下列公共场所：（一）宾馆、饭馆、旅店、招待所、车马店、咖啡馆、酒吧、茶座；（二）公共浴室、理发店、美容店；（三）影剧院、录像厅（室）、游艺厅（室）、舞厅、音乐厅；（四）体育场（馆）、游泳场（馆）、公园；（五）展览馆、博物馆、美术馆、图书馆；（六）商场（店）、书店；（七）候诊室、候车（机、船）室、公共交通工具。”第四条：“国家对公共场所以及新建、改建、扩建的公共场所的选址和设计实行‘卫生许可证’制度。“卫生许可证”由县以上卫生行政部门签发。”第八条：“<font
+  class="font13">经营单位须取得“卫生许可证”后，方可向工商行政管理部门申请登记，办理营业执照。</font><font
+  class="font8">……” <br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《国务院关于第六批取消和调整行政审批项目的决定》(国发[2012】52号)附件l《国务院决定取消的行政审批项目目录》第58项，附件2《国务院决定调整的行政审批项目目录》(一)下放管理层级的行政审批项目第49项。<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《国务院关于第六批取消和调整行政审批项目的决定》取消“公园、体育场馆、公共交通工具卫生许可”，并将“公共场所改、扩建卫生许可”下放“设区的市级、县级人民政府卫生行政部门”。</font></td>
+  <td class=xl73 width=61 style='border-top:none;border-left:none;width:46pt'>项目<br>
+    （场所）</td>
+ </tr>
+ <tr height=69 style='mso-height-source:userset;height:51.75pt'>
+  <td height=69 class=xl72 width=58 style='height:51.75pt;border-top:none;
+  width:44pt'>体<br>
+    育<br>
+    总<br>
+    局</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>40</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>经营高危险性体育项目许可</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>县级以上人民政府体育行政主管部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《全民健身条例》(国务院令第560号)第三十二条：“经营高危险性体育项目的，应当符合下列条件，并向县级以上人民政府体育主管部门提出申请：(一)相关体育设施符合国家标准；(二)具有达到规定数量的取得国家职业资格证书的社会体育指导人员和救助人员；(三)具有相应的安全保障制度和措施。<font
+  class="font13">申请经营高危险性体育项目的，应当持县级以上人民政府体育主管部门的批准文件，到工商行政管理部门依法办理相关登记手续。</font><font
+  class="font8">”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <tr height=96 style='mso-height-source:userset;height:72.0pt'>
+  <td height=96 class=xl76 style='height:72.0pt;border-top:none'>商务部</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>41</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>生猪屠宰厂(场)定点审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>设区的市级人民政府</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《中华人民共和国生猪屠宰管理条例》(1997年12月19日国务院令第238号发布，2007年12月19日国务院第201次常务会议修订通过，白2008年8月1日起施行。国务院令第525号发布)第六条：“生猪定点屠宰厂(场)由设区的市级人民政府根据设置规划，组织商务主管部门、畜牧兽医主管部门、环境保护部门以及其他有关部门，依照本条例规定的条件进行审查，经征求省、自治区、直辖市人民政府商务主管部门的意见确定，并颁发生猪定点屠宰证书和生猪定点屠宰标志牌。设区的市级人民政府应当将其确定的生猪定点屠宰厂(场)名单及时向社会公布，并报省、自治区、直辖市人民政府备案。<font
+  class="font13">生猪定点屠宰厂(场)应当持生猪定点屠宰证书向工商行政管理部门办理登记手续。”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=151 style='mso-height-source:userset;height:113.25pt'>
+  <td height=151 class=xl72 width=58 style='height:113.25pt;border-top:none;
+  width:44pt'>商<br>
+    务<br>
+    部</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>42</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>直销企业及其分支机构设立和变更审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>商务部、工商总局或省级人民政府商务主管部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《中华人民共和国直销管理条例》（国务院令第443号）第九条：“申请人应当通过所在地省、自治区、直辖市商务主管部门向国务院商务主管部门提出申请。省、自治区、直辖市商务主管部门应当自收到申请文件、资料之日起7日内，将申请文件、资料报送国务院商务主管部门。国务院商务主管部门应当自收到全部申请文件、资料之日起90日内，经征求国务院工商行政管理部门的意见，作出批准或者不予批准的决定。予以批准的，由国务院商务主管部门颁发直销经营许可证。<br>
+    <font class="font13">申请人持国务院商务主管部门颁发的直销经营许可证，依法向工商行政管理部门申请变更登记</font><font
+  class="font8">……”第十条：“</font><font class="font13">直销企业申请设立分支机构，</font><font
+  class="font8">应当提供符合前款规定条件的证明文件和资料，并应当依照本条例第九条第一款规定的程序提出申请。</font><font
+  class="font13">获得批准后，依法向工商行政管理部门办理登记。”</font><font class="font8">第十一条：“直销企业有关本条例第八条所列内容发生重大变更的，应当依照本条例第九条第一款规定的程序报国务院商务主管部门批准。
+  ”（《国务院关于第五批取消和下放管理层级行政审批项目的决定》将“直销企业产品说明重大变更审批”下放省级商务主管部门）</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <tr height=178 style='mso-height-source:userset;height:133.5pt'>
+  <td height=178 class=xl72 width=58 style='height:133.5pt;border-top:none;
+  width:44pt'>商<br>
+    务<br>
+    部</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>43</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>石油成品油批发、仓储、零售经营资格审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>商务部<br>
+    省、自治区、直辖市人民政府商务行政主管部门<br>
+    </td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《国务院对确需保留的行政审批项目设定行政许可的决定》（中华人民共和国国务院令第412号）附件第183项。<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《国务院办公厅转发国家经贸委等部门关于进一步整顿和规范成品油市场秩序意见的通知国办发［2001］72号二、“严格成品油市场准入，（一）……经省级经贸委组织验收合格后，<font
+  class="font13">核发《成品油零售经营批准证书》，再凭批准证书到工商行政管理部门办理登记注册手续。</font><font
+  class="font8">（二）新设成品油批发企业，一律由石油集团、石化集团报国家经贸委审批。国家经贸委按照国家经贸委等部门《关于印发〈关于清理整顿成品油流通企业和规范成品油流通秩序的实施意见〉的通知》（国经贸贸易〔1999〕637号）规定的条件和布局规划要求，</font><font
+  class="font13">审核批准并核发《成品油批发经营批准证书》</font><font class="font8">，</font><font
+  class="font13">企业凭批准证书到工商行政管理部门办理登记注册手续。</font><font class="font8">（三）要严格控制新建和扩建成品油仓储设施，确需建设的，由省级经贸委按照有利于有序竞争、合理布局原则审批，并报国家经贸委备案。（四）对成品油经营（包括零售、批发、仓储）资格实行动态管理，由核发经营资格证书的部门每年审核一次。对不符合规定条件的成品油经营企业，要取消其成品油经营资格。被取消成品油经营资格的企业，要依法到工商行政管理部门办理变更登记或注销登记；逾期不办理的，吊销其营业执照。”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <tr height=493 style='mso-height-source:userset;height:369.75pt'>
+  <td height=493 class=xl72 width=58 style='height:369.75pt;border-top:none;
+  width:44pt'>商<br>
+    务<br>
+    部</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>44</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>外商投资企业设立及企业变更的审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>商务部<span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span>省、自治区、直辖市商务行政主管部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《中华人民共和国中外合资经营企业法》第三条：“合营各方签订的合营协议、合同、章程，应报国家对外经济贸易主管部门(以下称审查批准机关)审查批准……合营企业经批准后，向国家工商行政管理主管部门登记，领取营业执照，开始营业。”第十三条：“……约定合营期限的合营企业，合营各方同意延长合营期限的，应在距合营期满六个月前向审查批准机关提出申请……”第十四条：“……经合营各方协商同意，报请审查批准机关批准，并向国家工商行政管理主管部门登记，可终止合同……”<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《中华人民共和国中外合作经营企业法》第五条：“申请设立合作企业，应当将中外合作者签订的协议、合同、章程等文件报国务院对外经济贸易主管部门或者国务院授权的部门和地方政府(以下简称审查批准机关)审查批准……”第六条：“<font
+  class="font13">设立合作企业的申请经批准后，应当自接到批准证书之日起三十天内向工商行政管理机关申请登记，领取营业执照。</font><font
+  class="font8">”第七条：“中外合作者在合作期限内协商同意对合作企业合同作重大变更的，应当报审查批准机关批准……”第十条：“中外合作者的一方转让其在合作企业合同中的全部或者部分权利、义务的，必须经他方同意，并报审查批准机关批准。”<br>
+    《中华人民共和国外资企业法》第六条：“设立外资企业的申请，由国务院对外经济贸易主管部门或者国务院授权的机关审查批准……”第七条：“</font><font
+  class="font13">设立外资企业的申请经批准后，外国投资者应当在接到批准证书之日起三十天内向工商行政管理机关申请登记，领取营业执照。</font><font
+  class="font8">”　　第十条：“外资企业分立、合并或者其他重要事项变更，应当报审查批准机关批准，并向工商行政管理机关办理变更登记手续。”<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《中华人民共和国中外合资经营企业法实施条例》第六条：“在中国境内设立合营企业，必须经中华人民共和国对外贸易经济合作部（以下简称对外贸易经济合作部）审查批准。批准后，由对外贸易经济合作部发给批准证书。凡具备下列条件的，国务院授权省、自治区、直辖市人民政府或者国务院有关部门审批：……”<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《中华人民共和国中外合作经营企业法实施细则》第六条：“设立合作企业由对外贸易经济合作部或者国务院授权的部门和地方人民政府审查批准。设立合作企业属于下列情形的，由国务院授权的部门或者地方人民政府审查批准……”第八条：“……国务院授权的地方人民政府批准设立的合作企业，由有关地方人民政府颁发批准证书，并自批准之日起30天内将有关批准文件报送对外贸易经济合作部备案。</font><font
+  class="font13">批准设立的合作企业应当依法向工商行政管理机关申请登记，领取营业执照。</font><font class="font8">”第九条：“……</font><font
+  class="font13">申请人应当自收到批准证书之日起1个月内，按照国家有关规定，向工商行政管理机关办理登记手续。</font><font
+  class="font8">”<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《中华人民共和国外资企业法实施细则》第七条：“设立外资企业的申请，由中华人民共和国对外贸易经济合作部（以下简称对外贸易经济合作部）审查批准后，发给批准证书。设立外资企业的申请属于下列情形的，国务院授权省、自治区、直辖市和计划单列市、经济特区人民政府审查批准后，发给批准证书：（一）投资总额在国务院规定的投资审批权限以内的；　（二）不需要国家调拨原材料，不影响能源、交通运输、外贸出口配额等全国综合平衡的。　省、自治区、直辖市和计划单列市、经济特区人民政府在国务院授权范围内批准设立外资企业，应当在批准后15天内报对外贸易经济合作部备案。”第十二条：“</font><font
+  class="font13">设立外资企业的申请经审批机关批准后，外国投资者应当在收到批准证书之日起30天内向工商行政管理机关申请登记，领取营业执照</font><font
+  class="font8">。”<br>
+   
+  《国务院关于第六批取消和调整行政审批项目的决定》（国发〔2012〕52号）附件2《国务院决定调整的行政审批项目目录》（一）下放管理层级的行政审批项目第36至53项。</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=110 style='mso-height-source:userset;height:82.5pt'>
+  <td height=110 class=xl72 width=58 style='height:82.5pt;border-top:none;
+  width:44pt'>商<br>
+    务<br>
+    部</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>45</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>鲜茧收购资格认定</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>省级人民政府商务行政主管部门或茧丝绸生产行政主管部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《国务院对确需保留的行政审批项目设定行政许可的决定》（国务院令第412号）附件第185项。<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>国办转发国家纺织委《关于深化蚕茧流通体制改革的意见》：“二、鲜茧收购实行资格认定制度，……鲜茧收购资格认定的具体细则，由各省（自治区、直辖市）经贸委会同工商行政管理和质量技术监督等部门制定。省（自治区、直辖市）经贸委在征求同级工商行政管理、质量技术监督部门意见后，认定鲜茧收购经济单位的资格，负责发放鲜茧收购资格证书，并报国家经贸委备案。<font
+  class="font13">经营单位持鲜茧收购资格证书到当地工商行政管理部门办理登记注册并领取营业执照，</font><font
+  class="font8">在与农民签定的合同规定的地区范围内收购鲜茧。”<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;</span></font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <tr height=42 style='mso-height-source:userset;height:31.5pt'>
+  <td height=42 class=xl72 width=58 style='height:31.5pt;border-top:none;
+  width:44pt'>商<br>
+    务<br>
+    部</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>46</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>拍卖企业设立许可</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>省级商务主管部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp; </span>《中华人民共和国拍卖法》第十一条：“拍卖企业可以在设区的市设立。<font
+  class="font13">设立拍卖企业必须经所在地省、自治区、直辖市人民政府负责管理拍卖业的部门审核许可，并向工商行政管理部门申请登记，领取营业执照。</font><font
+  class="font8">”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=195 style='height:146.25pt'>
+  <td height=195 class=xl72 width=58 style='height:146.25pt;border-top:none;
+  width:44pt'>商<br>
+    务<br>
+    部</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>47</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>对外劳务合作经营资格核准</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>省级商务主管部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp; </span>《中华人民共和国对外贸易法》第十条
+  ：“从事国际服务贸易，应当遵守本法和其他有关法律、行政法规的规定。从事对外工程承包或者对外劳务合作的单位，应当具备相应的资质或者资格。具体办法由国务院规定。”<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《国务院对确需保留的行政审批项目设定行政许可的决定》（中华人民共和国国务院令第412号）附件第186项。<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《关于外派劳务人员出国审批手续和办理护照的暂行办法》（国办发〔1990〕71号）第三条：<font class="font13">组织对外派遣劳务人员的单位必须是经过经贸部批准，并经工商行政管理部门核发营业执照的具有对外承包工程和劳务合作经营权的公司。</font><font
+  class="font8"><br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《关于加强对外劳务合作归口管理有关问题的通知》（[1996]外经贸合发第285号）：一、任何部门、单位、企业（包括外商投资企业）</font><font
+  class="font13">未经外经贸部批准，未经工商行政管理部门办理登记注册，不得擅自经营对外劳务合作业务。</font><font
+  class="font8"><br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《国务院关于第五批取消和调整行政审批项目的决定》（国发〔2010〕21号）附件2《国务院决定下放管理层级的行政审批项目目录》第1项。</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <tr height=225 style='height:168.75pt'>
+  <td height=225 class=xl72 width=58 style='height:168.75pt;border-top:none;
+  width:44pt'>商<br>
+    务<br>
+    部</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>48</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>外国非企业经济组织在华设立常驻代表机构审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>省级商务主管部门（含广州市、沈阳市）</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《国务院对确需保留的行政审批项目设定行政许可的决定》（国务院令第412号）附件第189项。<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《国务院关于发布&lt;中华人民共和国国务院关于管理外国企业常驻代表机构的暂行规定&gt;的通知》（国发[1980]272号）第四条：“外国企业设立常驻代表机构的申请，分别由下列机关批准：一、贸易商、制造厂商、货运代理商，报请中华人民共和国对外贸易部批准；二、金融业、保险业，报请中国人民银行批准；三、海运业、海运代理商，报请中华人民共和国交通部批准；四、航空运输业，报请中国民用航空总局批准；五、其它行业，按照业务性质，报请中华人民共和国政府的主管委、部、局批准。”第五条：“<font
+  class="font13">外国企业设立常驻代表机构的申请获批准后，应当在批准之日起30天内</font><font class="font8">，</font><font
+  class="font13">持批准证件向中华人民共和国工商行政管理总局办理登记手续</font><font class="font8">。”<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《外国企业常驻代表机构登记管理条例》第二十三条：“法律、行政法规或者国务院规定设立代表机构须经批准的，外国企业应当自批准之日起90日内向登记机关申请设立登记，并提交有关批准文件。”第二十六条：“代表机构登记事项发生变更，外国企业应当向登记机关申请变更登记。”第二十七条：“变更登记事项的，应当自登记事项发生变更之日起60日内申请变更登记。”第三十三条：“……法律、行政法规或者国务院规定代表机构终止活动须经批准的，还应当提交有关批准文件。”<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《国务院关于第五批取消和调整行政审批项目的决定》（国发〔2010〕21号）附件2《国务院决定下放管理层级的行政审批项目目录》第3项。</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=150 style='height:112.5pt'>
+  <td height=150 class=xl72 width=58 style='height:112.5pt;border-top:none;
+  width:44pt'>人力资源和社会保障部</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>49</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>境外就业职业介绍机构资格认定</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>省级劳动和社会保障部</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《国务院对确需保留的行政审批项目设定行政许可的决定》（中华人民共和国国务院令第412号）附件第90项。<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《国务院关于加强出入境中介活动管理的通知》（国发〔2000〕25号）：“一、凡从事为出国定居、控亲、访友、继承财产、留学、就业及其他非公务活动提供信息服务、法律咨询和帮助申办签证及境外联络、安排等中介活动，必须报经所在省(自治区、直辖市)人民政府有关部门审核并报国务院有关部门审批，<font
+  class="font13">凭国务院有关部门颁发的经营许可证到工商行政管理部门办理注册登记。</font><font class="font8">”
+  “三、出入境中介机构的资格认定、审批和监督检查等工作，按照职责分工分别由公安部、劳动和社会保障部、教育部负责。”<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《国务院关于第五批取消和调整行政审批项目的决定》（国发 [2010]21号）附件2《国务院决定下放管理层级的行政审批项目目录》第2项。</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <tr height=75 style='height:56.25pt'>
+  <td height=75 class=xl72 width=58 style='height:56.25pt;border-top:none;
+  width:44pt'>人力<br>
+    资源<br>
+    和社<br>
+    会保<br>
+    障部</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>50</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>职业介绍机构资格认定</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>地方人民政府劳动保障行政主管部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《中华人民共和国就业促进法》第四十条：“设立职业中介机构应当具备下列条件： ……<span
+  style='mso-spacerun:yes'>&nbsp; </span><font class="font13">设立职业中介机构，应当依法办理行政许可。经许可的职业中介机构，应当向工商行政部门办理登记。
+  </font><font class="font8">未经依法许可和登记的机构，不得从事职业中介活动。”<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《国务院对确需保留的行政审批项目设定行政许可的决定》（国务院令第412号）附件第88项。</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=75 style='height:56.25pt'>
+  <td height=75 class=xl72 width=58 style='height:56.25pt;border-top:none;
+  width:44pt'>人力<br>
+    资源<br>
+    和社<br>
+    会保<br>
+    障部</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>51</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>设立中外合资（合作）职业介绍机构审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>省级人民政府劳动保障行政主管部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《国务院对确需保留的行政审批项目设定行政许可的决定》（国务院令第412号）附件第89项。<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《中华人民共和国就业促进法》第四十条：“设立职业中介机构应当具备下列条件： ……<span
+  style='mso-spacerun:yes'>&nbsp; </span><font class="font13">设立职业中介机构，应当依法办理行政许可。经许可的职业中介机构，应当向工商行政部门办理登记。</font><font
+  class="font8"> 未经依法许可和登记的机构，不得从事职业中介活动。”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=75 style='height:56.25pt'>
+  <td height=75 class=xl72 width=58 style='height:56.25pt;border-top:none;
+  width:44pt'>人<br>
+    民<br>
+    银<br>
+    行</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>52</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>设立经营个人征信业务的征信机构</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>中国人民银行<br>
+    及其派出机构</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp; </span>《征信业管理条例》第七条：“
+  申请设立经营个人征信业务的征信机构，应当向国务院征信业监督管理部门提交申请书和证明其符合本条例第六条规定条件的材料。
+  国务院征信业监督管理部门应当依法进行审查，自受理申请之日起60日内作出批准或者不予批准的决定。决定批准的，颁发个人征信业务经营许可证；不予批准的，应当书面说明理由。<font
+  class="font13">经批准设立的经营个人征信业务的征信机构，凭个人征信业务经营许可证向公司登记机关办理登记。”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=75 style='height:56.25pt'>
+  <td height=75 class=xl76 style='height:56.25pt;border-top:none'>其他</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>53</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>城镇集体企业设立、合并、分立、停业、迁移或者主要登记事项变更审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>省级人民政府规定的审批部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《中华人民共和国城镇集体所有制企业条例》(国务院令第88号发布)第十四条：<font class="font13">“设立集体企业应经省、自治区、直辖市人民政府规定的审批部门批准，并依法经工商行政管理机关核准登记</font><font
+  class="font8">……。”第十五条：“集体企业的合并、分立、停业、迁移或者主要登记事项的变更，报经原审批部门批准，依法向原登记机关办理变更登记。”（根据中编办发[2011]48号，该项许可的实施机关请工业和信息化部研究确认。）</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=135 style='height:101.25pt'>
+  <td height=135 class=xl72 width=58 style='height:101.25pt;border-top:none;
+  width:44pt'>农<br>
+    业<br>
+    部</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>54</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>农作物种子、草种、食用菌菌种经营许可证核发</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>农业部或县级以上地方农业行政主管部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp; </span>《中华人民共和国种子法》第二十六条：“种子经营实行许可制度。<font
+  class="font13">种子经营者必须先取得种子经营许可证后，方可凭种子经营许可证向工商行政管理机关申请办理或者变更营业执照。 </font><font
+  class="font8">种子经营许可证实行分级审批发放制度。种子经营许可证由种子经营者所在地县级以上地方人民政府农业、林业行政主管部门核发。主要农作物杂交种子及其亲本种子、常规种原种种子、主要林木良种的种子经营许可证，由种子经营者所在地县级人民政府农业、林业行政主管部门审核，省、自治区、直辖市人民政府农业、林业行政主管部门核发。实行选育、生产、经营相结合并达到国务院农业、林业行政主管部门规定的注册资本金额的种子公司和从事种子进出口业务的公司的种子经营许可证，由省、自治区、直辖市人民政府农业、林业行政主管部门审核，国务院农业、林业行政主管部门核发。”
+  第七十六条：“草种、食用菌菌种的种质资源管理和选育、生产、经营、使用、管理等活动，参照本法执行。”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <tr height=135 style='height:101.25pt'>
+  <td height=135 class=xl72 width=58 style='height:101.25pt;border-top:none;
+  width:44pt'>农<br>
+    业<br>
+    部</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>55</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>设立兽药生产企业审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>省级人民政府兽医行政管理部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《兽药管理条例》（国务院令第404号）第十一条：“设立兽药生产企业，应当符合国家兽药行业发展规划和产业政策，并具备下列条件：……符合前款规定条件的，申请人方可向省、自治区、直辖市人民政府兽医行政管理部门提出申请，并附具符合前款规定条件的证明材料；省、自治区、直辖市人民政府兽医行政管理部门应当自收到申请之日起20个工作日内，将审核意见和有关材料报送国务院兽医行政管理部门。国务院兽医行政管理部门，应当自收到审核意见和有关材料之日起40个工作日内完成审查。经审查合格的，发给兽药生产许可证；不合格的，应当书面通知申请人。<font
+  class="font13">申请人凭兽药生产许可证办理工商登记手续。”第十二条：“兽药生产许可证应当载明生产范围、生产地点、有效期和法定代表人姓名、住址等事项。兽药生产许可证有效期为5年。有效期届满，需要继续生产兽药的，应当在许可证有效期届满前6个月到原发证机关申请换发兽药生产许可证。”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=151 style='mso-height-source:userset;height:113.25pt'>
+  <td height=151 class=xl72 width=58 style='height:113.25pt;border-top:none;
+  width:44pt'>农<br>
+    业<br>
+    部</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>56</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>兽药、兽用生物制品经营许可证核发</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>县级以上地方人民政府兽医行政管理部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《兽药管理条例》（国务院令第404号）第二十二条：“经营兽药的企业，应当具备下列条件：……符合前款规定条件的，申请人方可向市、县人民政府兽医行政管理部门提出申请，并附具符合前款规定条件的证明材料；经营兽用生物制品的，应当向省、自治区、直辖市人民政府兽医行政管理部门提出申请，并附具符合前款规定条件的证明材料。县级以上地方人民政府兽医行政管理部门，应当自收到申请之日起30个工作日内完成审查。审查合格的，发给兽药经营许可证；不合格的，应当书面通知申请人。<font
+  class="font13">申请人凭兽药经营许可证办理工商登记手续。</font><font class="font8">”第二十三条：“兽药经营许可证应当载明经营范围、经营地点、有效期和法定代表人姓名、住址等事项。兽药经营许可证有效期为５年。有效期届满，需要继续经营兽药的，应当在许可证有效期届满前６个月到原发证机关申请换发兽药经营许可证。”第二十四条：“</font><font
+  class="font13">兽药经营企业变更经营范围、经营地点的，应当依照本条例第二十二条的规定申请换发兽药经营许可证，申请人凭换发的兽药经营许可证办理工商变更登记手续；</font><font
+  class="font8">变更企业名称、法定代表人的，应当在办理工商变更登记手续后１５个工作日内，到原发证机关申请换发兽药经营许可证。”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <tr height=195 style='height:146.25pt'>
+  <td height=195 class=xl72 width=58 style='height:146.25pt;border-top:none;
+  width:44pt'>农<br>
+    业<br>
+    部</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>57</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>设立饲料添加剂、添加剂预混合饲料生产企业审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>农业部或省级人民政府饲料管理部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp; </span>《饲料和饲料添加剂管理条例》（国务院令第266号）第十五条：“<font
+  class="font13">申请设立饲料添加剂、添加剂预混合饲料生产企业，</font><font class="font8">申请人应当向省、自治区、直辖市人民政府饲料管理部门提出申请。省、自治区、直辖市人民政府饲料管理部门应当自受理申请之日起20个工作日内进行书面审查和现场审核，并将相关资料和审查、审核意见上报国务院农业行政主管部门。国务院农业行政主管部门收到资料和审查、审核意见后应当组织评审，根据评审结果在10个工作日内作出是否核发生产许可证的决定，并将决定抄送省、自治区、直辖市人民政府饲料管理部门。申请设立其他饲料生产企业，申请人应当向省、自治区、直辖市人民政府饲料管理部门提出申请。省、自治区、直辖市人民政府饲料管理部门应当自受理申请之日起10个工作日内进行书面审查；审查合格的，组织进行现场审核，并根据审核结果在10个工作日内作出是否核发生产许可证的决定。</font><font
+  class="font13">申请人凭生产许可证办理工商登记手续。</font><font class="font8">生产许可证有效期为5年。生产许可证有效期满需要继续生产饲料、饲料添加剂的，应当在有效期届满6个月前申请续展。”第十六条：“饲料添加剂、添加剂预混合饲料生产企业取得国务院农业行政主管部门核发的生产许可证后，由省、自治区、直辖市人民政府饲料管理部门按照国务院农业行政主管部门的规定，核发相应的产品批准文号。”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=270 style='height:202.5pt'>
+  <td height=270 class=xl72 width=58 style='height:202.5pt;border-top:none;
+  width:44pt'>农<br>
+    业<br>
+    部</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>58</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>种畜禽、蜂、蚕种生产经营审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>农业部或县级以上地方人民政府畜牧兽医行政主管部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《中华人民共和国畜牧法》第二条：“在中华人民共和国境内从事畜禽的遗传资源保护利用、繁育、饲养、经营、运输等活动，适用本法。本法所称畜禽，是指列入依照本法第十一条规定公布的畜禽遗传资源目录的畜禽。”第二十二条：“<font
+  class="font13">从事种畜禽生产经营或者生产商品代仔畜、雏禽</font><font class="font8">的单位、个人，</font><font
+  class="font13">应当取得种畜禽生产经营许可证</font><font class="font8">。</font><font
+  class="font13">申请人持种畜禽生产经营许可证依法办理工商登记，取得营业执照后，方可从事生产经营活动。</font><font
+  class="font8">申请取得种畜禽生产经营许可证，应当具备下列条件：……”第二十三条：“申请取得生产家畜卵子、冷冻精液、胚胎等遗传材料的生产经营许可证，除应当符合本法第二十二条第二款规定的条件外，还应当具备下列条件：……”第二十四条：“申请取得生产家畜卵子、冷冻精液、胚胎等遗传材料的生产经营许可证，应当向省级人民政府畜牧兽医行政主管部门提出申请。受理申请的畜牧兽医行政主管部门应当自收到申请之日起三十个工作日内完成审核，并报国务院畜牧兽医行政主管部门审批；国务院畜牧兽医行政主管部门应当自收到申请之日起六十个工作日内依法决定是否发给生产经营许可证。其他种畜禽的生产经营许可证由县级以上地方人民政府畜牧兽医行政主管部门审核发放，具体审核发放办法由省级人民政府规定。种畜禽生产经营许可证样式由国务院畜牧兽医行政主管部门制定，许可证有效期为三年。……”第三十四条：“蚕种的资源保护、新品种选育、生产经营和推广适用本法有关规定，具体管理办法由国务院农业行政主管部门制定。
+  ”<span style='mso-spacerun:yes'>&nbsp; </span><br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《种畜禽管理条例》（国务院令第153号）第十五条：“</font><font class="font13">生产经营种畜禽的单位和个人，必须向县级以上人民政府畜牧行政主管部门申领《种畜禽生产经营许可证》；工商行政管理机关凭此证依法办理登记注册。</font><font
+  class="font8">生产经营畜禽冷冻精液、胚胎或者其他遗传材料的，由国务院畜牧行政主管部门或者省、自治区、直辖市人民政府畜牧行政主管部门核发《种畜禽生产经营许可证》。<span
+  style='mso-spacerun:yes'>&nbsp;</span></font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <tr height=109 style='mso-height-source:userset;height:81.75pt'>
+  <td height=109 class=xl72 width=58 style='height:81.75pt;border-top:none;
+  width:44pt'>农<br>
+    业<br>
+    部</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>59</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>农业机械维修技术合格证书核发</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>县级人民政府农业机械化主管部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp; </span>《农业机械安全监督管理条例》第十八条：“<font
+  class="font13">从事农业机械维修经营</font><font class="font8">，</font><font
+  class="font13">应当</font><font class="font8">有必要的维修场地，有必要的维修设施、设备和检测仪器，有相应的维修技术人员，有安全防护和环境保护措施，</font><font
+  class="font13">取得相应的维修技术合格证书，并依法办理工商登记手续。</font><font class="font8">申请农业机械维修技术合格证书，应当向当地县级人民政府农业机械化主管部门提交下列材料：……农业机械化主管部门应当自收到申请之日起20个工作日内，对符合条件的，核发维修技术合格证书；对不符合条件的，书面通知申请人并说明理由。维修技术合格证书有效期为3年；有效期满需要继续从事农业机械维修的，应当在有效期满前申请续展。”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <tr height=107 style='height:80.25pt'>
+  <td height=107 class=xl72 width=58 style='height:80.25pt;border-top:none;
+  width:44pt'>农<br>
+    业<br>
+    部</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>60</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>从事动物诊疗活动机构设立许可</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>县级以上地方人民政府兽医主管部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp; </span>《中华人民共和国动物防疫法》<font
+  class="font14">&nbsp;</font><font class="font8">第五十一条：“</font><font
+  class="font13">设立从事动物诊疗活动的机构</font><font class="font8">，</font><font
+  class="font13">应当向县级以上地方人民政府兽医主管部门申请动物诊疗许可证。</font><font class="font8">受理申请的兽医主管部门应当依照本法和《中华人民共和国行政许可法》的规定进行审查。经审查合格的，发给动物诊疗许可证；不合格的，应当通知申请人并说明理由。</font><font
+  class="font13">申请人凭动物诊疗许可证向工商行政管理部门申请办理登记注册手续，取得营业执照后，方可从事动物诊疗活动。”</font><font
+  class="font8">第五十二条：“动物诊疗许可证应当载明诊疗机构名称、诊疗活动范围、从业地点和法定代表人（负责人）等事项。</font><font
+  class="font14">&nbsp;&nbsp;</font><font class="font13">动物诊疗许可证载明事项变更的，应当申请变更或者换发动物诊疗许可证，并依法办理工商变更登记手续。”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=165 style='mso-height-source:userset;height:123.75pt'>
+  <td height=165 class=xl72 width=58 style='height:123.75pt;border-top:none;
+  width:44pt'>农<br>
+    业<br>
+    部</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>61</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>拖拉机驾驶培训学校、驾驶培训班资格认定</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>省级人民政府农业（农业机械）主管部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《中华人民共和国道路交通安全法》第二十条：“机动车的驾驶培训实行社会化，由交通主管部门对驾驶培训班实行资格管理，其中<font
+  class="font13">专门的拖拉机驾驶培训学校、驾驶培训班由农业（农业机械）主管部门实行资格管理。</font><font
+  class="font8">” <br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《中华人民共和国道路运输条例》（国务院令第406号）第四十条：“申请从事道路运输站(场)经营、机动车维修经营和机动车驾驶员培训业务的，应当向所在地县级道路运输管理机构提出申请，并分别附送符合本条例第三十七条、第三十八条、第三十九条规定条件的相关材料。县级道路运输管理机构应当自受理申请之日起15日内审查完毕，作出许可或者不予许可的决定，并书面通知申请人。道路运输站(场)经营者、机动车维修经营者和</font><font
+  class="font13">机动车驾驶员培训机构</font><font class="font8">，</font><font
+  class="font13">应当持许可证明依法向工商行政管理机关办理有关登记手续</font><font class="font8">。”<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp; </span>农业部《拖拉机驾驶培训管理办法》 第五条“
+  拖拉机驾驶培训机构应当具备与其培训活动相适应的场地、设备、人员、规章制度等条件，取得省级人民政府农机主管部门颁发的《中华人民共和国拖拉机驾驶培训许可证》，方可从事相关培训活动。”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <tr height=99 style='mso-height-source:userset;height:74.25pt'>
+  <td height=99 class=xl72 width=58 style='height:74.25pt;border-top:none;
+  width:44pt'>农<br>
+    业<br>
+    部</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>62</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>兴办动物饲养场（养殖小区）和隔离场所、动物屠宰加工场所、动物和动物产品无害化处理场所审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>县级以上地方人民政府兽医主管部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp; </span>《中华人民共和国动物防疫法》<font
+  class="font14">&nbsp;</font><font class="font8">第二十条：“</font><font
+  class="font13">兴办动物饲养场（养殖小区）和隔离场所，动物屠宰加工场所，以及动物和动物产品无害化处理场所，</font><font
+  class="font8">应当向县级以上地方人民政府兽医主管部门提出申请，并附具相关材料。受理申请的兽医主管部门应当依照本法和《中华人民共和国行政许可法》的规定进行审查。经审查合格的，发给动物防疫条件合格证；不合格的，应当通知申请人并说明理由。</font><font
+  class="font13">需要办理工商登记的，申请人凭动物防疫条件合格证向工商行政管理部门申请办理登记注册手续。</font></td>
+  <td class=xl73 width=61 style='border-top:none;border-left:none;width:46pt'>项目<br>
+    （场所）</td>
+ </tr>
+ <tr height=55 style='mso-height-source:userset;height:41.25pt'>
+  <td height=55 class=xl72 width=58 style='height:41.25pt;border-top:none;
+  width:44pt'>民<br>
+    航<br>
+    总<br>
+    局</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>63</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>公共航空运输企业经营许可</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>中国民航局</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《中华人民共和国民用航空法》第九十二条：“设立公共航空运输企业，应当向国务院民用航空主管部门申请领取经营许可证，并依法办理工商登记；<font
+  class="font13">未取得经营许可证的，工商行政管理部门不得办理工商登记。”<span
+  style='mso-spacerun:yes'>&nbsp;</span></font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=69 style='mso-height-source:userset;height:51.75pt'>
+  <td height=69 class=xl72 width=58 style='height:51.75pt;border-top:none;
+  width:44pt'>民<br>
+    航<br>
+    总<br>
+    局</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>64</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>通用航空企业经营许可</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>民航地区管理局</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《中华人民共和国民用航空法》第一百四十七条：“……从事经营性通用航空的，应当向国务院民用航空主管部门申请领取通用航空经营许可证，并依法办理工商登记；<font
+  class="font13">未取得经营许可证的，工商行政管理部门不得办理工商登记。” </font><font class="font8"><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>《国务院关于第六批决定取消和调整行政审批项目的决定》(国发[2012]52号)附件2《国务院决定调整的行政审批项目目录》(一)下放管理层级的行政审批项目第l
+  05项。</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <tr height=183 style='mso-height-source:userset;height:137.25pt'>
+  <td height=183 class=xl72 width=58 style='height:137.25pt;border-top:none;
+  width:44pt'>民<br>
+    航<br>
+    总<br>
+    局</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>65</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>外航驻华常设机构设立审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>中国民航局</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《国务院关于发布&lt;中华人民共和国国务院关于管理外国企业常驻代表机构的暂行规定&gt;的通知》(国发[1980]272号)第二条：“外国企业确有需要在中国设立常驻代表机构的，必须提出申请，经过批准，办理登记手续。”第四条：“外国企业设立常驻代表机构的申请，分别由下列机关批准：……四、航空运输业，报请中国民用航空总局批准。”第五条：<font
+  class="font13">“外国企业设立常驻代表机构的申请获批准后，应当在批准之日起30天内，持批准证件向中华人民共和国工商行政管理总局办理登记手续。”
+  </font><font class="font8"><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>《外国企业常驻代表机构登记管理条例》(国务院令第584号)第二十三条：</font><font
+  class="font13">法律、行政法规或者国务院规定设立代表机构须经批准的，外国企业应当自批准之日起90日内向登记机关申请设立登记，并提交有关批准文件。</font><font
+  class="font8">第二十六条：代表机构登记事项发生变更，外国企业应当向登记机关申请变更登记。第二十七条：变更登记事项依照法律、行政法规或者国务院规定在登记前须经批准的，应当自批准之日起30日内申请变更登记。第三十三条：……法律、行政法规或者国务院规定代表机构终止活动须经批准的，还应当提交。</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=137 style='mso-height-source:userset;height:102.75pt'>
+  <td height=137 class=xl72 width=58 style='height:102.75pt;border-top:none;
+  width:44pt'>教育部</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>66</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>自费出国留学中介服务机构资格认定</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>省级人民政府教育行政部门</td>
+  <td class=xl77 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《国务院对确需保留的行政审批项目设定行政许可的决定》（中华人民共和国国务院令第412号）附件第24项。<span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span>《国务院关于第六批取消和调整行政审批项目的决定》（国发〔2012〕52号）附件2《国务院决定调整的行政审批项目目录》（一）下放管理层级的行政审批项目第4项。<span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span>《国务院关于加强出入境中介活动管理的通知》（国发〔2000〕25号）：“一、凡从事为出国定居、控亲、访友、继承财产、留学、就业及其他非公务活动提供信息服务、法律咨询和帮助申办签证及境外联络、安排等中介活动，必须报经所在省(自治区、直辖市)人民政府有关部门审核并报国务院有关部门审批，<font
+  class="font13">凭国务院有关部门颁发的经营许可证到工商行政管理部门办理注册登记。</font><font class="font8">”
+  “三、出入境中介机构的资格认定、审批和监督检查等工作，按照职责分工分别由公安部、劳动和社会保障部、教育部负责。”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <tr height=83 style='mso-height-source:userset;height:62.25pt'>
+  <td height=83 class=xl72 width=58 style='height:62.25pt;border-top:none;
+  width:44pt'>交<br>
+    通<br>
+    运<br>
+    输<br>
+    部</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>67</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>从事道路运输站（场）经营业务审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>县级道路运输管理机构</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《中华人民共和国道路运输条例》（国务院局令第４０６号）第四十条：“申请从事道路运输站(场)经营、机动车维修经营和机动车驾驶员培训业务的，应当向所在地县级道路运输管理机构提出申请，并分别附送符合本条例第三十七条、第三十八条、第三十九条规定条件的相关材料。县级道路运输管理机构应当自受理申请之日起15日内审查完毕，作出许可或者不予许可的决定，并书面通知申请人。<font
+  class="font13">道路运输站(场)经营者、机动车维修经营者和机动车驾驶员培训机构，应当持许可证明依法向工商行政管理机关办理有关登记手续。”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <tr height=83 style='mso-height-source:userset;height:62.25pt'>
+  <td height=83 class=xl72 width=58 style='height:62.25pt;border-top:none;
+  width:44pt'>交<br>
+    通<br>
+    运<br>
+    输<br>
+    部</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>68</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>从事机动车维修经营业务审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>县级道路运输管理机构</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《中华人民共和国道路运输条例》（国务院局令第４０６号）第四十条：“申请从事道路运输站(场)经营、机动车维修经营和机动车驾驶员培训业务的，应当向所在地县级道路运输管理机构提出申请，并分别附送符合本条例第三十七条、第三十八条、第三十九条规定条件的相关材料。县级道路运输管理机构应当自受理申请之日起15日内审查完毕，作出许可或者不予许可的决定，并书面通知申请人。<font
+  class="font13">道路运输站(场)经营者、机动车维修经营者和机动车驾驶员培训机构，应当持许可证明依法向工商行政管理机关办理有关登记手续。”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <tr height=83 style='mso-height-source:userset;height:62.25pt'>
+  <td height=83 class=xl72 width=58 style='height:62.25pt;border-top:none;
+  width:44pt'>交<br>
+    通<br>
+    运<br>
+    输<br>
+    部</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>69</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>从事机动车驾驶员培训业务审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>县级道路运输管理机构</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《中华人民共和国道路运输条例》（国务院局令第４０６号）第四十条：“申请从事道路运输站(场)经营、机动车维修经营和机动车驾驶员培训业务的，应当向所在地县级道路运输管理机构提出申请，并分别附送符合本条例第三十七条、第三十八条、第三十九条规定条件的相关材料。县级道路运输管理机构应当自受理申请之日起15日内审查完毕，作出许可或者不予许可的决定，并书面通知申请人。<font
+  class="font13">道路运输站(场)经营者、机动车维修经营者和机动车驾驶员培训机构，应当持许可证明依法向工商行政管理机关办理有关登记手续。”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <tr height=69 style='mso-height-source:userset;height:51.75pt'>
+  <td height=69 class=xl72 width=58 style='height:51.75pt;border-top:none;
+  width:44pt'>交<br>
+    通<br>
+    运<br>
+    输<br>
+    部</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>70</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>从事港口经营许可</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>交通运输部</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp; </span>《中华人民共和国港口法》第二十二条：“<font
+  class="font13">从事港口经营，应当向港口行政管理部门书面申请取得港口经营许可，并依法办理工商登记。</font><font
+  class="font8">
+  港口行政管理部门实施港口经营许可，应当遵循公开、公正、公平的原则。港口经营包括码头和其他港口设施的经营，港口旅客运输服务经营，在港区内从事货物的装卸、驳运、仓储的经营和港口拖轮经营等。”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <tr height=151 style='mso-height-source:userset;height:113.25pt'>
+  <td height=151 class=xl72 width=58 style='height:113.25pt;border-top:none;
+  width:44pt'>交<br>
+    通<br>
+    运<br>
+    输<br>
+    部</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>71</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>国际海上运输业务及海运辅助业务审批（含国际船舶运输与班轮运输、无船承运、国际船舶代理业务）</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>交通运输部</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《中华人民共和国国际海运条例》（国务院令第335号）第六条：“经营国际船舶运输业务，应当向国务院交通主管部门提出申请，并附送符合本条例第五条规定条件的相关材料。国务院交通主管部门应当自受理申请之日起３０日内审核完毕，作出许可或者不予许可的决定。予以许可的，向申请人颁发《国际船舶运输经营许可证》；不予许可的，应当书面通知申请人并告知理由。”第七条：“经营无船承运业务，应当向国务院交通主管部门办理提单登记，并交纳保证金。”第十条：“经营国际船舶代理业务，应当向国务院交通主管部门提出申请，并附送符合本条例第九条规定条件的相关材料。国务院交通主管部门应当自收到申请之日起１５日内审核完毕。申请材料真实、齐备的，予以登记，并通知申请人；申请材料不真实或者不齐备的，不予登记，书面通知申请人并告知理由。”第十三条：“<font
+  class="font13">国际船舶运输经营者、无船承运业务经营者、国际船舶代理经营者和国际船舶管理经营者经依照本条例许可、登记后，应当持有关证明文件，依法向企业登记机关办理企业登记手续。”</font><font
+  class="font8">第十六条：“国际船舶运输经营者经营进出中国港口的国际班轮运输业务，应当依照本条例的规定取得国际班轮运输经营资格。”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <tr height=122 style='mso-height-source:userset;height:91.5pt'>
+  <td height=122 class=xl72 width=58 style='height:91.5pt;border-top:none;
+  width:44pt'>交<br>
+    通<br>
+    运<br>
+    输<br>
+    部</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>72</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>国际船舶管理业务经营审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>省级人民政府交通主管部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《中华人民共和国国际海运条例》（国务院令第335号）第十二条：“经营国际船舶管理业务，应当向拟经营业务所在地的省、自治区、直辖市人民政府交通主管部门提出申请，并附送符合本条例第十一条规定条件的相关材料。省、自治区、直辖市人民政府交通主管部门应当自收到申请之日起15日内审核完毕。申请材料真实、齐备的，予以登记，并通知申请人；申请材料不真实或者不齐备的，不予登记，书面通知申请人并告知理由。
+  ” 第十三条：“<font class="font13">国际船舶运输经营者、无船承运业务经营者、国际船舶代理经营者和国际船舶管理经营者经依照本条例许可、登记后，应当持有关证明文件，依法向企业登记机关办理企业登记手续。</font><font
+  class="font8">”第十六条：“国际船舶运输经营者经营进出中国港口的国际班轮运输业务，应当依照本条例的规定取得国际班轮运输经营资格。”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <tr height=85 style='mso-height-source:userset;height:63.75pt'>
+  <td height=85 class=xl72 width=58 style='height:63.75pt;border-top:none;
+  width:44pt'>交<br>
+    通<br>
+    运<br>
+    输<br>
+    部</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>73</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>从事国际道路运输审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>省级人民政府道路运输管理机构</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp; </span>《中华人民共和国道路运输条例》（国务院令第406号）
+  第五十条：“申请从事国际道路运输的，应当向省、自治区、直辖市道路运输管理机构提出申请并提交符合本条例第四十九条规定条件的材料。省、自治区、直辖市道路运输管理机构应当自受理申请之日起20日内审查完毕，做出批准或者不予批准的决定。予以批准的，应当向国务院交通主管部门备案；不予批准的，应当向当事人说明里由。<font
+  class="font13">国际道路运输经营者应当持批准文件依法向有关部门办理相关手续。</font><font class="font8">”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <tr height=192 style='mso-height-source:userset;height:144.0pt'>
+  <td height=192 class=xl72 width=58 style='height:144.0pt;border-top:none;
+  width:44pt'>交<br>
+    通<br>
+    运<br>
+    输<br>
+    部</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>74</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>从事道路客、货运输经营许可</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>县级以上地方人民政府道路运输管理机构</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp; </span>《中华人民共和国道路运输条例》（国务院令第406号）<span
+  style='mso-spacerun:yes'>&nbsp;
+  </span>第十条：“申请从事客运经营的，应当按照下列规定提出申请并提交符合本条例第八条规定条件的相关材料：(一)从事县级行政区域内客运经营的，向县级道路运输管理机构提出申请；(二)从事省、自治区、直辖市行政区域内跨2个县级以上行政区域客运经营的，向其共同的上一级道路运输管理机构提出申请；(三)从事跨省、自治区、直辖市行政区域客运经营的，向所在地的省、自治区、直辖市道路运输管理机构提出申请。依照前款规定收到申请的道路运输管理机构，应当自受理申请之日起20日内审查完毕，作出许可或者不予许可的决定。予以许可的，向申请人颁发道路运输经营许可证，并向申请人投入运输的车辆配发车辆营运证……<font
+  class="font13">客运经营者应当持道路运输经营许可证依法向工商行政管理机关办理有关登记手续。</font><font class="font8">”第二十五条：“申请从事货运经营的，应当按照下列规定提出申请并分别提交符合本条例第二十二条、第二十四条规定条件的相关材料：(一)从事危险货物运输经营以外的货运经营的，向县级道路运输管理机构提出申请；(二)从事危险货物运输经营的，向设区的市级道路运输管理机构提出申请。依照前款规定收到申请的道路运输管理机构，应当自受理申请之日起20日内审查完毕，作出许可或者不予许可的决定。予以许可的，向申请人颁发道路运输经营许可证，并向申请人投入运输的车辆配发车辆营运证…….</font><font
+  class="font13">货运经营者应当持道路运输经营许可证依法向工商行政管理机关办理有关登记手续。”<span
+  style='mso-spacerun:yes'>&nbsp;</span></font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <tr height=165 style='mso-height-source:userset;height:123.75pt'>
+  <td height=165 class=xl72 width=58 style='height:123.75pt;border-top:none;
+  width:44pt'>交<br>
+    通<br>
+    运<br>
+    输<br>
+    部</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>75</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>国内水路运输、水路运输服务经营审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>交通运输部或流域管理机构（长江、珠江干线水路运输经营审批第六批下放至流域管理机构）</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《中华人民共和国水路运输管理条例》（国务院令第544号）第七条：“未经中华人民共和国交通部准许，外资企业、中外合资经营企业、中外合作经营企业不得经营中华人民共和国沿海、江河、湖泊及其他通航水域的水路运输。”第八条：“设立水路运输企业、水路运输服务企业以及水路运输企业以外的单位和个人从事营业性运输，由交通主管部门根据本条例的有关规定和社会运力运量综合平衡情况审查批准。审批办法由交通部规定。对水路运输行业管理影响较大的非营业性船舶运输的审批办法，由交通部会同有关部门另行规定。”第十四条：“<font
+  class="font13">取得运输许可证和运输服务许可证的单位和个人，凭证向当地工商行政管理机关申请营业登记，经核准领取营业执照后，方可开业。 </font><font
+  class="font8">” <br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《国务院关于第六批取消和调整行政审批项目的决定》（国发[2012]52号）附件1《国务院决定取消的行政审批项目目录》第32项 <br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《国务院关于第六批取消和调整行政审批项目的决定》（国发[2012]52号）附件2《国务院决定调整的行政审批项目目录》（一）下放管理层级的行政审批项目第23项。《国务院关于第六批取消和调整行政审批项目的决定》取消“国内水运货运代理、船舶代理审批”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=106 style='mso-height-source:userset;height:79.5pt'>
+  <td height=106 class=xl72 width=58 style='height:79.5pt;border-top:none;
+  width:44pt'>环<br>
+    境<br>
+    保<br>
+    护<br>
+    部</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>76</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>危险废物经营许可</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>县级以上人民政府环境保护行政主管部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《中华人民共和国固体废物污染环境防治法》第五十七条：“从事收集、贮存、处置危险废物经营活动的单位，必须向县级以上人民政府环境保护行政主管部门申请领取经营许可证；从事利用危险废物经营活动的单位，必须向国务院环境保护行政主管部门或者省、自治区、直辖市人民政府环境保护行政主管部门申请领取经营许可证，具体管理办法由国务院规定。禁止无经营许可证或者不按照经营许可证规定从事危险废物收集、贮存、利用、处置的经营活动。禁止将危险废物提供或者委托给无经营许可证的单位从事收集、贮存、利用、处置的经营活动。”<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《危险废物经营许可证管理办法》（国务院令第408号）第七条
+  ：“国家对危险废物经营许可证实行分级审批颁发。下列单位的危险废物经营许可证，由国务院环境保护主管部门审批颁发：
+  （一）年焚烧1万吨以上危险废物的；（二）处置含多氯联苯、汞等对环境和人体健康威胁极大的危险废物的； （三）利用列入国家危险废物处置设施建设规划的综合性集中处置设施处置危险废物的。医疗废物集中处置单位的危险废物经营许可证，由医疗废物集中处置设施所在地设区的市级人民政府环境保护主管部门审批颁发。危险废物收集经营许可证，由县级人民政府环境保护主管部门审批颁发。本条第二款、第三款、第四款规定之外的危险废物经营许可证，由省、自治区、直辖市人民政府环境保护主管部门审批颁发。”第九条第二款：“<font
+  class="font13">申请单位凭危险废物经营许可证向工商管理部门办理登记注册手续。</font><font class="font8">”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <tr height=69 style='mso-height-source:userset;height:51.75pt'>
+  <td height=69 class=xl72 width=58 style='height:51.75pt;border-top:none;
+  width:44pt'>环<br>
+    境<br>
+    保<br>
+    护<br>
+    部</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>77</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>废弃电器电子产品回收处理许可</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>设区的市级人民政府环境保护主管部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《废弃电器电子产品回收处理管理条例》（国务院令第551号）第六条：“国家对废弃电器电子产品处理实行资格许可制度。设区的市级人民政府环境保护主管部门审批废弃电器电子产品处理企业（以下简称处理企业）资格。”第二十二条：“<font
+  class="font13">取得废弃电器电子产品处理资格，依照《中华人民共和国公司登记管理条例》等规定办理登记并在其经营范围中注明废弃电器电子产品处理的企业，方可从事废弃电器电子产品处理活动。”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <tr height=96 style='mso-height-source:userset;height:72.0pt'>
+  <td height=96 class=xl76 style='height:72.0pt;border-top:none'>国务院</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>78</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>除保险、信贷、黄金等金融产品交易所以外的其它交易所</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'><br>
+    省人民政府</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《国务院关于清理整顿各类交易场所切实防范金融风险的决定》（国发〔2011〕38号）三、“除依法经国务院或国务院期货监管机构批准设立从事期货交易的交易场所外，任何单位一律不得以集中竞价、电子撮合、匿名交易、做市商等集中交易方式进行标准化合约交易。
+  从事保险、信贷、黄金等金融产品交易的交易场所，必须经国务院相关金融管理部门批准设立。
+  为规范交易场所名称，凡使用“交易所”字样的交易场所，除经国务院或国务院金融管理部门批准的外，必须报省级人民政府批准；省级人民政府批准前，应征求联席会议意见。<font
+  class="font13">未按上述规定批准设立或违反上述规定在名称中使用“交易所”字样的交易场所，工商部门不得为其办理工商登记</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=55 style='mso-height-source:userset;height:41.25pt'>
+  <td height=55 class=xl72 width=58 style='height:41.25pt;border-top:none;
+  width:44pt'>国家<br>
+    中医<br>
+    药管<br>
+    理局</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>79</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>中医医疗机构设置审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>县级以上地方人民政府中医药行政管理部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>《医疗机构管理条例》(国务院令第149号)第九条：<font
+  class="font13">“单位或者个人设置医疗机构，必须经县级以上地方人民政府卫生行政部门审查批准，并取得设置医疗机构批准书，方可向有关部门办理其他手续。”</font><font
+  class="font8">第十二条：“县级以上地方人民政府卫生行政部门应当自受理设置申请之日起30日内，作出批准或者不批准的书面答复；批准设置的，发给设置医疗机构批准书。”<span
+  style='mso-spacerun:yes'>&nbsp;</span></font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=69 style='mso-height-source:userset;height:51.75pt'>
+  <td height=69 class=xl72 width=58 style='height:51.75pt;border-top:none;
+  width:44pt'>国家<br>
+    食品<br>
+    药品<br>
+    监管<br>
+    局</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>80</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>第二、三类医疗器械生产许可</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>设区的市级人民政府食品药品监督管理部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《医疗器械监督管理条例》(国务院令第276号)第二十条：“开办第二类、第三类医疗器械生产企业，应当经省、自治区、直辖市人民政府药品监督管理部门审查批准，并发给((医疗器械生产企业许可证》。<font
+  class="font13">无《医疗器械生产企业许可证》的，工商行政管理部门不得发给营业执照。”<span
+  style='mso-spacerun:yes'>&nbsp;</span></font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <tr height=96 style='mso-height-source:userset;height:72.0pt'>
+  <td height=96 class=xl72 width=58 style='height:72.0pt;border-top:none;
+  width:44pt'>国家<br>
+    食品<br>
+    药品<br>
+    监管<br>
+    局</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>81</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>第二、三类医疗器械经营许可</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>设区的市级人民政府食品药品监督管理部</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《医疗器械监督管理条例》(国务院令第276号)第二十四条：“开办第二类、第三类医疗器械经营企业，应当经省、自治区、直辖市人民政府药品监督管理部门审查批准，并发给《医疗器械经营企业许可证》。<font
+  class="font13">无《医疗器械经营企业许可证》的，工商行政管理部门不得发给营业执照。” </font><font class="font8"><br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《国务院关于第六批取消和调整行政审批项目的决定》(国发[2012]52号)附件2《国务院决定调整的行政审批项目目录》(一)下放管理层级的行政审批项目第lll项。<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>注：《国务院关于第六批取消和调整行政审批项目的决定》将“第二、三类医疗器械经营许可”下放“设区的市级人民政府食品药品监督管理部门”。</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <tr height=83 style='mso-height-source:userset;height:62.25pt'>
+  <td height=83 class=xl72 width=58 style='height:62.25pt;border-top:none;
+  width:44pt'>国家<br>
+    食品<br>
+    药品<br>
+    监管<br>
+    局</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>82</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>药品、医疗器械互联网信息服务审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>省级人民政府药品监督管理部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《互联网信息服务管理办法》(国务院令第292号)第五条：“从事新闻、出版、教育、医疗保健、药品和医疗器械等互联网信息服务，依照法律、行政法规以及国家有关规定须经有关主管部门审核同意的，在申请经营许可或者履行备案手续前，应当依法经有关主管部门审核同意。”第七条：“从事经营性互联网信息服务，应当向省、自治区、直辖市电信管理机构或者国务院信息产业主管部门申请办理互联网信息服务增值电信业务经营许可证(以下简称经营许可证)……<font
+  class="font13">申请人取得经营许可证后，应当持经营许可证向企业登记机关办理登记手续。”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <tr height=96 style='mso-height-source:userset;height:72.0pt'>
+  <td height=96 class=xl72 width=58 style='height:72.0pt;border-top:none;
+  width:44pt'>国家<br>
+    食品<br>
+    药品<br>
+    监管<br>
+    局</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>83</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>开办药品生产企业许可</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>省级人民政府食品药品监督管理部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《中华人民共和国药品管理法》(中华人民共和国主席令[2001]第45号)第七条：“开办药品生产企业，须经企业所在地省、自治区、直辖市人民政府药品监督管理部门批准并发给《药品生产许可证》，<font
+  class="font13">凭《药品生产许可证》到工商行政管理部门办理登记注册。</font><font class="font8">无《药品生产许可证》的，不得生产药品。”<span
+  style='mso-spacerun:yes'>&nbsp;
+  </span>第一百零二条：“本法下列用语的含义是：药品，是指用于预防、治疗、诊断人的疾病，有目的地调节人的生理机能并规定有适应症或者功能主治、用法和用量的物质，包括中药材、中药饮片、中成药、化学原料药及其制剂、抗生素、生化药品、放射性药品、血清、疫苗、血液制品和诊断药品等。”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=96 style='mso-height-source:userset;height:72.0pt'>
+  <td height=96 class=xl72 width=58 style='height:72.0pt;border-top:none;
+  width:44pt'>国家<br>
+    食品<br>
+    药品<br>
+    监管<br>
+    局</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>84</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>开办药品经营企业许可</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>县级以上地方人民政府食品药品监督管理部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《中华人民共和国药品管理法》第十四条：“开办药品批发企业，须经企业所在地省、自治区、直辖市人民政府药品监督管理部门批准并发给《药品经营许可证》；开办药品零售企业，须经企业所在地县级以上地方药品监督管理部门批准并发给《药品经营许可证》，<font
+  class="font13">凭《药品经营许可证》到工商行政管理部门办理登记注册。</font><font class="font8">无《药品经营许可证》的，不得经营药品。”<span
+  style='mso-spacerun:yes'>&nbsp;
+  </span>第一百零二条：“本法下列用语的含义是：药品，是指用于预防、治疗、诊断人的疾病，有目的地调节人的生理机能并规定有适应症或者功能主治、用法和用量的物质，包括中药材、中药饮片、中成药、化学原料药及其制剂、抗生素、生化药品、放射性药品、血清、疫苗、血液制品和诊断药品等”。</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=124 style='mso-height-source:userset;height:93.0pt'>
+  <td height=124 class=xl72 width=58 style='height:93.0pt;border-top:none;
+  width:44pt'>国家<br>
+    食品<br>
+    药品<br>
+    监管<br>
+    局</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>85</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>餐饮服务许可</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>县级以上地方政府食品药品监管部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《中华人民共和国食品安全法》第二十九条：“国家对食品生产经营实行许可制度。从事食品生产、食品流通、餐饮服务，应当依法取得食品生产许可、食品流通许可、餐饮服务许可。”<span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《中华人民共和国食品安全法实施条例》(国务院令第557号)第二十条：“设立食品生产企业，应当预先核准企业名称，<font
+  class="font13">依照食品安全法的规定取得食品生产许可后，办理工商登记。</font><font class="font8">县级以上质量监督管理部门依照有关法律、行政法规规定审核相关资料、核查生产场所、检验相关产品；对相关资料、场所符合规定要求以及相关产品符合食品安全标准或者要求的，应当作出准予许可的决定。</font><font
+  class="font13">其他食品生产经营者应当在依法取得相应的食品生产许可、食品流通许可、餐饮服务许可后，办理工商登记。</font><font
+  class="font8">法律、法规对食品生产加工小作坊和食品摊贩另有规定的，依照其规定。”（2012年8月22日，国务院第214次常务会议建议将该项目下放县级以上地方人民政府食品药品监管部门，待相关法律修订后执行。）</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <tr height=247 style='mso-height-source:userset;height:185.25pt'>
+  <td height=247 class=xl72 width=58 style='height:185.25pt;border-top:none;
+  width:44pt'>国<br>
+    土<br>
+    资<br>
+    源<br>
+    部</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>86</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>煤炭开采审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>国土资源部或县级以上地方人民政府负责地质矿产管理工作的部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《中华人民共和国矿产资源法》第三条第三款：“勘查、开采矿产资源，必须依法分别申请、经批准取得探矿权、采矿权，并办理登记；但是，已经依法申请取得采矿权的矿山企业在划定的矿区范围内为本企业的生产而进行的勘查除外
+  ”。<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《矿产资源开采登记管理办法》（国务院令第241号）第三条：“开采下列矿产资源，由国务院地质矿产主管部门审批登记，颁发采矿许可证：<span
+  style='mso-spacerun:yes'>&nbsp;
+  </span>（一）国家规划矿区和对国民经济具有重要价值的矿区内的矿产资源；（二）领海及中国管辖的其他海域的矿产资源；（三）外商投资开采的矿产资源；（四）本办法附录所列的矿产资源。开采石油、天然气矿产的，经国务院指定的机关审查同意后，由国务院地质矿产主管部门登记，颁发采矿许可证。开采下列矿产资源，由省、自治区、直辖市人民政府地质矿产主管部门审批登记，颁发采矿许可证：（一）本条第一款、第二款规定以外的矿产储量规模中型以上的矿产资源；（二）国务院地质矿产主管部门授权省、自治区、直辖市人民政府地质矿产主管部门审批登记的矿产资源。
+  开采本条第一款、第二款、第三款规定以外的矿产资源，由县级以上地方人民政府负责地质矿产管理工作的部门，按照省、自治区、直辖市人民代表大会常务委员会制定的管理办法审批登记，颁发采矿许可证。矿区范围跨县级以上行政区域的，由所涉及行政区域的共同上一级登记管理机关审批登记，颁发采矿许可证。县级以上地方人民政府负责地质矿产管理工作的部门在审批发证后，应当逐级向上一级人民政府负责地质矿产管理工作的部门备案。<span
+  style='mso-spacerun:yes'>&nbsp; </span><br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《国务院办公厅关于进一步做好关闭整顿小煤矿和煤矿安全生产工作的通知》（国办发〔2001〕68号）第三条：“<font
+  class="font13">煤炭企业取得采矿许可证、煤炭生产许可证后，向省级工商行政管理部门申请登记注册。”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=83 style='mso-height-source:userset;height:62.25pt'>
+  <td height=83 class=xl72 width=58 style='height:62.25pt;border-top:none;
+  width:44pt'>国<br>
+    家<br>
+    邮<br>
+    政<br>
+    局</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>87</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>快递业务经营许可</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>国家邮政局或省级邮政管理机构</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《中华人民共和国邮政法》第五十一条：“经营快递业务，应当依照本法规定取得快递业务经营许可；未经许可，任何单位和个人不得经营快递业务。”<span
+  style='mso-spacerun:yes'>&nbsp; </span>第五十三条<span
+  style='mso-spacerun:yes'>&nbsp; </span>申请快递业务经营许可，在省、自治区、直辖市范围内经营的，应当向所在地的省、自治区、直辖市邮政管理机构提出申请，跨省、自治区、直辖市经营或者经营国际快递业务的，应当向国务院邮政管理部门提出申请；申请时应当提交申请书和有关申请材料。<font
+  class="font13">申请人凭快递业务经营许可证向工商行政管理部门依法办理登记后，方可经营快递业务。</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <tr height=110 style='mso-height-source:userset;height:82.5pt'>
+  <td height=110 class=xl72 width=58 style='height:82.5pt;border-top:none;
+  width:44pt'>国<br>
+    家<br>
+    旅<br>
+    游<br>
+    局</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>88</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>旅行社设立审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>省、自治区、直辖市旅游行政管理部门或其委托的设区的市级旅游行政管理部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《旅行社条例》(国务院令第550号)第七条：“申请设立旅行社，经营国内旅游业务和入境旅游业务的，应当向所在地省、自治区、直辖市旅游行政管理部门或者其委托的设区的市级旅游行政管理部门提出申请，并提交符合本条例第六条规定的相关证明文件。受理申请的旅游行政管理部门应当白受理申请之日起20个工作日内作出许可或者不予许可的决定。予以许可的，向申请人颁发旅行社业务经营许可证，<font
+  class="font13">申请人持旅行社业务经营许可证向工商行政管理部门办理设立登记</font><font class="font8">；不予许可的，书面通知申请人并说明理由。“第十条：“旅行社设立分社的，应当持旅行社业务经营许可证副本向分社所在地的工商行政管理部门办理设立登记，并自设立登记之日起30个工作日内向分社所在地的旅游行政管理部门备案。”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=159 style='mso-height-source:userset;height:119.25pt'>
+  <td height=159 class=xl72 width=58 style='height:119.25pt;border-top:none;
+  width:44pt'>国<br>
+    家<br>
+    旅<br>
+    游<br>
+    局</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>89</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>外商投资旅行社业务许可</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>国家旅游局<span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span>商务部</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>《旅行社条例》(国务院令第550号)第二十二条：“<font
+  class="font13">设立外商投资旅行社</font><font class="font8">，由投资者向国务院旅游行政主管部门提出申请，并提交符合本条例第六条规定条件的相关证明文件。国务院旅游行政主管部门应当自受理申请之日起30个工作日内审查完毕。同意设立的，出具外商投资旅行社业务许可审定意见书；不同意设立的，书面通知申请人并说明理由。申请人持外商投资旅行社业务许可审定意见书、章程，合资、合作双方签订的合同向国务院商务主管部门提出设立外商投资企业的申请。国务院商务主管部门应当依照有关法律、法规的规定，作出批准或者不予批准的决定。予以批准的，颁发外商投资企业批准证书，并通知申请人向国务院旅游行政主管部门领取旅行社业务经营许可证，</font><font
+  class="font13">申请人持旅行社业务经营许可证和外商投资企业批准证书向工商行政管理部门办理设立登记</font><font
+  class="font8">；不予批准的，书面通知申请人并说明理由。”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=106 style='mso-height-source:userset;height:79.5pt'>
+  <td height=106 class=xl72 width=58 style='height:79.5pt;border-top:none;
+  width:44pt'>国<br>
+    家<br>
+    旅<br>
+    游<br>
+    局</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>90</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>旅行社经营出境旅游业务审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>国家旅游局或者其委托的省级旅游行政管理部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《旅行社条例》(国务院令第550号)第八条：“旅行社取得经营许可满两年，且未因侵害旅游者合法权益受到行政机关罚款以上处罚的，可以申请经营出境旅游业务。”第九条：“申请经营出境旅游业务的，应当向国务院旅游行政主管部门或者其委托的省、自治区、直辖市旅游行政管理部门提出申请，受理申请的旅游行政管理部门应当自受理申请之日起20个工作日内作出许可或者不予许可的决定。<font
+  class="font13">予以许可的，向申请人换发旅行社业务经营许可证，旅行社应当持换发的旅行社业务经营许可证到工商行政管理部门办理变更登记；</font><font
+  class="font8">不予许可的，书面通知申请人并说明理由。”<span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span>《中国公民出国旅游管理办法》(国务院令第354号)第四条：“申请经营出国旅游业务的旅行社，应当向省、自治区、直辖市旅游行政部门提出申请。省、自治区、直辖市旅游行政部门应当自受理申请之日起30个工作日内，依据本办法第三条规定的条件对申请审查完毕，经审查同意的，报国务院旅游行政部门批准；经审查不同意的，应当书面通知申请人并说明理由。”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <tr height=110 style='mso-height-source:userset;height:82.5pt'>
+  <td height=110 class=xl72 width=58 style='height:82.5pt;border-top:none;
+  width:44pt'>国<br>
+    家<br>
+    粮<br>
+    食<br>
+    局</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>91</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>粮食收购许可</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>粮食行政管理部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《粮食流通管理条例》(国务院令第407号)第九条：“取得粮食收购资格，并依照《中华人民共和国公司登记管理条例》等规定办理登记的经营者，方可从事粮食收购活动。申请从事粮食收购活动，应当向办理工商登记的部门同级的粮食行政管理部门提交书面申请，并提供资金、仓储设施、质量检验和保管能力等证明材料。粮食行政管理部门应当自受理之日起l5个工作日内完成审核，对符合本条例第八条规定具体条件的申请者作出许可决定并公示。”<font
+  class="font13">第十条“取得粮食行政管理部门粮食收购资格许可的，应当依法向工商行政管理部门办理设立登记，在经营范围中注明粮食收购；已在工商行政管理部门登记的，从事粮食收购活动也应当取得粮食行政管理部门的粮食收购资格许可，并依法向工商行政管理部门办理变更经营范围登记，在经营范围中注明粮食收购。”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <tr height=83 style='mso-height-source:userset;height:62.25pt'>
+  <td height=83 class=xl72 width=58 style='height:62.25pt;border-top:none;
+  width:44pt'>广<br>
+    电<br>
+    总<br>
+    局</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>92</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>电影制片单位设立、变更、终止审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>广电总局</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp; </span>《电影管理条例》(国务院令第342号)第九条：“<font
+  class="font13">申请设立电影制片单位，</font><font class="font8">由所在地省、自治区、直辖市人民政府电影行政部门审核同意后，报国务院广播电影电视行政部门审批……”第十条：“</font><font
+  class="font13">申请人持《摄制电影许可证》到国务院工商行政管理部门办理登记手续。</font><font class="font8">”第十二条：“</font><font
+  class="font13">电影制片单位变更、终止，应当报国务院广播电影电视行政部门批准，并依法到原登记的工商行政管理部门办理变更登记或者注销登记。</font><font
+  class="font8">”</font><font class="font8">第三十条“电影进口业务由国务院广播电影电视行政部门指定电影进口经营单位经营……”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=69 style='mso-height-source:userset;height:51.75pt'>
+  <td height=69 class=xl72 width=58 style='height:51.75pt;border-top:none;
+  width:44pt'>广<br>
+    电<br>
+    总<br>
+    局</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>93</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>电影制片单位以外的单位独立从事电影摄制业务审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>省级人民政府广播电视行政主管部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>《电影管理条例》(国务院令第342号)第十六条：“<font
+  class="font13">电影制片单位以外的单位独立从事电影摄制业务，须报经国务院广播电影电视行政部门批准，并持批准文件到工商行政管理部门办理相应的登记手续…</font><font
+  class="font8">…”<span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span>《国务院关于第六批取消和调整行政审批项目的决定》(国发[2012】52号)附件2《国务院决定调整的行政审批项目目录》(一)下放管理层级的行政审批项目第64项。</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <tr height=124 style='mso-height-source:userset;height:93.0pt'>
+  <td height=124 class=xl72 width=58 style='height:93.0pt;border-top:none;
+  width:44pt'>广<br>
+    电<br>
+    总<br>
+    局</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>94</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>电影发行单位设立、变更业务范围或者兼并、合并、分立审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>广电总局或省级人民政府电影行政部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>《电影管理条例》(国务院令第342号)第三十七条：“<font
+  class="font13">设立电影发行单位</font><font class="font8">，应当向所在地省、自治区、直辖市人民政府电影行政部门提出申请；设立跨省、自治区、直辖市的电影发行单位，应当向国务院广播电影电视行政部门提出申请。所在地省、自治区、直辖市人民政府电影行政部门或者国务院广播电影电视行政部门应当自收到申请书之日起60日内作出批准或者不批准的决定，并通知申请人。批准的，发给《电影发行经营许可证》，</font><font
+  class="font13">申请人应当持《电影发行经营许可证》到工商行政管理部门登记，依法领取营业执照；</font><font
+  class="font8">不批准的，应当说明理由。”第三十九条：“</font><font class="font13">电影发行单位、电影放映单位变更业务范围，或者兼并其他电影发行单位、电影放映单位，或者因合并、分立而设立新的电影发行单位、电影放映单位的，应当</font><font
+  class="font8">依照本条例第三十七条或者第三十八条的规定</font><font class="font13">办理审批手续，并到工商行政管理部门办理相应的登记手续。</font><font
+  class="font8">”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=160 style='mso-height-source:userset;height:120.0pt'>
+  <td height=160 class=xl72 width=58 style='height:120.0pt;border-top:none;
+  width:44pt'>广<br>
+    电<br>
+    总<br>
+    局</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>95</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>电影放映单位设立、变更业务范围或者兼并、合并、分立审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>县级人民政府电影行政主管部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp; </span>《电影管理条例))(国务院令第342号)第三十八条：“<font
+  class="font13">设立电影放映单位，</font><font class="font8">应当向所在地县或者设区的市人民政府电影行政部门提出申请。所在地县或者设区的市人民政府电影行政部门应当自收到申请书之日起60目内作出批准或者不批准的决定，并通知申请人。批准的，发给《电影放映经营许可证》，</font><font
+  class="font13">申请人持《电影放映经营许可证》到所在地工商行政管理部门登记，依法领取营业执照；</font><font
+  class="font8">不批准的，应当说明理由。”第三十九条：“</font><font class="font13">电影发行单位、电影放映单位变更业务范围，或者兼并其他电影发行单位、电影放映单位，或者因合并、分立而设立新的电影发行单位、电影放映单位的，应当</font><font
+  class="font8">依照本条例第三十七条或者第三十八条的规定</font><font class="font13">办理审批手续，并到工商行政管理部门办理相应的登记手续</font><font
+  class="font8">” <br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《国务院关于第六批取消和调整行政审批项目的决定》(国发[2012】52号)附件2《国务院决定调整的行政审批项目目录》(一)下放管理层级的行政审批项目第65项。</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=96 style='mso-height-source:userset;height:72.0pt'>
+  <td height=96 class=xl72 width=58 style='height:72.0pt;border-top:none;
+  width:44pt'>公<br>
+    安<br>
+    部</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>96</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>爆破作业单位许可证核发</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>县级人民政府公安机关</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp; </span>《民用爆炸物品安全管理条例》(国务院令第466号)
+  第三十二条：申请从事爆破作业的单位，应当按照国务院公安部门的规定，向有关人民政府公安机关提出申请，并提供能够证明其符合本条例第三十一条规定条件的有关材料。受理申请的公安机关应当自受理申请之日起20日内进行审查，对符合条件的，核发《爆破作业单位许可证》；对不符合条件的，不予核发《爆破作业单位许可证》，书面向申请人说明理由。<font
+  class="font13">营业性爆破作业单位持《爆破作业单位许可证》到</font><font class="font15">工商</font><font
+  class="font13">行政管理部门办理</font><font class="font15">工商</font><font
+  class="font13">登记后，方可从事营业性爆破作业活动。</font><font class="font8">爆破作业单位应当在办理</font><font
+  class="font16">工商</font><font class="font8">登记后3日内，向所在地县级人民政府公安机关备案。</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <tr height=124 style='mso-height-source:userset;height:93.0pt'>
+  <td height=124 class=xl72 width=58 style='height:93.0pt;border-top:none;
+  width:44pt'>公<br>
+    安<br>
+    部</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>97</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>因私出入境中介服务机构资格认定（境外就业、留学除外）</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>省级人民政府公安机关</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'>《国务院对确需保留的行政审批项目设定行政许可的决定》（国务院令第412号）附件第58项。<span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span>《国务院关于第六批取消和调整行政审批项目的决定》（国发〔2012〕52号）附件2《国务院决定调整的行政审批项目目录》（一）《下放管理层级的行政审批项目》第9项。<span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span>《国务院关于加强出入境中介活动管理的通知》（国发〔2000〕25号）：“一、凡从事为出国定居、控亲、访友、继承财产、留学、就业及其他非公务活动提供信息服务、法律咨询和帮助申办签证及境外联络、安排等中介活动，必须报经所在省(自治区、直辖市)人民政府有关部门审核并报国务院有关部门审批，<font
+  class="font13">凭国务院有关部门颁发的经营许可证到工商行政管理部门办理注册登记。</font><font class="font8">”
+  “三、出入境中介机构的资格认定、审批和监督检查等工作，按照职责分工分别由公安部、劳动和社会保障部、教育部负责。”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=96 style='mso-height-source:userset;height:72.0pt'>
+  <td height=96 class=xl72 width=58 style='height:72.0pt;border-top:none;
+  width:44pt'>公<br>
+    安<br>
+    部</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>98</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>设立保安服务公司审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>省级人民政府公安机关</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp; </span>《保安服务管理条例》（国务院令第564号）第九条：“<font
+  class="font13">申请设立保安服务公司</font><font class="font8">，应当向所在地设区的市级人民政府公安机关提交申请书以及能够证明其符合本条例第八条规定条件的材料。受理的公安机关应当自收到申请材料之日起15日内进行审核，并将审核意见报所在地的省、自治区、直辖市人民政府公安机关。省、自治区、直辖市人民政府公安机关应当自收到审核意见之日起15日内作出决定，对符合条件的，核发保安服务许可证；对不符合条件的，书面通知申请人并说明理由。”第十二条：“取得保安服务许可证的申请人，</font><font
+  class="font13">凭保安服务许可证到工商行政管理机关办理工商登记。</font><font class="font8">取得保安服务许可证后超过6个月未办理工商登记的，取得的保安服务许可证失效。”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=96 style='mso-height-source:userset;height:72.0pt'>
+  <td height=96 class=xl72 width=58 style='height:72.0pt;border-top:none;
+  width:44pt'>工<br>
+    业<br>
+    和<br>
+    信<br>
+    息<br>
+    化<br>
+    部</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>99</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>开办农药生产企业审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>工业和信息化部</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《农药管理条例》（国务院令第216号）第十三条：“开办农药生产企业（包括联营、设立分厂和非农药生产企业设立农药生产车间），应当具备下列条件，并经企业所在地的省、自治区、直辖市工业产品许可管理部门审核同意后，报国务院工业产品许可管理部门批准；但是，法律、行政法规对企业设立的条件和审核或者批准机关另有规定的，从其规定…….<font
+  class="font13">农药生产企业经批准后，方可依法向工商行政管理机关申请领取营业执照。</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=110 style='mso-height-source:userset;height:82.5pt'>
+  <td height=110 class=xl72 width=58 style='height:82.5pt;border-top:none;
+  width:44pt'>工<br>
+    业<br>
+    和<br>
+    信<br>
+    息<br>
+    化<br>
+    部</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>100</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>民用爆炸物品安全生产许可</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>工业和信息化部</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《安全生产许可证条例》（国务院令第397号令公布，自２００4年1月13日起施行）第五条规定：“国务院国防科技工业主管部门负责民用爆破器材生产企业安全生产许可证的颁发和管理。”<span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span>《民用爆炸物品安全管理条例》(国务院令第466号令公布，自2006年9月1日起施行)第十三条规定：“取得《民用爆炸物品生产许可证》的企业应当在基本建设完成后，向国务院国防科技工业主管部门申请安全生产许可。国务院国防科技工业主管部门应当依照《安全生产许可证条例》的规定对其进行查验，对符合条件的，在《民用爆炸物品生产许可证》上标注安全生产许可。<font
+  class="font13">民用爆炸物品生产企业持经标注安全生产许可的《民用爆炸物品生产许可证》到工商行政管理部门办理工商登记后，方可生产民用爆炸物品。”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <tr height=140 style='mso-height-source:userset;height:105.0pt'>
+  <td height=140 class=xl72 width=58 style='height:105.0pt;border-top:none;
+  width:44pt'>工<br>
+    业<br>
+    和<br>
+    信<br>
+    息<br>
+    化<br>
+    部</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>101</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>民用爆炸物品销售许可证核发</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>省级人民政府工业和信息化主管部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《民用爆炸物品安全管理条例》(国务院令第466号令公布，自2006年9月1日起施行)第十九条规定：“申请从事民用爆炸物品销售的企业，应当向所在地省、自治区、直辖市人民政府国防科技工业主管部门提交申请书、可行性研究报告以及能够证明其符合本条例第十八条规定条件的有关材料。省、自治区、直辖市人民政府国防科技工业主管部门应当自受理申请之日起30日内进行审查，并对申请单位的销售场所和专用仓库等经营设施进行查验，对符合条件的，核发《民用爆炸物品销售许可证》；对不符合条件的，不予核发《民用爆炸物品销售许可证》，书面向申请人说明理由。<font
+  class="font13">民用爆炸物品销售企业持《民用爆炸物品销售许可证》到工商行政管理部门办理工商登记后，方可销售民用爆炸物品。</font><font
+  class="font8">” 第二十条：“民用爆炸物品生产企业凭《民用爆炸物品生产许可证》，可以销售本企业生产的民用爆炸物品。
+  民用爆炸物品生产企业生产的民用爆炸物品，不得超出核定的品种、产量。”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <tr height=178 style='mso-height-source:userset;height:133.5pt'>
+  <td height=178 class=xl72 width=58 style='height:133.5pt;border-top:none;
+  width:44pt'>工<br>
+    业<br>
+    和<br>
+    信<br>
+    息<br>
+    化<br>
+    部</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>102</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>外商投资经营电信业务审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>工业和信息化部</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《外商投资电信企业管理规定》第十一条：“设立经营基础电信业务或者跨省、自治区、直辖市范围增值电信业务的外商投资电信企业，由中方主要投资者向国务院工业和信息化主管部门提出申请并报送下列文件：……国务院工业和信息化主管部门应当自收到申请之日起对前款规定的有关文件进行审查。属于基础电信业务的，应当在180日内审查完毕，作出批准或者不予批准的决定；属于增值电信业务的，应当在90日内审查完毕，作出批准或者不予批准的决定。予以批准的，颁发《外商投资经营电信业务审定意见书》；不予批准的，应当书面通知申请人并说明理由。”第十二条：“设立外商投资电信企业经营省、自治区、直辖市范围内增值电信业务，由中方主要投资者向省、自治区、直辖市电信管理机构提出申请并报送下列文件：……国务院工业和信息化主管部门应当自收到省、自治区、直辖市电信管理机构签署同意的申请文件之日起30日内审查完毕，作出批准或者不予批准的决定。予以批准的，颁发《外商投资经营电信业务审定意见书》；不予批准的，应当书面通知申请人并说明理由。”第十六条：“外商投资电信企业的中方主要投资者凭《外商投资企业批准证书》，到国务院工业和信息化主管部门办理《电信业务经营许可证》手续。<font
+  class="font13">外商投资电信企业的中方主要投资者凭《外商投资企业批准证书》和《电信业务经营许可证》，向工商行政管理机关办理外商投资电信企业注册登记手续。”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=165 style='mso-height-source:userset;height:123.75pt'>
+  <td height=165 class=xl72 width=58 style='height:123.75pt;border-top:none;
+  width:44pt'>工<br>
+    业<br>
+    和<br>
+    信<br>
+    息<br>
+    化<br>
+    部</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>103</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>电信业务经营许可证核发</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>工业和信息化部或省、自治区、直辖市电信管理机构</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《中华人民共和国电信条例》（国务院令[2003]291号）第七条：“国家对电信业务经营按照电信业务分类，实行许可制度。经营电信业务，必须依照本条例的规定取得国务院信息产业主管部门或者省、自治区、直辖市电信管理机构颁发的电信业务经营许可证。未取得电信业务经营许可证，任何组织或者个人不得从事电信业务经营活动。”第九条：“经营基础电信业务，须经国务院信息产业主管部门审查批准，取得《基础电信业务经营许可证》。经营增值电信业务，业务覆盖范围在两个以上省、自治区、直辖市的，须经国务院信息产业主管部门审查批准，取得《跨地区增值电信业务经营许可证》；业务覆盖范围在一个省、自治区、直辖市行政区域内的，须经省、自治区、直辖市电信管理机构审查批准，取得《增值电信业务经营许可证》。运用新技术试办《电信业务分类目录》未列出的新型电信业务的，应当向省、自治区、直辖市电信管理机构备案。”第十六条：“<font
+  class="font13">经批准经营电信业务的，应当持依法取得的电信业务经营许可证，向企业登记机关办理登记手续。</font><font
+  class="font8">专用电信网运营单位在所在地区经营电信业务的，应当依照本条例规定的条件和程序提出申请，经批准，取得电信业务经营许可证，并依照前款规定办理登记手续。”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <tr height=176 style='mso-height-source:userset;height:132.0pt'>
+  <td height=176 class=xl72 width=58 style='height:132.0pt;border-top:none;
+  width:44pt'>工<br>
+    业<br>
+    和<br>
+    信<br>
+    息<br>
+    化<br>
+    部</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>104</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>基础电信和跨地区增值电信业务经营许可证核发</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>省、自治区、直辖市电信管理机构</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《国务院对确需保留的行政审批项目设定行政许可的决定》（国务院令第412号）第143项<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《电信条例》（国务院令[2000]第291号）第十一条：“申请经营基础电信业务，应当向国务院信息产业主管部门提出申请，并提交本条例第十条规定的相关文件。国务院信息产业主管部门应当自受理申请之日起180日内审查完毕，作出批准或者不予批准的决定。予以批准的，颁发《基础电信业务经营许可证》；”第十四条：“申请经营增值电信业务，应当根据本条例第九条第二款的规定，向国务院信息产业主管部门或者省、自治区、直辖市电信管理机构提出申请，并提交本条例第十三条规定的相关文件。申请经营的增值电信业务，按照国家有关规定须经有关主管部门审批的，还应当提交有关主管部门审核同意的文件。国务院信息产业主管部门或者省、自治区、直辖市电信管理机构应当自收到申请之日起60日内审查完毕，作出批准或者不予批准的决定。予以批准的，颁发《跨地区增值电信业务经营许可证》或者《增值电信业务经营许可证》；”第十六条：“<font
+  class="font13">经批准经营电信业务的，应当持依法取得的电信业务经营许可证，向企业登记机关办理登记手续。”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <tr height=96 style='mso-height-source:userset;height:72.0pt'>
+  <td height=96 class=xl72 width=58 style='height:72.0pt;border-top:none;
+  width:44pt'>工<br>
+    业<br>
+    和<br>
+    信<br>
+    息<br>
+    化<br>
+    部</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>105</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>电子认证服务许可</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>工业和信息化部</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《中华人民共和国电子签名法》第十八条：“从事电子认证服务，应当向国务院信息产业主管部门提出申请，并提交符合本法第十七条规定条件的相关材料。国务院信息产业主管部门接到申请后经依法审查，征求国务院商务主管部门等有关部门的意见后，自接到申请之日起四十五日内作出许可或者不予许可的决定。予以许可的，颁发电子认证许可证书；不予许可的，应当书面告知申请人并告知理由。<font
+  class="font13">申请人应当持电子认证许可证书依法向工商行政管理部门办理企业登记手续。</font><font class="font8">”<span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <tr height=150 style='mso-height-source:userset;height:112.5pt'>
+  <td height=150 class=xl72 width=58 style='height:112.5pt;border-top:none;
+  width:44pt'>工<br>
+    业<br>
+    和<br>
+    信<br>
+    息<br>
+    化<br>
+    部</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>106</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>经营性互联网信息服务许可</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>工业和信息化部或省、自治区、直辖市电信管理机构</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《互联网信息服务管理办法》（国务院令[2000]第292号）第四条：“国家对经营性互联网信息服务实行许可制度；对非经营性互联网信息服务实行备案制度。未取得许可或者未履行备案手续的，不得从事互联网信息服务。”第七条：“从事经营性互联网信息服务，应当向省、自治区、直辖市电信管理机构或者国务院信息产业主管部门申请办理互联网信息服务增值电信业务经营许可证（以下简称经营许可证）。省、自治区、直辖市电信管理机构或者国务院信息产业主管部门应当自收到申请之日起６０日内审查完毕，作出批准或者不予批准的决定。予以批准的，颁发经营许可证。<font
+  class="font13">申请人取得经营许可证后，应当持经营许可证向企业登记机关办理登记手续。”</font><font class="font8">第九条：“从事互联网信息服务，拟开展电子公告服务的，应当在申请经营性互联网信息服务许可或者办理非经营性互联网信息服务备案时，按照国家有关规定提出专项申请或者专项备案。”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <tr height=315 style='mso-height-source:userset;height:236.25pt'>
+  <td height=315 class=xl72 width=58 style='height:236.25pt;border-top:none;
+  width:44pt'>工<br>
+    商<br>
+    总<br>
+    局</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>107</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>食品流通(含乳制品销售)许可</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>省级及以下工商行政管理部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《中华人民共和国食品安全法》第四条：“国务院设立食品安全委员会，其工作职责由国务院规定。国务院卫生行政部门承担食品安全综合协调职责，负责食品安全风险评估、食品安全标准制定、食品安全信息公布、食品检验机构的资质认定条件和检验规范的制定，组织查处食品安全重大事故。国务院质量监督、工商行政管理和国家食品药品监督管理部门依照本法和国务院规定的职责，分别对食品生产、食品流通、餐饮服务活动实施监督管理。”第二十九条：“<font
+  class="font13">国家对食品生产经营实行许可制度。从事食品生产、食品流通、餐饮服务，应当依法取得食品生产许可、食品流通许可、餐饮服务许可。</font><font
+  class="font8">取得食品生产许可的食品生产者在其生产场所销售其生产的食品，不需要取得食品流通的许可；取得餐饮服务许可的餐饮服务提供者在其餐饮服务场所出售其制作加工的食品，不需要取得食品生产和流通的许可；农民个人销售其自产的食用农产品，不需要取得食品流通的许可……”。第三十一条：“县级以上质量监督、工商行政管理、食品药品监督管理部门应当依照《中华人民共和国行政许可法》的规定审核申请人提交的本法第二十七条第一项至第四项规定要求的相关资料，必要时对申请人的生产经营场所进行现场核查；对符合规定条件的，决定准予许可。”<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《中华人民共和国食品安全法实施条例》(国务院令第557号)第二十条：“设立食品生产企业，应当预先核准企业名称，依照食品安全法的规定取得食品生产许可后，办理工商登记。县级以上质量监督管理部门依照有关法律、行政法规规定审核相关资料、核查生产场所、检验相关产品；对相关资料、场所符合规定要求以及相关产品符合食品安全标准或者要求的，应当作出准予许可的决定。</font><font
+  class="font13">其他食品生产经营者应当在依法取得相应的食品生产许可、食品流通许可、餐饮服务许可后，办理工商登记。</font><font
+  class="font8">法律、法规对食品生产加工小作坊和食品摊贩另有规定的，依照其规定。”<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《乳品质量安全监督管理条例》(国务院令第536号)第三十七条：“</font><font class="font13">从事乳制销售应当按照食品安全监督管理的有关规定，依法向工商行政管理部门申请领取有关证照。</font><font
+  class="font8">”<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《食品流通许可证管理办法》(国家工商行政管理总局令第44号)第六条：“食品经营者应当在依法取得《食品流通许可证》后，向有登记管辖权的工商行政管理机关申请办理工商登记。未取得《食品流通许可证》和营业执照，不得从事食品经营。法律、法规对食品摊贩另有规定的，依照其规定。”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <tr height=102 style='mso-height-source:userset;height:76.5pt'>
+  <td height=102 class=xl72 width=58 style='height:76.5pt;border-top:none;
+  width:44pt'>发<br>
+    展<br>
+    改<br>
+    革<br>
+    委</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>108</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>供电营业许可核发</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>发展改革委或省级人民政府发展改革部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《中华人民共和国电力法》第二十五条：“供电企业在批准的供电营业区内向用户供电。<font class="font14">&nbsp;</font><font
+  class="font8">供电营业区的划分，应当考虑电网的结构和供电合理性等因素。一个供电营业区内只设立一个供电营业机构。</font><font
+  class="font14">&nbsp;</font><font class="font8">省、自治区、直辖市范围内的供电营业区的设立、变更，由供电企业提出申请，经省、自治区、直辖市人民政府电力管理部门会同同级有关部门审查批准后，由省、自治区、直辖市人民政府电力管理部门发给《供电营业许可证》。跨省、自治区、直辖市的供电营业区的设立、变更，由国务院电力管理部门审查批准并发给《供电营业许可证》。</font><font
+  class="font13">供电营业机构持《供电营业许可证》向工商行政管理部门申请领取营业执照，方可营业。</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=69 style='mso-height-source:userset;height:51.75pt'>
+  <td height=69 class=xl72 width=58 style='height:51.75pt;border-top:none;
+  width:44pt'>发<br>
+    展<br>
+    改<br>
+    革<br>
+    委</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>109</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>开发盐资源、开办盐企业审核</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>省级盐业主管部门（省级人民政府审批）</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《盐业管理条例》（1990年3月2日国务院令第51号）第八条第一款：“开发盐资源，开办制盐企业（含非制盐企业开发盐资源，下同），必须经省级盐业行政主管部门审查同意，<font
+  class="font13">报省、自治区、直辖市人民政府批准，并按规定向企业所在地工商行政管理机关申请，领取营业执照……”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=42 style='mso-height-source:userset;height:31.5pt'>
+  <td height=42 class=xl72 width=58 style='height:31.5pt;border-top:none;
+  width:44pt'>电<br>
+    监<br>
+    会</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>110</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>承装、承修、承试供电设施和受电设施许可</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>电监会派出机构</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《电力供应与使用条例》(国务院令第196号)第三十七条：“……承装、承修、承试供电设施和受电设施的单位，必须经电力管理部门审核合格，<font
+  class="font13">取得电力管理部门颁发的《承装(修)电力设施许可证》后，方可向工商行政管理部门申请领取营业执照。”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <tr height=96 style='mso-height-source:userset;height:72.0pt'>
+  <td height=96 class=xl72 width=58 style='height:72.0pt;border-top:none;
+  width:44pt'>电<br>
+    监<br>
+    会</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>111</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>供电营业许可</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>国务院电力管哩部门或省级人民政府电力管理部门会同省级有关部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《中华人民共和国电力法》第二十五条：“供电企业在批准的供电营业区内向用户供电。供电营业区的划分，应当考虑电网的结构和供电合理性等因素。一个供电营业区内只设立一个供电营业机构。省、自治区、直辖市范围内的供电营业区的设立、变更，由供电企业提出申请，经省、自治区、直辖市人民政府电力管理部门会同同级有关部门审查批准后，由省、自治区、直辖市人民政府电力管理部门发给《供电营业许可证》。跨省、自治区、直辖市的供电营业区的设立、变更，由国务院电力管理部门审查批准并发给《供电营业许可证))。<font
+  class="font13">供电营业机构持《(供电营业许可证》向工商行政管理部门申请领取营业执照，方可营业。”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=178 style='mso-height-source:userset;height:133.5pt'>
+  <td height=178 class=xl72 width=58 style='height:133.5pt;border-top:none;
+  width:44pt'>财<br>
+    政<br>
+    部</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>112</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>境外或港澳台地区会计师事务所在境内设立常驻代表机构审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>财政部</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《中华人民共和国注册会计师法》第四十四条：“外国会计师事务所在中国境内设立常驻代表机构，须经国务院财政部门批准。外国会计师事务所与中国的会计师事务所共同举办中外合作会计师事务所，须经国务院对外经济贸易主管部门或者国务院授权的部门和省级人民政府审查同意后报国务院财政部门批准。”<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp; </span>《国务院关于发布&lt;关于管理外国企业常驻代表机构的暂行规定&gt;的通知》（国发[1980]272号）第四条：“外国企业设立常驻代表机构的申请，分别由下列机关批准：一、贸易商、制造厂商、货运代理商，报请中华人民共和国对外贸易部批准；二、金融业、保险业，报请中国人民银行批准；三、海运业、海运代理商，报请中华人民共和国交通部批准；四、航空运输业，报请中国民用航空总局批准；五、其它行业，按照业务性质，报请中华人民共和国政府的主管委、部、局批准。”第五条：“<font
+  class="font13">外国企业设立常驻代表机构的申请获批准后，应当在批准之日起30天内，持批准证件向中华人民共和国工商行政管理总局办理登记手续。</font><font
+  class="font8">” <br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>《财政部关于印发&lt;境外会计师事务所常驻代表机构管理暂行办法&gt;的通知》（财会协字（1996）1号）第十六条：“香港、澳门、台湾地区会计师事务所申请在大陆设立代表处，比照此办法办理。”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=83 style='mso-height-source:userset;height:62.25pt'>
+  <td height=83 class=xl72 width=58 style='height:62.25pt;border-top:none;
+  width:44pt'>保<br>
+    监<br>
+    会</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>113</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>保险公司及其分支机构设立审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>保监会</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《中华人民共和国保险法》第六十七条：“设立保险公司应当经国务院保险监督管理机构批准。”第七十四条：“保险公司在中华人民共和国境内设立分支机构，应当经保险监督管理机构批准。”<span
+  style='mso-spacerun:yes'>&nbsp; </span>第七十七条：<font class="font13">“经批准设立的保险公司及其分支机构，凭经营保险业务许可证向工商行政管理机关办理登记，领取营业执照。</font><font
+  class="font8">”第七十九条：“保险公司在中华人民共和国境外设立子公司、分支机构、代表机构，应当经国务院保险监督管理机构批准。”第一百八十五条：“中外合资保险公司、外资独资保险公司、外国保险公司分公司适用本法规定；法律、行政法规另有规定的，适用其规定。”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=137 style='mso-height-source:userset;height:102.75pt'>
+  <td height=137 class=xl72 width=58 style='height:102.75pt;border-top:none;
+  width:44pt'>保<br>
+    监<br>
+    会</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>114</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>保险代理、保险兼业代理业务经营许可证核发</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>保监会或保监会派出机构(经营区域仅限于注册所在省(自治区、直辖市)的保险代理机构的设立审批第六批下放至保监会派出机构)</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《中华人民共和国保险法》第一百一十九条：“保险代理机构、保险经纪人应当具备国务院保险监督管理机构规定的条件，取得保险监督管理机构颁发的经营保险代理业务许可证、保险经纪业务许可证。保险专业代理机构、保险经纪人凭保险监督管理机构颁发的许可证向工商行政管理机关办理登记，领取营业执照。<font
+  class="font13">保险兼业代理机构凭保险监督管理机构颁发的许可证，向工商行政管理机关办理变更登记。</font><font
+  class="font8">” <br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《国务院对确需保留的行政审批项目设定行政许可的决定》(国务院令第412号)附件第417项。<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《国务院关于第六批取消和调整行政审批项目的决定》(国发[2012]52号)附件2《国务院决定调整的行政审批项目目录》(一)下放管理层级的行政审批项项目第100项。<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>注：《国务院关于第六批取消和调整行政审批项目的决定》将“经营区域仅限于注册所在省(自治区、直辖市)的保险代理机构的设立审批”下放“保监会派出机构”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=69 style='mso-height-source:userset;height:51.75pt'>
+  <td height=69 class=xl72 width=58 style='height:51.75pt;border-top:none;
+  width:44pt'>保<br>
+    监<br>
+    会</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>115</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>保险经纪人经营保险经纪业务许可</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>保监会</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《中华人民共和国保险法》第一百一十九条：“保险代理机构、保险经纪人应当具备国务院保险监督管理机构规定的条件，取得保险监督管理机构颁发的经营保险代理业务许可证、保险经纪业务许可证。<font
+  class="font13">保险专业代理机构、保险经纪人凭保险监督管理机构颁发的许可证向工商行政管理机关办理登记，领取营业执照。保险兼业代理机构凭保险监督管理机构颁发的许可证，向工商行政管理机关办理变更登记。”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>主体</td>
+ </tr>
+ <tr height=165 style='mso-height-source:userset;height:123.75pt'>
+  <td height=165 class=xl72 width=58 style='height:123.75pt;border-top:none;
+  width:44pt'>安<br>
+    全<br>
+    生<br>
+    产<br>
+    监<br>
+    管<br>
+    总<br>
+    局</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>116</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>新建、改建、扩建生产、储存危险化学品(包括使用长输管道输送危险化学品)建设项目安全条件审查</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>设区的市级以上地方人民政府安全生产监督管理部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《中华人民共和国安全生产法》(国家主席令第70号)第三十二条：“生产、经营、运输、储存、使用危险物品或者处理废弃危险物品的，由有关主管部门依照有关法律、法规的规定和国家标准或者行业标准审批并实施监督管理。”
+  <br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《危险化学品安全管理条例》(国务院令第591号)第六条：“<font class="font13">对危险化学品的生产、储存、使用、经营、运输实施安全监督管理的有关部门</font><font
+  class="font8">(以下统称负有危险化学品安全监督管理职责的部门)，</font><font class="font13">依照下列规定履行职责</font><font
+  class="font8">：(一)安全生产监督管理部门负责危险化学品安全监督管理综合工作，组织确定、公布、调整危险化学品目录，对新建、改建、扩建生产、储存危险化学品(包括使用长输管道输送危险化学品，下同)的建设项目进行安全条件审查，核发危险化学品安全生产许可证、危险化学品安全使用许可证和危险化学品经营许可证，并负责危险化学品登记工作……(七)</font><font
+  class="font13">工商行政管理部门依据有关部门的许可证件，核发危险化学品生产、储存、经营、运输企业营业执照，</font><font
+  class="font8">查处危险化学品经营企业违法采购危险化学品的行为……”第十四条：“危险化学品生产企业进行生产前，应当依照《安全生产许可证条例》的规定，取得危险化学品安全生产许可证……”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <tr height=123 style='mso-height-source:userset;height:92.25pt'>
+  <td height=123 class=xl72 width=58 style='height:92.25pt;border-top:none;
+  width:44pt'>安<br>
+    全<br>
+    生<br>
+    产<br>
+    监<br>
+    管<br>
+    总<br>
+    局</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>117</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>危险化学品经营许可</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>设区的市级以上地方人民政府安全生产监督管理部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《危险化学品安全管理条例》(国务院令第591号)第六条：“对危险化学品的生产、储存、使用、经营、运输实施安全监督管理的有关部门(以下统称负有危险化学品安全监督管理职责的部门)，依照下列规定履行职责：(一)安全生产监督管理部门负责危险化学品安全监督管理综合工作，组织确定、公布、调整危险化学品目录，对新建、改建、扩建生产、储存危险化学品(包括使用长输管道输送危险化学品，下同)的建设项目进行安全条件审查，核发危险化学品安全生产许可证、危险化学品安全使用许可证和危险化学品经营许可证，并负责危险化学品登记工作……(七)<font
+  class="font13">工商行政管理部门依据有关部门的许可证件，核发危险化学品生产、储存、经营、运输企业营业执照，</font><font
+  class="font8">查处危险化学品经营企业违法采购危险化学品的行为……”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <tr height=151 style='mso-height-source:userset;height:113.25pt'>
+  <td height=151 class=xl72 width=58 style='height:113.25pt;border-top:none;
+  width:44pt'>安<br>
+    全<br>
+    生<br>
+    产<br>
+    监<br>
+    管<br>
+    总<br>
+    局</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>118</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>烟花爆竹生产企业安全生产许可</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>省级人民政府安全生产监督管理部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《安全生产许可证条例》(国务院令第397号)第二条：“国家对矿山企业、建筑施工企业和危险化学品、烟花爆竹、民用爆破器材生产企业(以下统称企业)实行安全生产许可制度。”
+  <br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《安全生产许可证条例》(国务院令第397号)第三条：“国务院安全生产监督管理部门负责中央管理的非煤矿矿山企业和危险化学品、烟花爆竹生产企业安全生产许可证的颁发和管理。”
+  <br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《烟花爆竹安全管理条例》(2006年国务院令第455号)第九条：“生产烟花爆竹的企业，应当在投入生产前向所在地设区的市人民政府安全生产监督管理部门提出安全审查申请，并提交能够证明符合本条例第八条规定条件的有关材料。设区的市人民政府安全生产监督管理部门应当自收到材料之日起20日内提出安全审查初步意见，报省、自治区、直辖市人民政府安全生产监督管理部门审查。省、自治区、直辖市人民政府安全生产监督管理部门应当自受理申请之日起45日内进行安全审查，对符合条件的，核发《烟花爆竹安全生产许可证》；对不符合条件的，应当说明理由。”第十条：“<font
+  class="font13">生产烟花爆竹的企业，持《烟花爆竹安全生产许可证》到工商行政管理部门办理登记手续后，方可从事烟花爆竹生产活动。</font><font
+  class="font8">”<span style='mso-spacerun:yes'>&nbsp;</span></font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <tr height=192 style='mso-height-source:userset;height:144.0pt'>
+  <td height=192 class=xl72 width=58 style='height:144.0pt;border-top:none;
+  width:44pt'>安<br>
+    全<br>
+    生<br>
+    产<br>
+    监<br>
+    管<br>
+    总<br>
+    局</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>119</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>煤矿企业安全生产许可</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>省级以上煤矿安全监察部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>《安全生产许可证条例》(国务院令第397号)
+  第二条：“国家对矿山企业、建筑施工企业和危险化学品、烟花爆竹、民用爆破器材生产企业(以下统称企业)实行安全生产许可制度。”
+  第三条：“国务院安全生产监督管理部门负责中央管理的非煤矿矿山企业和危险化学品、烟花爆竹生产企业安全生产许可证的颁发和管理。”第七条：“企业进行生产前，应当依照本条例的规定向安全生产许可证颁发管理机关申请领取安全生产许可证，并提供本条例第六条规定的相关文件、资料。……<font
+  class="font13">煤矿企业应当以矿(井)为单位，在申请领取煤炭生产许可证前，依照本条例的规定取得安全生产许可证。”</font><font
+  class="font8"> <br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《煤炭生产许可证管理办法》(国务院令第168号)第二条：“在中华人民共和国境内开采煤炭资源的煤矿企业，必须依照本办法的规定，领取煤炭生产许可证。未取得煤炭生产许可证的煤矿企业，不得从事煤炭生产。”第6条：“国务院煤炭工业主管部门负责下列煤矿企业的煤炭生产许可证的颁布发管理工作：(一)国务院和国务院有关主管部门批准开办的煤矿企业；(二)跨省、自治区、直辖市行政区域的煤矿企业；(三)外商投资煤矿企业。省、自治区、直辖市人民政府煤炭工业主管部门负责前款规定以外的其他煤矿企业的煤炭生产许可证颁发管理工作。”<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《国务院办公厅关于进一步做好关闭整顿小煤矿和煤矿安全生产工作的通知》(国办[2001]68号)第三条：“</font><font
+  class="font13">煤炭企业取得采矿许可证、煤炭生产许可证后，向省级工商行政管理部门申请登记注册。”<span
+  style='mso-spacerun:yes'>&nbsp;</span></font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <tr height=124 style='mso-height-source:userset;height:93.0pt'>
+  <td height=124 class=xl72 width=58 style='height:93.0pt;border-top:none;
+  width:44pt'>安<br>
+    全<br>
+    生<br>
+    产<br>
+    监<br>
+    管<br>
+    总<br>
+    局</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>120</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>烟花爆竹经营(批发、零售)许可</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>县级以上人民政府安全生产监督管理部门(烟花爆竹批发许可第六批下放至设区的市级人民政府安全生产监督管理部门)</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《烟花爆竹安全管理条例》(国务院令第445号)第十六条：“烟花爆竹的经营分为批发和零售。从事烟花爆竹批发的企业和零售经营者的经营布点，应当经安全生产监督管理部门审批。”第十九条：“申请从事烟花爆竹批发的企业，应当向所在地省、自治区、直辖市人民政府安全生产监督管理部门或者其委托的设区的市人民政府安全生产监督管理部门提出申请，并提供能够证明符合本条例第十七条规定条件的有关材料……申请从事烟花爆竹零售的经营者，应当向所在地县级人民政府安全生产监督管理部门提出申请，并提供能够证明符合本条例第十八条规定条件的有关材料……<font
+  class="font13">烟花爆竹的批发企业、零售经营者，持烟花爆竹经营许可证到工商行政管理部门办理登记手续后，方可从事烟花爆竹经营活动。</font><font
+  class="font8">” <br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《国务院关于第六批取消和调整行政审批项目的决定》(国发[2012]52号)附件2《国务院决定调整的行政审批项目目录》(一)下放管理层级的行政审批项目第75项。</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <tr height=110 style='mso-height-source:userset;height:82.5pt'>
+  <td height=110 class=xl72 width=58 style='height:82.5pt;border-top:none;
+  width:44pt'>安<br>
+    全<br>
+    生<br>
+    产<br>
+    监<br>
+    管<br>
+    总<br>
+    局</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>121</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>生产、经营第一类中的非药品类易制毒化学品审批</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>省级人民政府安全生产监督管理部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《易制毒化学品管理条例》(国务院令第445号)第八条：“……申请生产第一类中的非药品类易制毒化学品的，由省、自治区、直辖市人民政府安全生产监督管理部门审批……”第十条：“……申请经营第一类中的非药品类易制毒化学品的，由省、自治区、直辖市人民政府安全生产监督管理部门审批……”第十二条：“<font
+  class="font13">取得第一类易制毒化学品生产、经营许可的企业</font><font class="font8">，</font><font
+  class="font13">应当凭生产、经营许可证到工商行政管理部门办理经营范围变更登记。</font><font class="font8">”<span
+  style='mso-spacerun:yes'>&nbsp;</span></font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <tr class=xl66 height=124 style='mso-height-source:userset;height:93.0pt'>
+  <td height=124 class=xl72 width=58 style='height:93.0pt;border-top:none;
+  width:44pt'>安<br>
+    全<br>
+    生<br>
+    产<br>
+    监<br>
+    管<br>
+    总<br>
+    局</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>122</td>
+  <td class=xl73 width=95 style='border-top:none;border-left:none;width:71pt'>国家重点保护陆生野生动物驯养繁殖许可证核发</td>
+  <td class=xl73 width=90 style='border-top:none;border-left:none;width:68pt'>省级以上人民政府林业主管部门及其委托的同级有关部门</td>
+  <td class=xl74 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《中华人民共和国野生动物保护法》第十七条：“驯养繁殖国家重点保护野生动物的，应当持有许可证。许可证的管理办法由国务院野生动物行政主管部门制定。”<br>
+    <span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《中华人民共和国陆生野生动物保护实施条例》(1992年2月12日国务院批准，1992年3月1目林业部发布，根据2011年1月8日《国务院关于废止和修改部分行政法规的决定》修订)第二十二条：“驯养繁殖国家重点保护野生动物的，应当持有驯养繁殖许可证。<font
+  class="font13">以生产经营为主要目的驯养繁殖国家重点保护野生动物的，必须凭驯养繁殖许可证向工商行政管理部门申请登记注册。</font><font
+  class="font8">国务院林业行政主管部门和省、自治区、直辖市人民政府林业行政主管部门可以根据实际情况和工作需要，委托同级有关部门审批或者核发国家重点保护野生动物驯养繁殖许可证。动物园驯养繁殖国家重点保护野生动物的，林业行政主管部门可以委托同级建设行政主管部]核发驯养繁殖许可证。”</font></td>
+  <td class=xl75 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <tr height=110 style='mso-height-source:userset;height:82.5pt'>
+  <td height=110 class=xl78 width=58 style='height:82.5pt;border-top:none;
+  width:44pt'>安<br>
+    全<br>
+    生<br>
+    产<br>
+    监<br>
+    管<br>
+    总<br>
+    局</td>
+  <td class=xl73 width=52 style='border-top:none;border-left:none;width:39pt'
+  x:num>123</td>
+  <td class=xl79 width=95 style='border-top:none;border-left:none;width:71pt'>林木种子经营许可证核发</td>
+  <td class=xl79 width=90 style='border-top:none;border-left:none;width:68pt'>县级以上人民政府林业主管部门</td>
+  <td class=xl80 width=553 style='border-top:none;border-left:none;width:415pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+  </span>《中华人民共和国种子法》第二十六条：“种子经营实行许可制度。<font class="font13">种子经营者必须先取得种子经营许可证后，方可凭种子经营许可证向工商行政管理机关申请办理或者变更营业执照</font><font
+  class="font8">。种子经营许可证实行分级审批发放制度。种子经营许可证由种子经营者所在地县级以上地方人民政府农业、林业行政主管部门核发。主要农作物杂交种子及其亲本种子、常规种原种种子、主要林木良种的种子经营许可证，由种子经营者所在地县级人民政府农业、林业行政主管部门审核，省、自治区、直辖市人民政府农业、林业行政主管部门核发。实行选育、生产、经营相结合并达到国务院农业、林业行政主管部门规定的注册资本金额的种子公司和从事种子进出口业务的公司的种子经营许可证，由省、自治区、直辖市人民政府农业、林业行政主管部门审核，国务院农业、林业行政主管部门核发。”</font></td>
+  <td class=xl81 style='border-top:none;border-left:none'>项目</td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=58 style='width:44pt'></td>
+  <td width=52 style='width:39pt'></td>
+  <td width=95 style='width:71pt'></td>
+  <td width=90 style='width:68pt'></td>
+  <td width=553 style='width:415pt'></td>
+  <td width=61 style='width:46pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</body>
+
+</html>

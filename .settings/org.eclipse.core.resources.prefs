@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+encoding//WebRoot/weui=UTF-8
+encoding//WebRoot/weui/public/list.jsp=UTF-8
+encoding//WebRoot/weui/public/login2.jsp=UTF-8
+encoding//WebRoot/weui/public/login3.jsp=GBK
+encoding//src/com/macrosoft/icms/util/IaicWebFilter.java=GBK
+encoding//src/com/mchange/v2/c3p0/ComboPooledDataSource.java=UTF-8
+encoding//src/iaicweb.properties=GBK
+encoding/<project>=GBK
