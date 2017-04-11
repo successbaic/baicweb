@@ -12,63 +12,38 @@
 
 <div class="page">
     <div class="page__bd">
-        <h1 class="page__title">用户登录</h1>
-        <p class="page__desc">2233</p>
+        <h1 class="page__title" style="width:100%;text-align:center;margin-top:40px;">用户登录</h1>
     </div>
     <div class="page__bd">
         <div class="weui-cells weui-cells_form">
             <div class="weui-cell">
-                <div class="weui-cell__hd"><label class="weui-label">用户名</label></div>
+                <div class="weui-cell__hd">
+                	<label class="weui-label">用户名</label>
+                </div>
                 <div class="weui-cell__bd">
-                    <input class="weui-input" type="number" pattern="[0-9]*" placeholder="请输入qq号"/>
+                    <input class="weui-input" pattern="[0-9]*" placeholder="请输入用户名"/>
                 </div>
             </div>
-            <div class="weui-cell weui-cell_vcode">
+            <div class="weui-cell">
                 <div class="weui-cell__hd">
                     <label class="weui-label">密码</label>
                 </div>
                 <div class="weui-cell__bd">
-                    <input class="weui-input" type="tel" placeholder="请输入手机号">
-                </div>
-                <div class="weui-cell__ft">
-                    <button class="weui-vcode-btn">获取验证码</button>
+                    <input class="weui-input" type="tel" placeholder="请输入密码">
                 </div>
             </div>
             <div class="weui-cell">
-                <div class="weui-cell__hd"><label for="" class="weui-label">日期</label></div>
-                <div class="weui-cell__bd">
-                    <input class="weui-input" type="date" value=""/>
+                <div class="weui-cell__hd">
+                	<label class="weui-label">验证码</label>
                 </div>
-            </div>
-            <div class="weui-cell weui-cell_warn">
-                <div class="weui-cell__hd"><label for="" class="weui-label">时间</label></div>
                 <div class="weui-cell__bd">
-                    <input class="weui-input" type="datetime-local" value="" placeholder=""/>
+                    <input class="weui-input" placeholder="请输入验证码"/>
                 </div>
                 <div class="weui-cell__ft">
-                    <i class="weui-icon-warn"></i>
-                </div>
-            </div>
-            <div class="weui-cell weui-cell_vcode">
-                <div class="weui-cell__hd"><label class="weui-label">验证码</label></div>
-                <div class="weui-cell__bd">
-                    <input class="weui-input" type="number" placeholder="请输入验证码"/>
-                </div>
-                <div class="weui-cell__ft">
-                    <img class="weui-vcode-img" src="../example/images/vcode.jpg" />
+                    <img class="weui-vcode-img" src="imageAction.action"  onclick="this.src='imageAction.action?time='+(new Date()).getTime();"/>
                 </div>
             </div>
         </div>
-        <div class="weui-cells__tips">底部说明文字底部说明文字</div>
-
-  
-
-        <label for="weuiAgree" class="weui-agree">
-            <input id="weuiAgree" type="checkbox" class="weui-agree__checkbox">
-            <span class="weui-agree__text">
-                阅读并同意<a href="javascript:void(0);">《相关条款》</a>
-            </span>
-        </label>
 
         <div class="weui-btn-area">
             <a class="weui-btn weui-btn_primary" href="javascript:" id="showTooltips">确定</a>
