@@ -1,15 +1,26 @@
+<%@ page language="java" contentType="text/html; charset=GBK"%>
 <!DOCTYPE html>
-<%@ page contentType="text/html; charset=GBK"%>
 <html>
 <head>
-    <meta charset="GBK">
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
     <title>济南工商微信服务平台</title>
     <link rel="stylesheet" href="../example/example.css"/>
     <link rel="stylesheet" href="../style/weui.css"/>
+	<script language="javascript" src="<%=request.getContextPath() %>/support/jquery-1.8.3.js"></script>
+	<script language="javascript" src="../public/dsSave.js"></script>
+	<script type="text/javascript">
+	function doSub(){
+		var data=$("#myform").serializeArray();
+		var ret=doAjaxSub("QydjJbxxSqAction.do?method=Save",data);
+		alert(ret);
+	}
+	</script>
 </head>
 <body ontouchstart>
 
+<form name="myform" id="myform" action="WeiServletAction">
+<input type="hidden" name="CLASSNAME" value="QydjJbxxSqAction">
+<input type="hidden" name="METHODNAME" value="Save">
 <div class="page">
     <div class="page__bd">
         <h1 class="page__title" style="width:100%;text-align:center;margin-top:40px;">基本信息</h1>
@@ -21,7 +32,7 @@
                 	<label class="weui-label">企业名称</label>
                 </div>
                 <div class="weui-cell__bd">
-                    <input class="weui-input" placeholder="请输入企业名称"/>
+                    <input class="weui-input" name="ENTNAME" placeholder="请输入企业名称"/>
                 </div>
             </div>
             <div class="weui-cell">
@@ -29,7 +40,7 @@
                     <label class="weui-label">法定代表人</label>
                 </div>
                 <div class="weui-cell__bd">
-                    <input class="weui-input" placeholder="请输入法定代表人">
+                    <input class="weui-input" name="LEREP" placeholder="请输入法定代表人">
                 </div>
             </div>
             
@@ -157,13 +168,15 @@
         </div>
 
         <div class="weui-btn-area">
-            <a class="weui-btn weui-btn_primary" href="javascript:" id="showTooltips">确定</a>
+            <a class="weui-btn weui-btn_primary" href="javascript:doSub();" id="showTooltips">确定</a>
         </div>
     </div>
     <div class="page__ft">
         <a href="javascript:home()"><img src="../example/images/icon_footer_link.png" /></a>
     </div>
 </div>
+
+</form>
 
     <script src="../example/zepto.min.js"></script>
     <script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
