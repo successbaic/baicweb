@@ -35,8 +35,8 @@ public class SysUtility
 			else
 			{
 				strvalue=strvalue.replaceAll("[\\n\\r]","");
-				newStr=new String(strvalue.getBytes("ISO8859-1"),"GBK");
-				//newStr=new String(strvalue);
+				//newStr=new String(strvalue.getBytes("ISO8859-1"),"GBK");
+				newStr=new String(strvalue);
 				return newStr;
 			}
 		}

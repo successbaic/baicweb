@@ -20,11 +20,11 @@ public class IaicWebFilter extends HttpServlet implements Filter{
 		 String webname=((HttpServletRequest) request).getContextPath();
 		 String url=((HttpServletRequest) request).getRequestURI();
 		 //System.out.println(url+"---come-------"+webname);
-		 if(url.indexOf(".")>1 || url.equals(webname+"/")){
+		 /*if(url.indexOf("WeiServletAction")>0){
 			
 		 }else{
 			 ((HttpServletResponse) response).sendRedirect(webname+"/limit.jsp");
-		 }
+		 }*/
 		 XssHttpServletRequestWrapper xssRequest = new XssHttpServletRequestWrapper((HttpServletRequest) request); 
 		 
 		dochain.doFilter(xssRequest, response);
@@ -50,12 +50,12 @@ public class IaicWebFilter extends HttpServlet implements Filter{
 	            case '<':  
 	                sb.append('＜');//全角小于号  
 	                break;  
-	            case '\'':  
+	            /*case '\'':  
 	                sb.append('‘');//全角单引号  
 	                break;  
 	            case '\"':  
 	                sb.append('“');//全角双引号  
-	                break;  
+	                break;  */
 	            case '&':  
 	                sb.append('＆');//全角  
 	                break;  
