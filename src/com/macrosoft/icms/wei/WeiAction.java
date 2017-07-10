@@ -1006,7 +1006,7 @@ public class WeiAction {
 			boolean IfFirst=false;
 			boolean CwfzrChange=false;
 			if(OPENO.equals("")|| OPENO==null){//第一次保存，生成新的业务编号MB开头
-				OPENO=SYS_BHBM.CREATEBH(2,request.getParameter("REGORG"));
+				OPENO=SYS_BHBM.CREATEBH(2,WeiActionUtil.getJsonValueByKey(jsonStr,"REGORG"));
 				retMap.put("OPENO", OPENO);
 				IfFirst=true;
 			}
