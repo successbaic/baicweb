@@ -22,11 +22,16 @@ import com.jspsmart.upload.SmartUploadException;
 import com.macrosoft.icms.gsdbc.GsDbConnection;
 import com.macrosoft.icms.gsnw.GSYJXX;
 import com.macrosoft.icms.gsnw.GTDJ_JBXX_ZS;
+import com.macrosoft.icms.gsnw.GTDJ_JYZXX_ZS;
 import com.macrosoft.icms.gsnw.MCGL_JBXX_ZS;
 import com.macrosoft.icms.gsnw.QYDJ_CZXX_ZS;
 import com.macrosoft.icms.gsnw.QYDJ_JBXX_ZS;
 import com.macrosoft.icms.gsnw.QYDJ_RYXX_ZS;
 import com.macrosoft.icms.mcgl.MCGL_JBXX_SQ;
+import com.macrosoft.icms.qydj.GTDJ_BGXX_SQ;
+import com.macrosoft.icms.qydj.GTDJ_JBXX_SQ;
+import com.macrosoft.icms.qydj.GTDJ_JYZXX_SQ;
+import com.macrosoft.icms.qydj.GTDJ_ZXXX_SQ;
 import com.macrosoft.icms.qydj.QYDJ_BGSX_SQ;
 import com.macrosoft.icms.qydj.QYDJ_CWFZR_SQ;
 import com.macrosoft.icms.qydj.QYDJ_CZXX_SQ;
@@ -43,6 +48,7 @@ import com.macrosoft.icms.util.CHECK_INFO;
 import com.macrosoft.icms.util.SYS_BHBM;
 import com.macrosoft.icms.util.UPLOAD_FILE;
 import com.macrosoft.icms.util.WSDJ_LOG_RECORD;
+import com.macrosoft.icms.util.WSDJ_TXJL;
 
 import net.sf.json.JSONObject;
 
@@ -59,14 +65,18 @@ public class WeiAction {
 			
 			String gmlx = SysDmUtil.doPreProcess(request.getParameter("gmlx"));
 			String IFMC = SysDmUtil.doPreProcess(request.getParameter("radio_mc"));
+			String ENTCLASS= "";
+			String WSLX="";
+			
 			if("".equals(IFMC)){
 				IFMC = "1";	
+			}
+			if("".equals(gmlx)){
+				gmlx="2";//默认为地市(含区县)核名
 			}
 			String ENTNAME = request.getParameter("ENTNAME");
 			ENTNAME=SysDmUtil.doPreProcess(SysDmUtil.convertCode(ENTNAME));
 			
-			String QYLX = "";
-			String ENTCLASS = "";
 			String OPENO = "";
 			String MCID = "";
 			String MCXH = "";
@@ -138,17 +148,20 @@ public class WeiAction {
 						ENTCLASS = MCGL_JBXX_ZS.getENTCAT();
 						APPRNO=MCGL_JBXX_ZS.getAPPRNO();
 						PRIPID=MCGL_JBXX_ZS.getPRIPID();
-						QYLX = SysDmUtil.getSysRemark("ENTTYPE", MCGL_JBXX_ZS.getENTTYPE());
-						map.put("ENTCLASS",ENTCLASS);
-						map.put("MCXH",MCXH);
-						map.put("NAMEAPPNO",APPRNO);
-						map.put("WSLX",QYLX);
-						map.put("PRIPID",PRIPID);
+						WSLX = SysDmUtil.getSysRemark("ENTTYPE", MCGL_JBXX_ZS.getENTTYPE());
+						//map.put("ENTCLASS",ENTCLASS);
+						map.put("MCXH",MCXH);//名称主键
+						map.put("NAMEAPPNO",APPRNO);//名称完整文书号
+						//map.put("WSLX",WSLX);
+						map.put("PRIPID",PRIPID);//名称pripid
+						map.put("MCID",MCID);//传过来的文书号数字
+						
 					}
 				}
 				
 			} else {//无名称核准	
 				ENTCLASS = request.getParameter("ENTCLASS");
+				WSLX = request.getParameter("WSLX");
 				if(!"5".equals(ENTCLASS)){
 					//判断名称是否被占用
 					boolean isUsed = CHECK_INFO.validateEntname(ENTNAME);
@@ -174,6 +187,11 @@ public class WeiAction {
 				return;
 			}
 			map.put("status", "1");
+			map.put("ENTCLASS", ENTCLASS);//企业类别
+			map.put("WSLX", WSLX);//文书类型
+			map.put("IFMC", IFMC);//是否名称
+			map.put("GMLX", gmlx);//冠名类型
+			
 			JSONObject jsonObject = JSONObject.fromObject(map);
 			out.print(jsonObject.toString());
 		}catch(SQLException e){
@@ -188,7 +206,7 @@ public class WeiAction {
 		try {
 		Map retMap=new HashMap();
 		String jsonStr=request.getParameter("jsonStr");
-		jsonStr=new String(jsonStr.getBytes("ISO8859-1"),"GBK");
+		jsonStr=new String(jsonStr.getBytes("ISO8859-1"),"utf-8");
 		QYDJ_JBXX_SQ QYDJ_JBXX=(QYDJ_JBXX_SQ)WeiActionUtil.json2pojo(jsonStr, QYDJ_JBXX_SQ.class);
 		
 		
@@ -363,7 +381,7 @@ public class WeiAction {
 		PrintWriter out = response.getWriter();
 		try {
 			String jsonStr=request.getParameter("jsonStr");
-			jsonStr=new String(jsonStr.getBytes("ISO8859-1"),"GBK");
+			jsonStr=new String(jsonStr.getBytes("ISO8859-1"),"utf-8");
 			QYDJ_RYXX_SQ QYDJ_RYXX=(QYDJ_RYXX_SQ)WeiActionUtil.json2pojo(jsonStr, QYDJ_RYXX_SQ.class);
 			String RECID=SysDmUtil.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"RECID"));
 			Map retMap=new HashMap();
@@ -423,120 +441,18 @@ public class WeiAction {
 				out.print(WeiActionUtil.errorReturn("数据保存失败!"));
 				return;
 			}
-			JSONObject jsonObject = JSONObject.fromObject(retMap);
-			out.print(jsonObject.toString());
+			/*JSONObject jsonObject = JSONObject.fromObject(retMap);
+			out.print(jsonObject.toString());*/
 		}catch(SQLException e){
 			e.printStackTrace();
 			out.print(WeiActionUtil.errorReturn(e.getMessage()));
 		}
 	}
-	
-	public void djscySave(HttpServletRequest request,HttpServletResponse response) throws IOException{
-		PrintWriter out = response.getWriter();
-		try {
-			String jsonStr=request.getParameter("jsonStr");
-			jsonStr=new String(jsonStr.getBytes("ISO8859-1"),"GBK");
-			QYDJ_RYXX_SQ QYDJ_RYXX=(QYDJ_RYXX_SQ)WeiActionUtil.json2pojo(jsonStr, QYDJ_RYXX_SQ.class);
-			
-			Map retMap=new HashMap();
-			String action = SysDmUtil.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"CZACTION"));
-			String WSLX = SysDmUtil.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"WSLX"));
-			String RECID = SysDmUtil.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"RECID"));
-			String OPENO = SysDmUtil.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"OPENO"));
-			String LEREPSIGN=SysDmUtil.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"LEREPSIGN"));
-			
-			String CERNO = SysDmUtil.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"CERNO"));
-			String CERTYPE = SysDmUtil.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"CERTYPE"));
-			String INAME = SysDmUtil.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"NAME"));
-			//List list_tzrs = QYDJ_RYXX.getList(" WHERE openo = '"+OPENO+"'");
-			//for(int i = 0 ; i < list_tzrs.size(); i++){
-			//	QYDJ_RYXX_SQ bean = (QYDJ_RYXX_SQ)list_tzrs.get(i);
-			//	if(QYDJ_RYXX.getCERTYPE().equals(bean.getCERTYPE())
-			//			&&QYDJ_RYXX.getCERNO().equals(bean.getCERNO())){
-			///			if(!QYDJ_RYXX.getRECID().equals(bean.getRECID())){
-			//				out.print(WeiActionUtil.errorReturn("同一个人员只能担任一种职务，请核查后再申请!"));
-			//				return;
-			//			}
-			//	}
-			//}
-			
-	//		if(OPETYPE.equals("20") || OPETYPE.equals("30")){
-				if(!action.equals("")){
-					GSYJXX yjxx=new GSYJXX();
-					if(yjxx.checkRyHmd(CERNO,CERTYPE)){
-						out.print(WeiActionUtil.errorReturn("提示:当前人员的在黑名单库中!"));
-						return;
-					}
-					if(WSLX.equals("GS")||WSLX.equals("WZGS")||WSLX.equals("NZFR")||WSLX.equals("HZS")){
-						if(yjxx.checkLaolai(INAME, CERNO)){
-							out.print(WeiActionUtil.errorReturn("提示:当前人员在失信被执行人名单中!"));
-							return;
-						}
-					}
-				}
-	//		}
-				
-			QYDJ_JBXX_SQ QYDJ_JBXX=new QYDJ_JBXX_SQ();
-			if(action.equals("1"))//添加
-			{  
-				//int max =QYDJ_RYXX.getListMax(" where OPENO='"+OPENO+"'");
-			    QYDJ_RYXX.setOPENO(OPENO);
-			    RECID=SysUtility.getUUID20();
-				QYDJ_RYXX.setRECID(RECID);
-				if (QYDJ_RYXX.doAdd())
-				{
-					
-				}			    
-				else{
-					out.print(WeiActionUtil.errorReturn("数据保存失败!"));
-					return;
-				}
-				
-			}
-			else if(action.equals("2"))//修改
-			{				
-				if (QYDJ_RYXX.doModify()){
-					
-				}else{
-					out.print(WeiActionUtil.errorReturn("数据保存失败!"));
-					return;
-				}
-				
-				if(LEREPSIGN.equals("1")){
-					String NAME = QYDJ_RYXX.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"NAME"));
-					QYDJ_JBXX.setOPENO(OPENO);
-					QYDJ_JBXX.setLEREP(NAME);
-					QYDJ_JBXX.setPOSITION(QYDJ_RYXX.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"POSITION")));
-					QYDJ_JBXX.doModifyLerep();
-				}
-			}
-			else if(action.equals("3"))//删除
-			{
-				if (QYDJ_RYXX.doDelete()){
-					
-		   		}else{
-		   			out.print(WeiActionUtil.errorReturn("数据保存失败!"));
-		   			return;
-			    }
-			}
-			
-			retMap.put("status", "1");
-			
-			
-			JSONObject jsonObject = JSONObject.fromObject(retMap);
-			out.print(jsonObject.toString());
-			
-		}catch(SQLException e){
-			e.printStackTrace();
-			out.print(WeiActionUtil.errorReturn(e.getMessage()));
-		}	
-	}
-	
 	public void czxxSave(HttpServletRequest request,HttpServletResponse response) throws IOException{
 		PrintWriter out = response.getWriter();
 		try {
 			String jsonStr=request.getParameter("jsonStr");
-			jsonStr=new String(jsonStr.getBytes("ISO8859-1"),"GBK");
+			jsonStr=new String(jsonStr.getBytes("ISO8859-1"),"utf-8");
 			QYDJ_CZXX_SQ QYDJ_CZXX=(QYDJ_CZXX_SQ)WeiActionUtil.json2pojo(jsonStr, QYDJ_CZXX_SQ.class);
 			
 			Map retMap=new HashMap();
@@ -691,12 +607,112 @@ public class WeiAction {
 		}	
 	}
 	
+	public void djscySave(HttpServletRequest request,HttpServletResponse response) throws IOException{
+		PrintWriter out = response.getWriter();
+		try {
+			String jsonStr=request.getParameter("jsonStr");
+			jsonStr=new String(jsonStr.getBytes("ISO8859-1"),"utf-8");
+			QYDJ_RYXX_SQ QYDJ_RYXX=(QYDJ_RYXX_SQ)WeiActionUtil.json2pojo(jsonStr, QYDJ_RYXX_SQ.class);
 			
+			Map retMap=new HashMap();
+			String action = SysDmUtil.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"CZACTION"));
+			String WSLX = SysDmUtil.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"WSLX"));
+			String RECID = SysDmUtil.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"RECID"));
+			String OPENO = SysDmUtil.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"OPENO"));
+			String LEREPSIGN=SysDmUtil.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"LEREPSIGN"));
+			
+			String CERNO = SysDmUtil.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"CERNO"));
+			String CERTYPE = SysDmUtil.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"CERTYPE"));
+			String INAME = SysDmUtil.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"NAME"));
+			//List list_tzrs = QYDJ_RYXX.getList(" WHERE openo = '"+OPENO+"'");
+			//for(int i = 0 ; i < list_tzrs.size(); i++){
+			//	QYDJ_RYXX_SQ bean = (QYDJ_RYXX_SQ)list_tzrs.get(i);
+			//	if(QYDJ_RYXX.getCERTYPE().equals(bean.getCERTYPE())
+			//			&&QYDJ_RYXX.getCERNO().equals(bean.getCERNO())){
+			///			if(!QYDJ_RYXX.getRECID().equals(bean.getRECID())){
+			//				out.print(WeiActionUtil.errorReturn("同一个人员只能担任一种职务，请核查后再申请!","window.history.back(0);"));
+			//				return;
+			//			}
+			//	}
+			//}
+			
+	//		if(OPETYPE.equals("20") || OPETYPE.equals("30")){
+				if(!action.equals("")){
+					GSYJXX yjxx=new GSYJXX();
+					if(yjxx.checkRyHmd(CERNO,CERTYPE)){
+						out.print(WeiActionUtil.errorReturn("提示:当前人员的在黑名单库中!"));
+						return;
+					}
+					if(WSLX.equals("GS")||WSLX.equals("WZGS")||WSLX.equals("NZFR")||WSLX.equals("HZS")){
+						if(yjxx.checkLaolai(INAME, CERNO)){
+							out.print(WeiActionUtil.errorReturn("提示:当前人员在失信被执行人名单中!"));
+							return;
+						}
+					}
+				}
+	//		}
+				
+			QYDJ_JBXX_SQ QYDJ_JBXX=new QYDJ_JBXX_SQ();
+			if(action.equals("1"))//添加
+			{  
+				//int max =QYDJ_RYXX.getListMax(" where OPENO='"+OPENO+"'");
+			    QYDJ_RYXX.setOPENO(OPENO);
+			    RECID=SysUtility.getUUID20();
+				QYDJ_RYXX.setRECID(RECID);
+				if (QYDJ_RYXX.doAdd())
+				{
+					
+				}			    
+				else{
+					out.print(WeiActionUtil.errorReturn("数据保存失败!"));
+					return;
+				}
+				
+			}
+			else if(action.equals("2"))//修改
+			{				
+				if (QYDJ_RYXX.doModify()){
+					
+				}else{
+					out.print(WeiActionUtil.errorReturn("数据保存失败!"));
+					return;
+				}
+				
+				if(LEREPSIGN.equals("1")){
+					String NAME = QYDJ_RYXX.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"NAME"));
+					QYDJ_JBXX.setOPENO(OPENO);
+					QYDJ_JBXX.setLEREP(NAME);
+					QYDJ_JBXX.setPOSITION(QYDJ_RYXX.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"POSITION")));
+					QYDJ_JBXX.doModifyLerep();
+				}
+			}
+			else if(action.equals("3"))//删除
+			{
+				if (QYDJ_RYXX.doDelete()){
+					
+		   		}else{
+		   			out.print(WeiActionUtil.errorReturn("数据保存失败!"));
+		   			return;
+			    }
+			}
+			
+			retMap.put("status", "1");
+			
+			
+			JSONObject jsonObject = JSONObject.fromObject(retMap);
+			out.print(jsonObject.toString());
+			
+		}catch(SQLException e){
+			e.printStackTrace();
+			out.print(WeiActionUtil.errorReturn(e.getMessage()));
+		}	
+	}
+	
 	public void cwfzrSave(HttpServletRequest request,HttpServletResponse response) throws IOException{
 		PrintWriter out = response.getWriter();
 		try {
 			String jsonStr=request.getParameter("jsonStr");
-			jsonStr=new String(jsonStr.getBytes("ISO8859-1"),"GBK");
+			jsonStr=new String(jsonStr.getBytes("ISO8859-1"),"utf-8");
 			Map retMap=new HashMap();
 			String OPENO = SysDmUtil.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"OPENO"));
 			QYDJ_CWFZR_SQ QYDJ_CWFZR=(QYDJ_CWFZR_SQ)WeiActionUtil.json2pojo(jsonStr, QYDJ_CWFZR_SQ.class);
@@ -734,6 +750,7 @@ public class WeiAction {
 		try {
 			Map retMap=new HashMap();
 			String jsonStr=request.getParameter("jsonStr");
+			jsonStr=new String(jsonStr.getBytes("ISO8859-1"),"utf-8");
 			QYDJ_WZLLR_SQ QYDJ_WZLLR=(QYDJ_WZLLR_SQ)WeiActionUtil.json2pojo(jsonStr, QYDJ_WZLLR_SQ.class);
 			String OPENO = QYDJ_WZLLR.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"OPENO"));
 			if (QYDJ_WZLLR.doCount())
@@ -766,7 +783,7 @@ public class WeiAction {
 		try {
 			Map retMap=new HashMap();
 			String jsonStr=request.getParameter("jsonStr");
-			jsonStr=new String(jsonStr.getBytes("ISO8859-1"),"GBK");
+			jsonStr=new String(jsonStr.getBytes("ISO8859-1"),"utf-8");
 			QYDJ_XKXX_SQ QYDJ_XKXX=(QYDJ_XKXX_SQ)WeiActionUtil.json2pojo(jsonStr, QYDJ_XKXX_SQ.class);
 			String action = QYDJ_XKXX.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"CZACTION"));
 			String RECID = QYDJ_XKXX.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"RECID"));
@@ -819,7 +836,7 @@ public class WeiAction {
 		try {
 			Map retMap=new HashMap();
 			String jsonStr=request.getParameter("jsonStr");
-			jsonStr=new String(jsonStr.getBytes("ISO8859-1"),"GBK");
+			jsonStr=new String(jsonStr.getBytes("ISO8859-1"),"utf-8");
 			QYDJ_SQWT_SQ QYDJ_SQWT=(QYDJ_SQWT_SQ)WeiActionUtil.json2pojo(jsonStr, QYDJ_SQWT_SQ.class);
 			String OPENO = QYDJ_SQWT.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"OPENO"));
 			boolean bl=false;
@@ -951,7 +968,7 @@ public class WeiAction {
 			String today=sdf1.format(new java.sql.Date(new java.util.Date().getTime()));
 			
 			String jsonStr=request.getParameter("jsonStr");
-			jsonStr=new String(jsonStr.getBytes("ISO8859-1"),"GBK");
+			jsonStr=new String(jsonStr.getBytes("ISO8859-1"),"utf-8");
 			
 			String OPENO=QYDJ_BGSX.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"OPENO"));
 			String REGNO=QYDJ_BGSX.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"REGNO"));
@@ -1218,10 +1235,10 @@ public class WeiAction {
 				+ip+"','"+sCDDL+"',LOCALADM,OPELOCDISTRICT FROM QYDJ_JBXX_SQ WHERE OPENO='"+OPENO+"'");
 			}
 			
-				
-		
 			if(bl){	
-				out.print(WeiActionUtil.errorReturn("保存成功!"));
+				retMap.put("status", "1");
+				JSONObject jsonObject = JSONObject.fromObject(retMap);
+				out.print(jsonObject.toString());
 			}
 			else{
 				out.print(WeiActionUtil.errorReturn("保存失败!"));
@@ -1239,7 +1256,7 @@ public class WeiAction {
 			Map retMap=new HashMap();
 			
 			String jsonStr=request.getParameter("jsonStr");
-			jsonStr=new String(jsonStr.getBytes("ISO8859-1"),"GBK");
+			jsonStr=new String(jsonStr.getBytes("ISO8859-1"),"utf-8");
 			
 			QYDJ_ZXXX_SQ QYDJ_ZXXX=(QYDJ_ZXXX_SQ)WeiActionUtil.json2pojo(jsonStr, QYDJ_ZXXX_SQ.class);
 			
@@ -1316,8 +1333,10 @@ public class WeiAction {
 			PrintWriter out = response.getWriter();
 			Map retMap=new HashMap();
 			
-			String REGNO=SysUtility.doPreProcess(request.getParameter("REGNO"));	
-			String CERNO=SysUtility.doPreProcess(SysUtility.convertCode(request.getParameter("CERNO")));	
+			String jsonStr=request.getParameter("jsonStr");
+			jsonStr=new String(jsonStr.getBytes("ISO8859-1"),"utf-8");
+			String REGNO=SysUtility.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"REGNO"));	
+			String CERNO=SysUtility.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"CERNO"));	
 			//String OPETYPE=SysUtility.doPreProcess(request.getParameter("OPETYPE"));
 			//String XZQH=SysUtility.doPreProcess(request.getParameter("XZQH"));
 			
@@ -1405,6 +1424,594 @@ public class WeiAction {
 		}	
 	}
 	
+	//个体基本信息保存
+	public void gtJbxxSave(HttpServletRequest request,HttpServletResponse response){
+		try {
+			PrintWriter out = response.getWriter();
+			Map retMap=new HashMap();
+			
+			GTDJ_JBXX_SQ GTDJ_JBXX=new GTDJ_JBXX_SQ();
+			WSDJ_TXJL WSDJ_TXJL=new WSDJ_TXJL();
+			GTDJ_JYZXX_SQ GTDJ_JYZXX=new GTDJ_JYZXX_SQ();
+			QYDJ_YWSB_SQ QYDJ_YWSB=new QYDJ_YWSB_SQ();
+			WSDJ_LOG_RECORD WSDJ_LOG_RECORD=new WSDJ_LOG_RECORD();
+			
+			String jsonStr=request.getParameter("jsonStr");
+			jsonStr=new String(jsonStr.getBytes("ISO8859-1"),"utf-8");
+			
+			String OPENO=GTDJ_JBXX.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"OPENO"));
+			String REGORG=GTDJ_JBXX.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"REGORG"));
+			String LOGINID=GTDJ_JBXX.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"LOGINID"));
+			String PRIPID=GTDJ_JBXX.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"PRIPID"));
+			
+			String sTYPE="2";
+			String IFELEC="";
+			String XZQH =WeiActionUtil.XZQH;
+
+			SimpleDateFormat sdf1=new SimpleDateFormat("yyyy-MM-dd");
+			String today=sdf1.format(new java.sql.Date(new java.util.Date().getTime()));
+			
+			boolean bl=false;
+			String ip="";
+		    
+			if(OPENO.equals("")|| OPENO==null){//第一次保存，生成新的业务编号MB开头
+				OPENO=SYS_BHBM.CREATEBH(2,REGORG);
+				retMap.put("OPENO", OPENO);
+			}	
+			//济南新增需求，配合事中事后双拆，业务系统增加地址判断，判断是否是违章建筑地址，如果是不允许设立登记
+			if(XZQH.startsWith("3701")){
+				
+				String dom=GTDJ_JBXX.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"OPLOC"));
+				if(dom==null || "".equals(dom)){
+					dom=GTDJ_JBXX.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"PROLOC"));
+				}
+				if(dom!=null && !"".equals(dom)){
+					String sql = "SELECT * FROM SZSH_XTJG_WZJZ WHERE ACTUALDOM='"+dom+"' ";
+					GsDbConnection gsdbc=new GsDbConnection();
+					ResultSet rs = gsdbc.executeQuery(sql);
+					if(rs.next()){
+						out.print(WeiActionUtil.errorReturn("该登记地址已被列为违法违章建筑，不允许办理工商登记业务!"));
+						return;
+					}
+					gsdbc.close();
+				}
+			}
+			
+			GTDJ_JBXX.setOPENO(OPENO);
+			GTDJ_JBXX.setSTATUS("0");	
+			GTDJ_JBXX.setIFELEC(IFELEC);
+
+			if(GTDJ_JBXX.doCount()){
+				bl=GTDJ_JBXX.doModify();
+			}else{		
+				//该业务出资信息表中还没记录时，往WSDJ_TXJL（填写记录表）中插入一条记录；
+				WSDJ_TXJL.setOPENO(OPENO);
+				WSDJ_TXJL.setWJBH(1001);
+				WSDJ_TXJL.setCZRY(LOGINID);
+				WSDJ_TXJL.setJQIP(ip);
+				WSDJ_TXJL.setCZSJ(today);
+				WSDJ_TXJL.doAdd();
+				//基本信息表中插入一条记录
+				bl=GTDJ_JBXX.doAdd();
+			}
+			if(!bl){
+				out.print(WeiActionUtil.errorReturn("基本信息保存失败!"));
+				return;
+			}
+			
+			GTDJ_JYZXX.setOPENO(OPENO);
+			GTDJ_JYZXX.setPRIPID(PRIPID);
+			GTDJ_JYZXX.setNAME(SysUtility.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"OPERNAME")));
+			if(GTDJ_JYZXX.doCount()){
+				GTDJ_JYZXX.doModifyByJyz();	
+			}else{
+				GTDJ_JYZXX.doAdd();
+			}
+			
+			if(QYDJ_YWSB.doCount()){		
+				bl=QYDJ_YWSB.doSql("UPDATE QYDJ_YWSB_SQ "
+				+"SET (ENTNAME,LEREP,REGORG,JQIP,LOCALADM,OPELOCDISTRICT) "
+				+"=(SELECT TRANAME,OPERNAME,REGORG,'"
+				+ip+"',LOCALADM,OPELOCDISTRICT FROM GTDJ_JBXX_SQ WHERE OPENO='"+OPENO+"') WHERE OPENO='"+OPENO+"'");
+			}else{
+				bl=QYDJ_YWSB.doSql("INSERT INTO QYDJ_YWSB_SQ(OPELOCDISTRICT,LOCALADM,CDDL,JQIP,STATUS,LOGINID,OPENO,PRIPID,OPETYPE,REGNO,UNISCID,ENTNAME,REGORG,APPDATE,ENTTYPE,ENTCLASS,LEREP) VALUES('"
+				+GTDJ_JBXX.getOPELOCDISTRICT()+"','"+GTDJ_JBXX.getLOCALADM()+"','"+sTYPE+"','"+ ip +"','0','"+ GTDJ_JBXX.getLOGINID() +"','"+ OPENO +"','"+ GTDJ_JBXX.getPRIPID() +"','"+ GTDJ_JBXX.getOPETYPE() +"','"+ GTDJ_JBXX.getREGNO() 
+				+"','"+ GTDJ_JBXX.getUNISCID() +"','"+ GTDJ_JBXX.getTRANAME() +"','"+ GTDJ_JBXX.getREGORG()+"', to_date('"+GTDJ_JBXX.getAPPDATE() +"','yyyy-mm-dd'),'9999',5,'"+GTDJ_JBXX.getOPERNAME()+"')");
+			}
+			
+			if(bl){
+				//数据保存后日志表记录日志
+				WSDJ_LOG_RECORD.setLOGID(SysUtility.getUUID20());
+				WSDJ_LOG_RECORD.setLINKNAME("网上登记个体工商户基本信息保存环节");
+				WSDJ_LOG_RECORD.setUSERID(GTDJ_JBXX.getLOGINID());
+				WSDJ_LOG_RECORD.setOPENO(OPENO);
+				WSDJ_LOG_RECORD.setUSERIP(ip);
+				WSDJ_LOG_RECORD.setENTNAME(GTDJ_JBXX.getTRANAME());
+				WSDJ_LOG_RECORD.setOPERNAME(GTDJ_JBXX.getOPERNAME());
+				WSDJ_LOG_RECORD.setIFELEC(IFELEC);
+				WSDJ_LOG_RECORD.doAdd();
+				
+				retMap.put("status", "1");
+				JSONObject jsonObject = JSONObject.fromObject(retMap);
+				out.print(jsonObject.toString());
+			}
+			else{
+				out.print(WeiActionUtil.errorReturn("业务申报数据保存失败!"));
+				return;
+			}
+			
+			
+		}catch(IOException e){
+			e.printStackTrace();
+		}catch(SQLException e){
+			e.printStackTrace();
+		}	
+	}
+			
+	//个体基本信息保存
+	public void gtJyzxxSave(HttpServletRequest request,HttpServletResponse response){
+		try {
+			PrintWriter out = response.getWriter();
+			Map retMap=new HashMap();
+			
+			GTDJ_JBXX_SQ GTDJ_JBXX=new GTDJ_JBXX_SQ();
+			WSDJ_TXJL WSDJ_TXJL=new WSDJ_TXJL();
+			GTDJ_JYZXX_SQ GTDJ_JYZXX=new GTDJ_JYZXX_SQ();
+			QYDJ_YWSB_SQ QYDJ_YWSB=new QYDJ_YWSB_SQ();
+			WSDJ_LOG_RECORD WSDJ_LOG_RECORD=new WSDJ_LOG_RECORD();
+			
+			String jsonStr=request.getParameter("jsonStr");
+			jsonStr=new String(jsonStr.getBytes("ISO8859-1"),"utf-8");
+			
+			String OPENO=GTDJ_JBXX.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"OPENO"));
+			
+			String sTYPE="2";
+			String IFELEC="";
+			String XZQH =WeiActionUtil.XZQH;
+
+			GTDJ_JYZXX.setOPENO(OPENO);
+			boolean bl=false;
+			if(GTDJ_JYZXX.doCount())//修改
+			{
+				bl=GTDJ_JYZXX.doModify();		
+			}else{//新增  	    		
+				bl=GTDJ_JYZXX.doAdd();		
+			}
+			if(!bl){
+				out.print(WeiActionUtil.errorReturn("数据保存失败!"));
+				return;
+			}
+			GTDJ_JBXX.setOPENO(OPENO);
+			GTDJ_JBXX.setOPERNAME(GTDJ_JBXX.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"NAME")));
+			
+			QYDJ_YWSB.setOPENO(OPENO);
+			QYDJ_YWSB.doSelect();
+			QYDJ_YWSB.setLEREP(QYDJ_YWSB.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"NAME")));
+			if(GTDJ_JBXX.doModByJyz()&&QYDJ_YWSB.doModify()){
+				
+			}else{
+				out.print(WeiActionUtil.errorReturn("数据保存失败!"));
+				return;
+			}
+			
+			retMap.put("status", "1");
+			JSONObject jsonObject = JSONObject.fromObject(retMap);
+			out.print(jsonObject.toString());
+			
+		}catch(IOException e){
+			e.printStackTrace();
+		}catch(SQLException e){
+			e.printStackTrace();
+		}	
+	}
+	
+	//个体变更、注销信息第一步
+	public void checkGt(HttpServletRequest request,HttpServletResponse response){
+		try {
+			PrintWriter out = response.getWriter();
+			Map retMap=new HashMap();
+			
+			GTDJ_JBXX_ZS GTDJ_JBXX_ZS=new GTDJ_JBXX_ZS();
+			GTDJ_JYZXX_ZS GTDJ_JYZXX_ZS=new GTDJ_JYZXX_ZS();
+					
+			String XZQH=WeiActionUtil.XZQH;
+			
+			String jsonStr=request.getParameter("jsonStr");
+			jsonStr=new String(jsonStr.getBytes("ISO8859-1"),"utf-8");
+			String REGNO=SysUtility.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"REGNO"));	
+			String CERNO=SysUtility.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"CERNO"));	
+			String OPETYPE=SysUtility.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"OPETYPE"));	
+			
+			GTDJ_JBXX_ZS.doSelectBySql("SELECT * FROM GTDJ_JBXX_ZS WHERE STATUS IN ('1','2') AND (REGNO='"+REGNO+"' or UNISCID='"+REGNO+"') AND REGORG IN (select coding from com_djjg where (coding='"+XZQH+"' or pcoding ='"+XZQH+"')) ");
+			String PRIPID=GTDJ_JBXX_ZS.getPRIPID();
+			if(PRIPID.equals("")){
+				out.print(WeiActionUtil.errorReturn("统一社会信用代码/注册号不存在或不准确，请保证注册号的准确及完整性，并重新输入！"));
+			       return;
+			}
+			if("30".equals(OPETYPE)){
+				if(GTDJ_JBXX_ZS.getSTATUS()==2){
+					out.print(WeiActionUtil.errorReturn("当前个体户已吊销！"));
+					return;
+				}
+			}
+			CHECK_INFO CHECKINFO =new CHECK_INFO();
+			String wwywsbInfo=CHECKINFO.WW_YWSB_SQ(" WHERE (REGNO='"+REGNO+"' or UNISCID='"+REGNO+"') AND STATUS NOT IN('4','5','11') AND CDDL='2' ");
+			if(!wwywsbInfo.equals("")){
+				out.print(WeiActionUtil.errorReturn(wwywsbInfo));
+				return;
+			}
+			String REGORG=GTDJ_JBXX_ZS.getREGORG();
+			GTDJ_JYZXX_ZS.setPRIPID(PRIPID);
+			GTDJ_JYZXX_ZS.doSelect();
+			if(! CERNO.equals(GTDJ_JYZXX_ZS.getCERNO()) && ! CERNO.equals(GTDJ_JYZXX_ZS.getCER1NO())){
+				out.print(WeiActionUtil.errorReturn("经营者的证件号码与登记信息不一致，请检查！"));
+				return;
+			}
+			
+			
+			retMap.put("PRIPID", PRIPID);
+			retMap.put("SPANAME", CERNO);
+			retMap.put("REGORG", REGORG);
+			retMap.put("REGNO", REGNO);
+			retMap.put("status", "1");
+			JSONObject jsonObject = JSONObject.fromObject(retMap);
+			out.print(jsonObject.toString());
+			
+		}catch(IOException e){
+			e.printStackTrace();
+		}catch(SQLException e){
+			e.printStackTrace();
+		}	
+	}
+	
+	//个体变更信息保存
+	public void gtBgxxSave(HttpServletRequest request,HttpServletResponse response){
+		try {
+			PrintWriter out = response.getWriter();
+			Map retMap=new HashMap();
+			
+			SimpleDateFormat sdf1=new SimpleDateFormat("yyyy-MM-dd");
+			String today=sdf1.format(new java.sql.Date(new java.util.Date().getTime()));
+			
+			String jsonStr=request.getParameter("jsonStr");
+			jsonStr=new String(jsonStr.getBytes("ISO8859-1"),"utf-8");
+			
+			
+			GTDJ_BGXX_SQ GTDJ_BGSX=new GTDJ_BGXX_SQ();
+			QYDJ_YWSB_SQ QYDJ_YWSB=new QYDJ_YWSB_SQ();
+			
+			String OPENO=SysDmUtil.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"OPENO"));
+			String PRIPID=SysDmUtil.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"PRIPID"));
+			String LOGINID =SysDmUtil.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"LOGINID"));
+			String REGORG =SysDmUtil.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"REGORG"));
+			String ALTITEM0=SysDmUtil.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"ALTITEM"));
+			String[] sALTITEM=ALTITEM0.split(",");
+			
+			String ip="";
+		   /* if(request.getHeader("x-forwarded-for")==null){
+		  	  ip=request.getRemoteAddr();
+		    }else{
+		  	  ip=request.getHeader("x-forwarded-for");
+		    }*/
+		  
+		    String XZQH=WeiActionUtil.XZQH;
+		    //济南新增需求，配合事中事后双拆，业务系统增加地址判断，判断是否是违章建筑地址，如果是不允许设立登记
+		    	if(XZQH.startsWith("3701")){
+		    		//先判断原登记住所是否有值，是否属于违法建筑
+		    		String dom=SysDmUtil.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"ALTBE02"));
+		    		if("".equals(dom)){
+		    			dom=SysDmUtil.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"ALTBE16"));
+		    		}
+		    		if(dom!=null && !"".equals(dom)){
+		    			GsDbConnection gsdbc=new GsDbConnection();
+			    		String sql = "SELECT * FROM SZSH_XTJG_WZJZ WHERE ACTUALDOM='"+dom+"'";
+			  			ResultSet rs = gsdbc.executeQuery(sql);
+			  			if(rs.next()){
+			  				out.print(WeiActionUtil.errorReturn("该登记地址已被列为违法违章建筑，不允许办理工商登记业务!"));
+			  				return;
+			  			
+			  			}
+			  			gsdbc.close();
+		    		}
+		    		
+		    	}
+		    
+			//String sqlJbxx="";
+			String sqlRyxx="";
+			boolean bl=false;	
+			boolean IfFirst=false;
+			boolean RyChange=false;
+			if(OPENO.equals("")|| OPENO==null){//第一次保存，生成新的业务编号MB开头
+				OPENO=SYS_BHBM.CREATEBH(2,REGORG);
+				retMap.put("OPENO", OPENO);
+				IfFirst=true;
+			}
+			//删除原来的变更信息
+			GTDJ_BGSX.setOPENO(OPENO);
+			GTDJ_BGSX.doDeleteAll();
+			
+			//循环遍历填写的变更事项
+			for(int i=0;i<sALTITEM.length;i++){
+				String ALTITEM=sALTITEM[i];
+				String befor="ALTBE"+ALTITEM;
+				String after="ALTAF"+ALTITEM;
+				String ALTAFTER=GTDJ_BGSX.convertCode(SysDmUtil.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,after)));
+				String jbmod="";
+				String rymod="";
+				//变更事项表数据保存
+				GTDJ_BGSX.setOPENO(OPENO);
+				GTDJ_BGSX.setALTAF(SysDmUtil.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,after)));
+				GTDJ_BGSX.setALTBE(SysDmUtil.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,befor)));
+				GTDJ_BGSX.setALTITEM(ALTITEM);
+				GTDJ_BGSX.setALTDATE(today);
+				GTDJ_BGSX.setPRIPID(PRIPID);
+				bl=GTDJ_BGSX.doAdd();
+				if(!bl){
+					out.print(WeiActionUtil.errorReturn("变更信息添加失败!"));
+					return;
+				}		
+				if(ALTITEM.equals("01")){//字号名称
+					jbmod="TRANAME='"+ALTAFTER+"'";
+				}else if(ALTITEM.equals("09")){//经营者
+					RyChange=true;
+					jbmod="OPERNAME='"+ALTAFTER+"'";
+					rymod="NAME='"+ALTAFTER+"'";
+				}else if(ALTITEM.equals("68")){//性别
+				    RyChange=true;
+				    rymod="SEX='"+ALTAFTER+"'";
+				}else if(ALTITEM.equals("64")){//民族
+				    RyChange=true;
+				    rymod="NATION='"+ALTAFTER+"'";
+				}else if(ALTITEM.equals("70")){//政治面貌
+				    RyChange=true;
+				    rymod="POLSTAND='"+ALTAFTER+"'";
+				}else if(ALTITEM.equals("71")){//文化程度
+				    RyChange=true;
+				    rymod="LITEDEG='"+ALTAFTER+"'";
+				}else if(ALTITEM.equals("72")){//职业状况
+				    RyChange=true;
+				    rymod="OCCSTBEAPP='"+ALTAFTER+"'";
+				}else if(ALTITEM.equals("65")){//家庭成员		    
+				    jbmod="FAMMEMBER='"+ALTAFTER+"'";
+				}else if(ALTITEM.equals("66")){//身份证号码
+				    RyChange=true;
+				    rymod="CERNO='"+ALTAFTER+"'";
+				}else if(ALTITEM.equals("67")){//住所
+				    RyChange=true;
+				    rymod="DOM='"+ALTAFTER+"'";
+				}else if(ALTITEM.equals("73")){//邮政编码
+				    RyChange=true;
+				    rymod="POSTALCODE='"+ALTAFTER+"'";
+				}else if(ALTITEM.equals("74")){//经营者联系电话
+				    RyChange=true;
+				    rymod="TEL='"+ALTAFTER+"'";
+				}else if(ALTITEM.equals("75")){//电子邮箱
+				    RyChange=true;
+				    rymod="EMAIL='"+ALTAFTER+"'";
+				}else if(ALTITEM.equals("76")){//经营者移动电话
+					RyChange=true;
+					rymod="MOBTEL='"+ALTAFTER+"'";
+				}else if(ALTITEM.equals("14")){//组成形式
+					jbmod="COMPFORM='"+ALTAFTER+"'";			
+				}else if(ALTITEM.equals("15")){//经营范围
+					jbmod="BUSSCOANDFORM='"+ALTAFTER+"'";
+				}else if(ALTITEM.equals("04")){//资金数额
+					jbmod="CAPAM='"+ALTAFTER+"'";
+				}else if(ALTITEM.equals("50")){//联系电话
+					jbmod="TEL='"+ALTAFTER+"'";
+				}else if(ALTITEM.equals("69")){//邮政编码
+					jbmod="POSTALCODE='"+ALTAFTER+"'";
+				}else if(ALTITEM.equals("16")){//经营场所
+					jbmod="OPLOC='"+ALTAFTER+"'";
+				
+					GTDJ_BGSX.setOPENO(OPENO);
+					GTDJ_BGSX.setALTDATE(today);
+					GTDJ_BGSX.setPRIPID(PRIPID);
+					
+					GTDJ_BGSX.setALTAF(SysDmUtil.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"ALTAF161")));
+					GTDJ_BGSX.setALTBE(SysDmUtil.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"ALTBE161")));
+					GTDJ_BGSX.setALTITEM("161");
+					bl=GTDJ_BGSX.doAdd();
+					
+					GTDJ_BGSX.setALTAF(SysDmUtil.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"ALTAF162")));
+					GTDJ_BGSX.setALTBE(SysDmUtil.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"ALTBE162")));
+					GTDJ_BGSX.setALTITEM("162");
+					bl=GTDJ_BGSX.doAdd();
+					
+					GTDJ_BGSX.setALTAF(SysDmUtil.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"ALTAF163")));
+					GTDJ_BGSX.setALTBE(SysDmUtil.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"ALTBE163")));
+					GTDJ_BGSX.setALTITEM("163");
+					bl=GTDJ_BGSX.doAdd();
+					
+					GTDJ_BGSX.setALTAF(SysDmUtil.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"ALTAF164")));
+					GTDJ_BGSX.setALTBE(SysDmUtil.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"ALTBE164")));
+					GTDJ_BGSX.setALTITEM("164");
+					bl=GTDJ_BGSX.doAdd();
+					
+					GTDJ_BGSX.setALTAF(SysDmUtil.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"ALTAF165")));
+					GTDJ_BGSX.setALTBE(SysDmUtil.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"ALTBE165")));
+					GTDJ_BGSX.setALTITEM("165");
+					bl=GTDJ_BGSX.doAdd();
+					
+					GTDJ_BGSX.setALTAF(SysDmUtil.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"ALTAF166")));
+					GTDJ_BGSX.setALTBE(SysDmUtil.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"ALTBE166")));
+					GTDJ_BGSX.setALTITEM("166");
+					bl=GTDJ_BGSX.doAdd();
+					
+				}else if(ALTITEM.equals("13")){//从业人数
+					jbmod="EMPNUM='"+ALTAFTER+"'";
+				}	
+				/*
+				if(!jbmod.equals("")){
+					if(sqlJbxx.equals("")){
+						sqlJbxx=jbmod;
+					}else{
+						sqlJbxx+=","+jbmod;
+					}
+				}
+				*/
+				if(!rymod.equals("")){
+				    if(sqlRyxx.equals("")){
+				         sqlRyxx=rymod;
+				    }else{
+				         sqlRyxx+=","+rymod;
+				    }
+				}
+			}
+			//从内网导入企业的相关信息--第一次全部导入，以后根据变更事项导入
+			if(IfFirst){		
+				bl=GTDJ_BGSX.doZs2Lc(OPENO,PRIPID,"30","true");		
+			}else{
+				bl=GTDJ_BGSX.doZs2Lc(OPENO,PRIPID,"30",(!RyChange)+"");
+			}
+			if(!bl){
+				out.print(WeiActionUtil.errorReturn("正式库更新数据失败!"));
+			}
+			//NWACTION nwaction=new NWACTION();
+			//nwaction.getSqlList();
+			//nwaction.getNwJbxx(OPENO,PRIPID);
+			//nwaction.getNwRyxx(OPENO,PRIPID);
+			//nwaction.getNwCzxx(OPENO,PRIPID);
+			//nwaction.doSqlExcute();
+			//更新企业基本信息
+			
+			String jbxxSql="UPDATE GTDJ_JBXX_SQ SET APPDATE=sysdate,OPETYPE=30,STATUS='0',LOGINID='"+LOGINID
+			+"',SPANAME1='"+SysUtility.doPreProcess(SysDmUtil.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"SPANAME1")))+"' WHERE OPENO="+SysUtility.doPreProcess3(OPENO);
+			
+			bl=GTDJ_BGSX.doModifyBySql(jbxxSql);
+			if(!bl){
+				out.print(WeiActionUtil.errorReturn("基本信息数据更新失败!"));
+				return;
+			}
+			//更新人员信息
+			if(!sqlRyxx.equals("")){
+			    //System.out.println("UPDATE GTDJ_JYZXX_SQ SET "+sqlRyxx+" WHERE OPENO="+GTDJ_BGSX.doPreProcess3(OPENO)+"");
+				bl=GTDJ_BGSX.doModifyBySql("UPDATE GTDJ_JYZXX_SQ SET "+sqlRyxx+" WHERE OPENO="+GTDJ_BGSX.doPreProcess3(OPENO)+"");
+				if(!bl){
+					out.print(WeiActionUtil.errorReturn("经营者信息数据更新失败!"));
+				}
+			}
+			//外网业务申办表中插入一条记录
+			QYDJ_YWSB.setOPENO(OPENO);
+			if(QYDJ_YWSB.doCount()){		
+				bl=QYDJ_YWSB.doSql("UPDATE QYDJ_YWSB_SQ "
+				+"SET (ENTNAME,LEREP,REGORG,JQIP,LOCALADM,OPELOCDISTRICT) "
+				+"=(SELECT TRANAME,OPERNAME,REGORG,'"
+				+ip+"',LOCALADM,OPELOCDISTRICT FROM GTDJ_JBXX_SQ WHERE OPENO='"+OPENO+"') WHERE OPENO='"+OPENO+"'");		
+			}else{
+				bl=QYDJ_YWSB.doSql("INSERT INTO QYDJ_YWSB_SQ "
+				+"(OPENO,PRIPID,OPETYPE,APPDATE,REGNO,UNISCID,ENTNAME,LEREP,REGORG,LOGINID,ENTCLASS,ENTTYPE,STATUS,JQIP,CDDL,LOCALADM,OPELOCDISTRICT) "
+				+"SELECT OPENO,PRIPID,OPETYPE,APPDATE,REGNO,UNISCID,TRANAME,OPERNAME,REGORG,LOGINID,'5','9999','0','"
+				+ip+"','2',LOCALADM,OPELOCDISTRICT FROM GTDJ_JBXX_SQ WHERE OPENO='"+OPENO+"'");
+			}
+			
+
+			if(IfFirst){
+				//该业务出资信息表中还没记录时，往WSDJ_TXJL（填写记录表）中插入一条记录；
+				WSDJ_TXJL WSDJ_TXJL=new WSDJ_TXJL();
+				WSDJ_TXJL.setOPENO(OPENO);
+				WSDJ_TXJL.setWJBH(1001);
+				WSDJ_TXJL.setCZRY(LOGINID);
+				WSDJ_TXJL.setJQIP(ip);
+				WSDJ_TXJL.setCZSJ(today);
+				bl=WSDJ_TXJL.doAdd();
+			}
+			
+			if(bl){	
+				retMap.put("status", "1");
+				JSONObject jsonObject = JSONObject.fromObject(retMap);
+				out.print(jsonObject.toString());
+			}
+			else{
+				out.print(WeiActionUtil.errorReturn("保存失败!"));
+			}
+			
+		}catch(IOException e){
+			e.printStackTrace();
+		}catch(SQLException e){
+			e.printStackTrace();
+		}
+	}
+	
+	//个体注销信息保存
+	public void gtZxxxSave(HttpServletRequest request,HttpServletResponse response){
+		try {
+			PrintWriter out = response.getWriter();
+			Map retMap=new HashMap();
+			
+			String jsonStr=request.getParameter("jsonStr");
+			jsonStr=new String(jsonStr.getBytes("ISO8859-1"),"utf-8");
+			
+			GTDJ_ZXXX_SQ GTDJ_ZXXX=new GTDJ_ZXXX_SQ();
+			QYDJ_YWSB_SQ QYDJ_YWSB=new QYDJ_YWSB_SQ();
+			GTDJ_BGXX_SQ GTDJ_BGSX=new GTDJ_BGXX_SQ();
+			
+			String OPENO=SysDmUtil.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"OPENO"));
+			String PRIPID=SysDmUtil.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"PRIPID"));
+			String LOGINID =SysDmUtil.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"LOGINID"));
+			String REGORG =SysDmUtil.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"REGORG"));
+			
+			boolean bl=false;
+			String ip="";
+		    
+			if(OPENO.equals("")|| OPENO==null){//第一次保存，生成新的业务编号MB开头
+				OPENO=SYS_BHBM.CREATEBH(2,REGORG);
+				retMap.put("OPENO", OPENO);
+				//首次保存需要将正式表的信息导入流程表中
+				bl=GTDJ_BGSX.doZs2Lc(OPENO,PRIPID,"50","true");
+				if(!bl){
+					out.print(WeiActionUtil.errorReturn("正式库入流程库更新数据失败!"));
+					return;
+				}
+			}
+			
+			//注销信息保存
+			GTDJ_ZXXX.setOPENO(OPENO);
+			if(GTDJ_ZXXX.doCount()){
+				bl=GTDJ_ZXXX.doModify();
+			}else{
+				bl=GTDJ_ZXXX.doAdd();
+			}
+			if(!bl){
+				out.print(SysUtility.setAlertScript("个体注销信息保存失败!","parent.window.location.reload();"));
+				return;
+			}
+			//更新企业基本信息的状态、申请时间等
+			String jbxxSql="UPDATE GTDJ_JBXX_SQ SET APPDATE=sysdate,OPETYPE=50,STATUS='0',LOGINID='"+LOGINID
+			+"',SPANAME1='"+SysUtility.doPreProcess(request.getParameter("SPANAME1"))+"' WHERE OPENO="+SysUtility.doPreProcess3(OPENO);
+			
+			bl=QYDJ_YWSB.doSql(jbxxSql);
+			if(!bl){
+				out.print(WeiActionUtil.errorReturn("基本信息数据更新失败!"));
+				return;
+			}
+			//业务申办信息
+			QYDJ_YWSB.setOPENO(OPENO);	
+			if(QYDJ_YWSB.doCount()){		
+				bl=QYDJ_YWSB.doSql("UPDATE QYDJ_YWSB_SQ SET OPETYPE=50,JQIP='"+ip+"',APPDATE=sysdate WHERE OPENO='"+OPENO+"'");
+			}else{
+				bl=QYDJ_YWSB.doSql("INSERT INTO QYDJ_YWSB_SQ "
+				+"(OPENO,PRIPID,OPETYPE,APPDATE,REGNO,UNISCID,ENTNAME,LEREP,REGORG,LOGINID,ENTCLASS,ENTTYPE,STATUS,JQIP,CDDL,LOCALADM,OPELOCDISTRICT) "
+				+"SELECT OPENO,PRIPID,OPETYPE,APPDATE,REGNO,UNISCID,TRANAME,OPERNAME,REGORG,LOGINID,'5','9999','0','"
+				+ip+"','2',LOCALADM,OPELOCDISTRICT FROM GTDJ_JBXX_SQ WHERE OPENO='"+OPENO+"'");
+			}
+			
+			
+			if(bl){
+				retMap.put("status", "1");
+				JSONObject jsonObject = JSONObject.fromObject(retMap);
+				out.print(jsonObject.toString());
+			}
+			else{
+				out.print(WeiActionUtil.errorReturn("业务申报数据保存失败!"));
+			}
+			
+		}catch(IOException e){
+			e.printStackTrace();
+		}catch(SQLException e){
+			e.printStackTrace();
+		}
+	}		
 	/**
 	 * 最后的提交接口：doSub  
 		传递参数：{"OPENO":"37010521706060005","WSLX":"GS","OPETYPE":"20","LOGINID":"ceshi"}
@@ -1418,7 +2025,7 @@ public class WeiAction {
 			Map retMap=new HashMap();
 			
 			String jsonStr=request.getParameter("jsonStr");
-			jsonStr=new String(jsonStr.getBytes("ISO8859-1"),"GBK");
+			jsonStr=new String(jsonStr.getBytes("ISO8859-1"),"utf-8");
 			String OPENO = SysUtility.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"OPENO"));
 			String WSLX = SysUtility.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"WSLX"));
 			String OPETYPE= SysUtility.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"OPETYPE"));
