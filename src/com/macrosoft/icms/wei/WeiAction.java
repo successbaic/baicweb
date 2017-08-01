@@ -2,8 +2,10 @@ package com.macrosoft.icms.wei;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.lang.reflect.InvocationTargetException;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
@@ -17,9 +19,15 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.apache.commons.beanutils.BeanUtils;
+
 import com.jspsmart.upload.SmartUpload;
 import com.jspsmart.upload.SmartUploadException;
+import com.macrosoft.icms.bean.ONLINE_ORDER_CFG;
+import com.macrosoft.icms.bean.ONLINE_ORDER_RECODER;
+import com.macrosoft.icms.bean.ONLINE_ORDER_RECODER_LS;
 import com.macrosoft.icms.gsdbc.GsDbConnection;
+import com.macrosoft.icms.gsdbc.LsDbConnection;
 import com.macrosoft.icms.gsnw.GSYJXX;
 import com.macrosoft.icms.gsnw.GTDJ_JBXX_ZS;
 import com.macrosoft.icms.gsnw.GTDJ_JYZXX_ZS;
@@ -45,6 +53,7 @@ import com.macrosoft.icms.qydj.QYDJ_ZXXX_SQ;
 import com.macrosoft.icms.system.ContrInfo;
 import com.macrosoft.icms.system.SysUtility;
 import com.macrosoft.icms.util.CHECK_INFO;
+import com.macrosoft.icms.util.DateUtils;
 import com.macrosoft.icms.util.SYS_BHBM;
 import com.macrosoft.icms.util.UPLOAD_FILE;
 import com.macrosoft.icms.util.WSDJ_LOG_RECORD;
@@ -121,8 +130,9 @@ public class WeiAction {
 						}
 					}
 				}
-				
+				System.out.print("----"+gmlx);
 				if ("2".equals(gmlx) || "1".equals(gmlx)) {
+					System.out.print("----"+MCGL_JBXX_ZS.getENTNAME());
 					if (MCGL_JBXX_ZS.getENTNAME().equals("")) {
 						out.print(WeiActionUtil.errorReturn("没有该名称数据，请查看冠名类型、名称信息是否录入正确！"));
 						return;
@@ -876,7 +886,8 @@ public class WeiAction {
 			SmartUpload su = new SmartUpload();
 			// 上传初始化
 			//su.initialize(pageContext);
-		
+			System.out.println(request.getParameter("FILENAME"));
+			System.out.println(su.getRequest().getParameter("FILENAME"));
 			su.setAllowedFilesList("rar,zip,jpg,gif,png,txt,doc,docx,xlsx,xls,tif,bmp,pdf,TIF,JPG,GIF,TXT,DOC,XLS,BMP,PDF");
 			// 4.设定禁止上传的文件（通过扩展名限制）,禁止上传带有exe,bat,jsp,htm,html扩展名的文件和没有扩展名的文件。
 			su.setDeniedFilesList("exe,bat,jsp,");
@@ -1060,10 +1071,10 @@ public class WeiAction {
 					}
 				}
 				if(ALTITEM0.indexOf("01")>=0){	
-					String str =QYDJ_BGSX.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"ALTAF01"));
-					String strb = QYDJ_BGSX.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"ALTBE01"));
-					ENTNAME=new String(str.getBytes("ISO8859-1"),"GBK");
-					ENTNAMEBE=new String(strb.getBytes("ISO8859-1"),"GBK");
+					ENTNAME =QYDJ_BGSX.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"ALTAF01"));
+					ENTNAMEBE = QYDJ_BGSX.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"ALTBE01"));
+					//ENTNAME=new String(str.getBytes("ISO8859-1"),"GBK");
+					//ENTNAMEBE=new String(strb.getBytes("ISO8859-1"),"GBK");
 					StringBuffer sb = new StringBuffer();
 					sb.append(" SELECT *                        ");
 					sb.append("   FROM MCGL_JBXX_ZS             ");
@@ -1225,13 +1236,13 @@ public class WeiAction {
 			QYDJ_YWSB.setOPENO(OPENO);	
 			if(QYDJ_YWSB.doCount()){		
 				bl=QYDJ_YWSB.doSql("UPDATE QYDJ_YWSB_SQ "
-				+"SET (ENTNAME,LEREP,REGORG,ENTTYPE,ENTCLASS,JQIP,LOCALADM,OPELOCDISTRICT) "
-				+"=(SELECT ENTNAME,LEREP,REGORG,ENTTYPE,ENTCLASS,'"
+				+"SET (APPFORM,ENTNAME,LEREP,REGORG,ENTTYPE,ENTCLASS,JQIP,LOCALADM,OPELOCDISTRICT) "
+				+"=(SELECT 'W',ENTNAME,LEREP,REGORG,ENTTYPE,ENTCLASS,'"
 				+ip+"',LOCALADM,OPELOCDISTRICT FROM QYDJ_JBXX_SQ WHERE OPENO='"+OPENO+"') WHERE OPENO='"+OPENO+"'");		
 			}else{
 				bl=QYDJ_YWSB.doSql("INSERT INTO QYDJ_YWSB_SQ "
-				+"(OPENO,PRIPID,UNISCID,OPETYPE,APPDATE,REGNO,ENTNAME,LEREP,REGORG,ENTTYPE,ENTCLASS,LOGINID,STATUS,JQIP,CDDL,LOCALADM,OPELOCDISTRICT) "
-				+"SELECT OPENO,PRIPID,UNISCID,OPETYPE,APPDATE,REGNO,ENTNAME,LEREP,REGORG,ENTTYPE,ENTCLASS,LOGINID,'0','"
+				+"(APPFORM,OPENO,PRIPID,UNISCID,OPETYPE,APPDATE,REGNO,ENTNAME,LEREP,REGORG,ENTTYPE,ENTCLASS,LOGINID,STATUS,JQIP,CDDL,LOCALADM,OPELOCDISTRICT) "
+				+"SELECT 'W',OPENO,PRIPID,UNISCID,OPETYPE,APPDATE,REGNO,ENTNAME,LEREP,REGORG,ENTTYPE,ENTCLASS,LOGINID,'0','"
 				+ip+"','"+sCDDL+"',LOCALADM,OPELOCDISTRICT FROM QYDJ_JBXX_SQ WHERE OPENO='"+OPENO+"'");
 			}
 			
@@ -1305,11 +1316,11 @@ public class WeiAction {
 			//业务申办信息
 			QYDJ_YWSB.setOPENO(OPENO);	
 			if(QYDJ_YWSB.doCount()){		
-				bl=QYDJ_YWSB.doSql("UPDATE QYDJ_YWSB_SQ SET OPETYPE=50,JQIP='"+ip+"',APPDATE=sysdate WHERE OPENO='"+OPENO+"'");
+				bl=QYDJ_YWSB.doSql("UPDATE QYDJ_YWSB_SQ SET APPFORM='W',OPETYPE=50,JQIP='"+ip+"',APPDATE=sysdate WHERE OPENO='"+OPENO+"'");
 			}else{		
 				bl=QYDJ_YWSB.doSql("INSERT INTO QYDJ_YWSB_SQ "
-				+"(OPENO,PRIPID,UNISCID,OPETYPE,APPDATE,REGNO,ENTNAME,LEREP,REGORG,ENTTYPE,ENTCLASS,LOGINID,STATUS,JQIP,CDDL,LOCALADM,OPELOCDISTRICT) "
-				+"SELECT OPENO,PRIPID,UNISCID,OPETYPE,APPDATE,REGNO,ENTNAME,LEREP,REGORG,ENTTYPE,ENTCLASS,LOGINID,'0','"
+				+"(APPFORM,OPENO,PRIPID,UNISCID,OPETYPE,APPDATE,REGNO,ENTNAME,LEREP,REGORG,ENTTYPE,ENTCLASS,LOGINID,STATUS,JQIP,CDDL,LOCALADM,OPELOCDISTRICT) "
+				+"SELECT 'W',OPENO,PRIPID,UNISCID,OPETYPE,APPDATE,REGNO,ENTNAME,LEREP,REGORG,ENTTYPE,ENTCLASS,LOGINID,'0','"
 				+ip+"','"+sCDDL+"',LOCALADM,OPELOCDISTRICT FROM QYDJ_JBXX_SQ WHERE OPENO='"+OPENO+"'");
 			}	
 			if(bl){
@@ -1430,14 +1441,14 @@ public class WeiAction {
 			PrintWriter out = response.getWriter();
 			Map retMap=new HashMap();
 			
-			GTDJ_JBXX_SQ GTDJ_JBXX=new GTDJ_JBXX_SQ();
+			String jsonStr=request.getParameter("jsonStr");
+			jsonStr=new String(jsonStr.getBytes("ISO8859-1"),"utf-8");
+			
+			GTDJ_JBXX_SQ GTDJ_JBXX=(GTDJ_JBXX_SQ)WeiActionUtil.json2pojo(jsonStr, GTDJ_JBXX_SQ.class);
 			WSDJ_TXJL WSDJ_TXJL=new WSDJ_TXJL();
 			GTDJ_JYZXX_SQ GTDJ_JYZXX=new GTDJ_JYZXX_SQ();
 			QYDJ_YWSB_SQ QYDJ_YWSB=new QYDJ_YWSB_SQ();
 			WSDJ_LOG_RECORD WSDJ_LOG_RECORD=new WSDJ_LOG_RECORD();
-			
-			String jsonStr=request.getParameter("jsonStr");
-			jsonStr=new String(jsonStr.getBytes("ISO8859-1"),"utf-8");
 			
 			String OPENO=GTDJ_JBXX.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"OPENO"));
 			String REGORG=GTDJ_JBXX.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"REGORG"));
@@ -1507,14 +1518,14 @@ public class WeiAction {
 			}else{
 				GTDJ_JYZXX.doAdd();
 			}
-			
+			QYDJ_YWSB.setOPENO(OPENO);
 			if(QYDJ_YWSB.doCount()){		
 				bl=QYDJ_YWSB.doSql("UPDATE QYDJ_YWSB_SQ "
-				+"SET (ENTNAME,LEREP,REGORG,JQIP,LOCALADM,OPELOCDISTRICT) "
-				+"=(SELECT TRANAME,OPERNAME,REGORG,'"
+				+"SET (APPFORM,ENTNAME,LEREP,REGORG,JQIP,LOCALADM,OPELOCDISTRICT) "
+				+"=(SELECT 'W',TRANAME,OPERNAME,REGORG,'"
 				+ip+"',LOCALADM,OPELOCDISTRICT FROM GTDJ_JBXX_SQ WHERE OPENO='"+OPENO+"') WHERE OPENO='"+OPENO+"'");
 			}else{
-				bl=QYDJ_YWSB.doSql("INSERT INTO QYDJ_YWSB_SQ(OPELOCDISTRICT,LOCALADM,CDDL,JQIP,STATUS,LOGINID,OPENO,PRIPID,OPETYPE,REGNO,UNISCID,ENTNAME,REGORG,APPDATE,ENTTYPE,ENTCLASS,LEREP) VALUES('"
+				bl=QYDJ_YWSB.doSql("INSERT INTO QYDJ_YWSB_SQ(APPFORM,OPELOCDISTRICT,LOCALADM,CDDL,JQIP,STATUS,LOGINID,OPENO,PRIPID,OPETYPE,REGNO,UNISCID,ENTNAME,REGORG,APPDATE,ENTTYPE,ENTCLASS,LEREP) VALUES('W','"
 				+GTDJ_JBXX.getOPELOCDISTRICT()+"','"+GTDJ_JBXX.getLOCALADM()+"','"+sTYPE+"','"+ ip +"','0','"+ GTDJ_JBXX.getLOGINID() +"','"+ OPENO +"','"+ GTDJ_JBXX.getPRIPID() +"','"+ GTDJ_JBXX.getOPETYPE() +"','"+ GTDJ_JBXX.getREGNO() 
 				+"','"+ GTDJ_JBXX.getUNISCID() +"','"+ GTDJ_JBXX.getTRANAME() +"','"+ GTDJ_JBXX.getREGORG()+"', to_date('"+GTDJ_JBXX.getAPPDATE() +"','yyyy-mm-dd'),'9999',5,'"+GTDJ_JBXX.getOPERNAME()+"')");
 			}
@@ -1554,14 +1565,14 @@ public class WeiAction {
 			PrintWriter out = response.getWriter();
 			Map retMap=new HashMap();
 			
-			GTDJ_JBXX_SQ GTDJ_JBXX=new GTDJ_JBXX_SQ();
-			WSDJ_TXJL WSDJ_TXJL=new WSDJ_TXJL();
-			GTDJ_JYZXX_SQ GTDJ_JYZXX=new GTDJ_JYZXX_SQ();
-			QYDJ_YWSB_SQ QYDJ_YWSB=new QYDJ_YWSB_SQ();
-			WSDJ_LOG_RECORD WSDJ_LOG_RECORD=new WSDJ_LOG_RECORD();
-			
 			String jsonStr=request.getParameter("jsonStr");
 			jsonStr=new String(jsonStr.getBytes("ISO8859-1"),"utf-8");
+			GTDJ_JYZXX_SQ GTDJ_JYZXX=(GTDJ_JYZXX_SQ)WeiActionUtil.json2pojo(jsonStr, GTDJ_JYZXX_SQ.class);
+			
+			GTDJ_JBXX_SQ GTDJ_JBXX=new GTDJ_JBXX_SQ();
+			WSDJ_TXJL WSDJ_TXJL=new WSDJ_TXJL();
+			QYDJ_YWSB_SQ QYDJ_YWSB=new QYDJ_YWSB_SQ();
+			WSDJ_LOG_RECORD WSDJ_LOG_RECORD=new WSDJ_LOG_RECORD();
 			
 			String OPENO=GTDJ_JBXX.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"OPENO"));
 			
@@ -1876,7 +1887,7 @@ public class WeiAction {
 			//更新企业基本信息
 			
 			String jbxxSql="UPDATE GTDJ_JBXX_SQ SET APPDATE=sysdate,OPETYPE=30,STATUS='0',LOGINID='"+LOGINID
-			+"',SPANAME1='"+SysUtility.doPreProcess(SysDmUtil.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"SPANAME1")))+"' WHERE OPENO="+SysUtility.doPreProcess3(OPENO);
+			+"',SPANAME1='"+SysUtility.doPreProcess(SysDmUtil.doPreProcess(WeiActionUtil.getJsonValueByKey(jsonStr,"SPANAME")))+"' WHERE OPENO="+SysUtility.doPreProcess3(OPENO);
 			
 			bl=GTDJ_BGSX.doModifyBySql(jbxxSql);
 			if(!bl){
@@ -1895,13 +1906,13 @@ public class WeiAction {
 			QYDJ_YWSB.setOPENO(OPENO);
 			if(QYDJ_YWSB.doCount()){		
 				bl=QYDJ_YWSB.doSql("UPDATE QYDJ_YWSB_SQ "
-				+"SET (ENTNAME,LEREP,REGORG,JQIP,LOCALADM,OPELOCDISTRICT) "
-				+"=(SELECT TRANAME,OPERNAME,REGORG,'"
+				+"SET (APPFORM,ENTNAME,LEREP,REGORG,JQIP,LOCALADM,OPELOCDISTRICT) "
+				+"=(SELECT 'W',TRANAME,OPERNAME,REGORG,'"
 				+ip+"',LOCALADM,OPELOCDISTRICT FROM GTDJ_JBXX_SQ WHERE OPENO='"+OPENO+"') WHERE OPENO='"+OPENO+"'");		
 			}else{
 				bl=QYDJ_YWSB.doSql("INSERT INTO QYDJ_YWSB_SQ "
-				+"(OPENO,PRIPID,OPETYPE,APPDATE,REGNO,UNISCID,ENTNAME,LEREP,REGORG,LOGINID,ENTCLASS,ENTTYPE,STATUS,JQIP,CDDL,LOCALADM,OPELOCDISTRICT) "
-				+"SELECT OPENO,PRIPID,OPETYPE,APPDATE,REGNO,UNISCID,TRANAME,OPERNAME,REGORG,LOGINID,'5','9999','0','"
+				+"(APPFORM,OPENO,PRIPID,OPETYPE,APPDATE,REGNO,UNISCID,ENTNAME,LEREP,REGORG,LOGINID,ENTCLASS,ENTTYPE,STATUS,JQIP,CDDL,LOCALADM,OPELOCDISTRICT) "
+				+"SELECT 'W',OPENO,PRIPID,OPETYPE,APPDATE,REGNO,UNISCID,TRANAME,OPERNAME,REGORG,LOGINID,'5','9999','0','"
 				+ip+"','2',LOCALADM,OPELOCDISTRICT FROM GTDJ_JBXX_SQ WHERE OPENO='"+OPENO+"'");
 			}
 			
@@ -1941,8 +1952,8 @@ public class WeiAction {
 			
 			String jsonStr=request.getParameter("jsonStr");
 			jsonStr=new String(jsonStr.getBytes("ISO8859-1"),"utf-8");
+			GTDJ_ZXXX_SQ GTDJ_ZXXX=(GTDJ_ZXXX_SQ)WeiActionUtil.json2pojo(jsonStr, GTDJ_ZXXX_SQ.class);
 			
-			GTDJ_ZXXX_SQ GTDJ_ZXXX=new GTDJ_ZXXX_SQ();
 			QYDJ_YWSB_SQ QYDJ_YWSB=new QYDJ_YWSB_SQ();
 			GTDJ_BGXX_SQ GTDJ_BGSX=new GTDJ_BGXX_SQ();
 			
@@ -1978,7 +1989,7 @@ public class WeiAction {
 			}
 			//更新企业基本信息的状态、申请时间等
 			String jbxxSql="UPDATE GTDJ_JBXX_SQ SET APPDATE=sysdate,OPETYPE=50,STATUS='0',LOGINID='"+LOGINID
-			+"',SPANAME1='"+SysUtility.doPreProcess(request.getParameter("SPANAME1"))+"' WHERE OPENO="+SysUtility.doPreProcess3(OPENO);
+			+"',SPANAME1='"+SysUtility.doPreProcess(request.getParameter("SPANAME"))+"' WHERE OPENO="+SysUtility.doPreProcess3(OPENO);
 			
 			bl=QYDJ_YWSB.doSql(jbxxSql);
 			if(!bl){
@@ -1988,11 +1999,11 @@ public class WeiAction {
 			//业务申办信息
 			QYDJ_YWSB.setOPENO(OPENO);	
 			if(QYDJ_YWSB.doCount()){		
-				bl=QYDJ_YWSB.doSql("UPDATE QYDJ_YWSB_SQ SET OPETYPE=50,JQIP='"+ip+"',APPDATE=sysdate WHERE OPENO='"+OPENO+"'");
+				bl=QYDJ_YWSB.doSql("UPDATE QYDJ_YWSB_SQ SET APPFORM='W',OPETYPE=50,JQIP='"+ip+"',APPDATE=sysdate WHERE OPENO='"+OPENO+"'");
 			}else{
 				bl=QYDJ_YWSB.doSql("INSERT INTO QYDJ_YWSB_SQ "
-				+"(OPENO,PRIPID,OPETYPE,APPDATE,REGNO,UNISCID,ENTNAME,LEREP,REGORG,LOGINID,ENTCLASS,ENTTYPE,STATUS,JQIP,CDDL,LOCALADM,OPELOCDISTRICT) "
-				+"SELECT OPENO,PRIPID,OPETYPE,APPDATE,REGNO,UNISCID,TRANAME,OPERNAME,REGORG,LOGINID,'5','9999','0','"
+				+"(APPFORM,OPENO,PRIPID,OPETYPE,APPDATE,REGNO,UNISCID,ENTNAME,LEREP,REGORG,LOGINID,ENTCLASS,ENTTYPE,STATUS,JQIP,CDDL,LOCALADM,OPELOCDISTRICT) "
+				+"SELECT 'W',OPENO,PRIPID,OPETYPE,APPDATE,REGNO,UNISCID,TRANAME,OPERNAME,REGORG,LOGINID,'5','9999','0','"
 				+ip+"','2',LOCALADM,OPELOCDISTRICT FROM GTDJ_JBXX_SQ WHERE OPENO='"+OPENO+"'");
 			}
 			
@@ -2145,4 +2156,237 @@ public class WeiAction {
 			e.printStackTrace();
 		}	
 	}
+	
+	public void checkYy(HttpServletRequest request,HttpServletResponse response){
+		try {
+			SysDmUtil SysDmUtil=new SysDmUtil();
+			
+			String OPENO = SysDmUtil.doPreProcess(request.getParameter("OPENO"));
+			PrintWriter out = response.getWriter();
+			Map retMap=new HashMap();
+			
+			QYDJ_YWSB_SQ QYDJ_YWSB=new QYDJ_YWSB_SQ();
+			QYDJ_YWSB.setOPENO(OPENO);
+			QYDJ_YWSB.doSelect();
+			
+			ONLINE_ORDER_CFG ONLINE_ORDER_CFG=new ONLINE_ORDER_CFG();
+			ONLINE_ORDER_RECODER ONLINE_ORDER_RECODER=new ONLINE_ORDER_RECODER();
+			ONLINE_ORDER_RECODER_LS ONLINE_ORDER_RECODER_LS=new ONLINE_ORDER_RECODER_LS();
+			
+			
+			List<ONLINE_ORDER_CFG> listOrdercfg = ONLINE_ORDER_CFG.getList(" WHERE regorg='"+ QYDJ_YWSB.getREGORG()+ "' AND INSTR(businesstype,'2')>0 AND flag = '1'");
+			if (listOrdercfg.size() > 0) {//查询该登记机关是否有预约
+				
+				ONLINE_ORDER_RECODER.setOPENO(OPENO);
+				ONLINE_ORDER_RECODER.doSelect();
+				
+				//如果有预约记录
+				if (ONLINE_ORDER_RECODER.getENTNAME()!=null && !ONLINE_ORDER_RECODER.getENTNAME().equals("")) {
+					
+					//是否逾期
+					boolean isYQNow = DateUtils
+							.checkDateAfterToday(ONLINE_ORDER_RECODER
+									.getORDERDATE()
+									+ " "
+									+ ONLINE_ORDER_RECODER.getENDTIME());
+					if (!isYQNow) {
+						/*//如果已经逾期，则将记录表的数据移动到历史表中
+						BeanUtils.copyProperties(
+								ONLINE_ORDER_RECODER_LS,
+								ONLINE_ORDER_RECODER);
+						//设置入表时间
+						ONLINE_ORDER_RECODER_LS
+								.setRECORDERDATE(DateUtils
+										.getTodayStr("yyyy-MM-dd HH:mm:ss"));
+						//设置预约的记录的状态为逾期
+						ONLINE_ORDER_RECODER_LS.setRECODERTYPE("10");
+						//将记录添加到历史表中
+						ONLINE_ORDER_RECODER_LS.doAdd();
+						//将记录表中的记录删除
+						ONLINE_ORDER_RECODER.doDelete();*/
+						
+						try {
+							//最大逾期次数
+							int yqcsMax = Integer.parseInt(SysDmUtil.getSysRemark(
+									"WSDJ_CFG", "YYYQCS"));
+							//已经逾期次数
+							int yqTimes = ONLINE_ORDER_RECODER_LS.getYqTimes(OPENO);
+							//查询最后一次的逾期记录
+							/*if (yqTimes > 0) {
+								ONLINE_ORDER_RECODER_LS = ONLINE_ORDER_RECODER_LS
+										.getLastRecoder(OPENO);
+							}*/
+							//如果逾期次数未超过最大逾期次数(名称核准通过或者逾期的状态)则可以继续逾期预约
+							if (yqcsMax > yqTimes) {
+								retMap.put("info", "预期预约");
+							} else {
+								out.print(WeiActionUtil.errorReturn("您已多次预期预约，不能在办理预约业务！"));
+								return;
+							}
+						} catch (Exception e) {
+							e.printStackTrace();
+							out.print(WeiActionUtil.errorReturn("预期预约次数获取失败！"));
+							return;
+						}
+						
+					}else{
+						out.print(WeiActionUtil.errorReturn("您已预约！"));
+						return;
+					}
+				
+			}else{
+				retMap.put("info", "正常预约");
+			}
+		}else{
+			out.print(WeiActionUtil.errorReturn("当前登记机关不能办理预约业务！"));
+			return;
+		}
+			retMap.put("status", "1");
+			JSONObject jsonObject = JSONObject.fromObject(retMap);
+			out.print(jsonObject.toString());
+		}catch(IOException e){
+			e.printStackTrace();
+		}catch(SQLException e){
+			e.printStackTrace();
+		}	
+	}
+	
+	public void saveYy(HttpServletRequest request,HttpServletResponse response){
+		try {
+			SysDmUtil SysDmUtil=new SysDmUtil();
+			
+			String OPENO = SysDmUtil.doPreProcess(request.getParameter("OPENO"));
+			String YYRQ = SysUtility.doPreProcess(request.getParameter("YYRQ"));
+			String ORDERDATE = YYRQ.substring(0, 10);
+			String STARTTIME = YYRQ.substring(11, 16);
+			System.out.println("YYRQ:"+YYRQ);
+			System.out.println("ORDERDATE:"+ORDERDATE);
+			System.out.println("STARTTIME:"+STARTTIME);
+			QYDJ_YWSB_SQ ywsb = new QYDJ_YWSB_SQ();
+			ywsb.setOPENO(OPENO);
+			ywsb.doSelect();
+			String REGORG=ywsb.getREGORG();
+			
+			PrintWriter out = response.getWriter();
+			Map retMap=new HashMap();
+			
+			
+			SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm");
+			Date oldDate = df.parse(ORDERDATE+" "+STARTTIME);
+			if(oldDate.before(new Date())){
+				out.print(WeiActionUtil.errorReturn("预约日期小于当前日期！"));
+				return;
+			}
+			
+			String maxDay =SysDmUtil.getSysRemark("WSDJ_CFG","YYGZRS");
+			int maxDayInt = Integer.valueOf(maxDay);
+			String dateYy = ORDERDATE.replaceAll("-", "");
+			String sql = 
+				"SELECT * FROM (SELECT t.solar_date" +
+				"  FROM pub_organ_workday t, pub_organ o" + 
+				" WHERE t.is_workday = '1'" + 
+				"   AND t.organ_id = o.organ_id" + 
+				"   AND t.solar_date >= '"+DateUtils.getTodayStr(null).replaceAll("-", "")+"'" + 
+				"   AND o.organ_code = '"+REGORG+"' ORDER BY t.solar_date)" + 
+				"   WHERE rownum <= "+maxDayInt+"";
+
+			/*ResultSet rs = null;
+			String lastWorkDay = "";
+			boolean ifjjr=false;
+			LsDbConnection db = new LsDbConnection();
+			rs = db.executeQuery(sql);
+			while(rs.next()){
+				if(dateYy.equals(rs.getString("solar_date"))){
+					ifjjr=true;
+					continue;
+				}
+			}
+			db.close();
+			if(ifjjr){
+				out.print(WeiActionUtil.errorReturn("所选日期非工作日！"));
+				return;
+			}
+			*/
+					
+			String ORDERNO = SYS_BHBM.CREATEBH(3, REGORG);
+			if(ORDERNO.length()>6){
+				ORDERNO=ORDERNO.substring(6);
+				int BH=Integer.parseInt(ORDERNO);
+				//System.out.println("ORDERNO:"+ORDERNO);
+				//System.out.println("BH:"+BH);
+				String IFSXW="1";
+				if(STARTTIME.indexOf("8:30")>0 || STARTTIME.indexOf("9:00")>0){
+					IFSXW="1";
+				}else{
+					IFSXW="2";
+				}
+				com.macrosoft.icms.util.WSDJ_WSYY WSDJ_WSYY=new com.macrosoft.icms.util.WSDJ_WSYY();
+				ORDERNO=WSDJ_WSYY.doYYNO(BH+"",IFSXW);
+			}		
+			
+			String ENDTIME = YYRQ.substring(17);
+			System.out.println("ENDTIME:"+ENDTIME);
+			ONLINE_ORDER_RECODER recoder = new ONLINE_ORDER_RECODER();
+			recoder.setOPENO(OPENO);
+			recoder.doSelect();
+			boolean ifAdd=false;
+			if(recoder.getENTNAME()==null || "".equals(recoder.getENTNAME())){
+				ifAdd=true;
+			}
+			recoder.setORDERNO(ORDERNO);
+			recoder.setREGORG(REGORG);
+			recoder.setENTNAME(ywsb.getENTNAME());
+			recoder.setOPERTYPE(ywsb.getOPETYPE());
+			recoder.setORDERDATE(ORDERDATE);
+			recoder.setSTARTTIME(STARTTIME);
+			recoder.setENDTIME(ENDTIME);
+			recoder.setRECODERTYPE("8");
+			recoder.setLOGINID(ywsb.getLOGINID());
+			recoder.setRECORDERDATE(DateUtils
+					.getTodayStr("yyyy-MM-dd hh:mm:ss"));
+			
+			boolean bl=false;
+			if(ifAdd){
+				bl=recoder.doAdd();
+			}else{
+				ONLINE_ORDER_RECODER_LS ONLINE_ORDER_RECODER_LS=new ONLINE_ORDER_RECODER_LS();
+				BeanUtils.copyProperties(
+						ONLINE_ORDER_RECODER_LS,
+						recoder);
+				//设置入表时间
+				ONLINE_ORDER_RECODER_LS
+						.setRECORDERDATE(DateUtils
+								.getTodayStr("yyyy-MM-dd HH:mm:ss"));
+				//设置预约的记录的状态为逾期
+				ONLINE_ORDER_RECODER_LS.setRECODERTYPE("10");
+				//将记录添加到历史表中
+				ONLINE_ORDER_RECODER_LS.doAdd();
+				
+				
+				bl=recoder.doModify();
+			}
+			if(bl){
+				retMap.put("status", "1");
+				retMap.put("info", "预约成功，预约号码是：" + ORDERNO+ "。您预约的时间是：" + YYRQ + "请在预约时间内，携带相关材料来工商局办理业务！");
+				JSONObject jsonObject = JSONObject.fromObject(retMap);
+				out.print(jsonObject.toString());
+			}else{
+				out.print(WeiActionUtil.errorReturn("保存失败！"));
+				return;
+			}
+		}catch(IOException e){
+			e.printStackTrace();
+		}catch(SQLException e){
+			e.printStackTrace();
+		} catch (IllegalAccessException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (InvocationTargetException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}	
+	}	
 }
